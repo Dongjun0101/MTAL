@@ -1,0 +1,8 @@
+{"time":"2025-03-19T17:16:31.856131427-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2025-03-19T17:16:31.856149537-05:00","level":"INFO","msg":"created symlink","path":"/home/dk32578/project/QGPM_baseline/wandb/run-20250319_171631-0cghtnfr/logs/debug-core.log"}
+{"time":"2025-03-19T17:16:31.964247004-05:00","level":"INFO","msg":"created new stream","id":"0cghtnfr"}
+{"time":"2025-03-19T17:16:31.964289104-05:00","level":"INFO","msg":"stream: started","id":"0cghtnfr"}
+{"time":"2025-03-19T17:16:31.964315335-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"0cghtnfr"}}
+{"time":"2025-03-19T17:16:31.964410777-05:00","level":"INFO","msg":"sender: started","stream_id":"0cghtnfr"}
+{"time":"2025-03-19T17:16:31.964365216-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"0cghtnfr"}}
+{"time":"2025-03-19T17:16:32.141828301-05:00","level":"INFO","msg":"Starting system monitor"}

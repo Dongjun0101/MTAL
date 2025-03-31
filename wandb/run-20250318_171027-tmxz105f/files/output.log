@@ -1,0 +1,101 @@
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'derpp_flag': True, 'seed': 1, 'local_epochs': 1, 'buffer_size': 1000, 'alpha': 0.1, 'beta': 1}
+Number of GPU available:  1
+Files already downloaded and verified
+Files already downloaded and verified
+Data partition_sizes among clients: [1.0]
+rank 0's total num of datasample in task0:  5056
+Epoch: 0, Task: 0, Avg train Loss: 4.8764
+Node 0 Overall Accuracies:
+	 12.7%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 0] Node 0 buffer usage: 1000/1000 (Memory: 11.76 MB)
+Epoch: 0, Task: 1, Avg train Loss: 4.9202
+Node 0 Overall Accuracies:
+	 12.7%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.1%  12.7%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 1] Node 0 buffer usage: 1000/1000 (Memory: 11.76 MB)
+Epoch: 0, Task: 2, Avg train Loss: 4.9235
+Node 0 Overall Accuracies:
+	 12.7%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.1%  12.7%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.8%  13.9%   9.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 2] Node 0 buffer usage: 1000/1000 (Memory: 11.76 MB)
+Epoch: 0, Task: 3, Avg train Loss: 4.9611
+Node 0 Overall Accuracies:
+	 12.7%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.1%  12.7%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.8%  13.9%   9.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 13.3%  13.2%   9.2%   9.9%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 3] Node 0 buffer usage: 1000/1000 (Memory: 11.76 MB)
+Epoch: 0, Task: 4, Avg train Loss: 4.9331
+Node 0 Overall Accuracies:
+	 12.7%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.1%  12.7%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.8%  13.9%   9.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 13.3%  13.2%   9.2%   9.9%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.9%  12.7%   8.4%  11.1%  12.6%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 4] Node 0 buffer usage: 1000/1000 (Memory: 11.76 MB)
+Epoch: 0, Task: 5, Avg train Loss: 4.8998
+Node 0 Overall Accuracies:
+	 12.7%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.1%  12.7%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.8%  13.9%   9.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 13.3%  13.2%   9.2%   9.9%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.9%  12.7%   8.4%  11.1%  12.6%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 13.5%  12.5%   8.9%  11.3%  12.9%  11.3%   0.0%   0.0%   0.0%   0.0%
+[Task 5] Node 0 buffer usage: 1000/1000 (Memory: 11.76 MB)
+Epoch: 0, Task: 6, Avg train Loss: 4.9221
+Exception ignored in: <function _releaseLock at 0x7f45fc752700>
+Traceback (most recent call last):
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/logging/__init__.py", line 227, in _releaseLock
+    def _releaseLock():
+KeyboardInterrupt:
+Traceback (most recent call last):
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1132, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/queues.py", line 108, in get
+    raise Empty
+_queue.Empty
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "derpp_single.py", line 919, in <module>
+    accuracy_mat = client.update_acc_matrix()
+  File "derpp_single.py", line 833, in update_acc_matrix
+    acc, loss = self.validate_task(tn)
+  File "derpp_single.py", line 815, in validate_task
+    for i, (input, target) in enumerate(val_loader):
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1328, in _next_data
+    idx, data = self._get_data()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1294, in _get_data
+    success, data = self._try_get_data()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1145, in _try_get_data
+    raise RuntimeError(f'DataLoader worker (pid(s) {pids_str}) exited unexpectedly') from e
+RuntimeError: DataLoader worker (pid(s) 2986832, 2986895, 2986958, 2987021) exited unexpectedly
+Traceback (most recent call last):
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1132, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/queues.py", line 108, in get
+    raise Empty
+_queue.Empty
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "derpp_single.py", line 919, in <module>
+    accuracy_mat = client.update_acc_matrix()
+  File "derpp_single.py", line 833, in update_acc_matrix
+    acc, loss = self.validate_task(tn)
+  File "derpp_single.py", line 815, in validate_task
+    for i, (input, target) in enumerate(val_loader):
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1328, in _next_data
+    idx, data = self._get_data()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1294, in _get_data
+    success, data = self._try_get_data()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1145, in _try_get_data
+    raise RuntimeError(f'DataLoader worker (pid(s) {pids_str}) exited unexpectedly') from e
+RuntimeError: DataLoader worker (pid(s) 2986832, 2986895, 2986958, 2987021) exited unexpectedly

@@ -1,0 +1,36 @@
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'gpmflag': True, 'seed': 1234, 'local_epochs': 30, 'buffer_size': 200, 'alpha': 0.6}
+Number of GPU available:  8
+Files already downloaded and verified
+Files already downloaded and verified
+Traceback (most recent call last):
+  File "/home/dk32578/project/QGPM_baseline/fdr_single.py", line 960, in <module>
+    train_loader, bsz_train, cpt = partition_trainDataset(rank, num_clients, device, args.num_tasks)        # partition the train data in case of the multi-node setting
+  File "/home/dk32578/project/QGPM_baseline/fdr_single.py", line 279, in partition_trainDataset
+    dataset = datasets.CIFAR100(root=f'data_cifar100', train=True, transform=transforms.Compose([
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torchvision/datasets/cifar.py", line 67, in __init__
+    if not self._check_integrity():
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torchvision/datasets/cifar.py", line 131, in _check_integrity
+    if not check_integrity(fpath, md5):
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torchvision/datasets/utils.py", line 74, in check_integrity
+    return check_md5(fpath, md5)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torchvision/datasets/utils.py", line 66, in check_md5
+    return md5 == calculate_md5(fpath, **kwargs)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torchvision/datasets/utils.py", line 61, in calculate_md5
+    md5.update(chunk)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/dk32578/project/QGPM_baseline/fdr_single.py", line 960, in <module>
+    train_loader, bsz_train, cpt = partition_trainDataset(rank, num_clients, device, args.num_tasks)        # partition the train data in case of the multi-node setting
+  File "/home/dk32578/project/QGPM_baseline/fdr_single.py", line 279, in partition_trainDataset
+    dataset = datasets.CIFAR100(root=f'data_cifar100', train=True, transform=transforms.Compose([
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torchvision/datasets/cifar.py", line 67, in __init__
+    if not self._check_integrity():
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torchvision/datasets/cifar.py", line 131, in _check_integrity
+    if not check_integrity(fpath, md5):
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torchvision/datasets/utils.py", line 74, in check_integrity
+    return check_md5(fpath, md5)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torchvision/datasets/utils.py", line 66, in check_md5
+    return md5 == calculate_md5(fpath, **kwargs)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torchvision/datasets/utils.py", line 61, in calculate_md5
+    md5.update(chunk)
+KeyboardInterrupt

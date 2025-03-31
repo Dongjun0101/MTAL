@@ -1,0 +1,21 @@
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'seed': 1, 'local_epochs': 30, 'buffer_size': 10}
+Number of GPU available:  1
+Files already downloaded and verified
+Files already downloaded and verified
+Data partition_sizes among clients: [1.0]
+Traceback (most recent call last):
+  File "pogd_single.py", line 961, in <module>
+    train_loader, bsz_train, cpt = partition_trainDataset(rank, num_clients, device, args.num_tasks)        # partition the train data in case of the multi-node setting
+  File "pogd_single.py", line 330, in partition_trainDataset
+    partition = DataPartitioner(dataset, partition_sizes, skew=args.skew, classes=classes, class_size=class_size, seed=args.seed, device=device, tasks=tasks)
+  File "pogd_single.py", line 174, in __init__
+    sort_index = np.argsort(np.array(labels))
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "pogd_single.py", line 961, in <module>
+    train_loader, bsz_train, cpt = partition_trainDataset(rank, num_clients, device, args.num_tasks)        # partition the train data in case of the multi-node setting
+  File "pogd_single.py", line 330, in partition_trainDataset
+    partition = DataPartitioner(dataset, partition_sizes, skew=args.skew, classes=classes, class_size=class_size, seed=args.seed, device=device, tasks=tasks)
+  File "pogd_single.py", line 174, in __init__
+    sort_index = np.argsort(np.array(labels))
+KeyboardInterrupt

@@ -1,0 +1,17 @@
+{"time":"2025-03-19T14:48:12.126439138-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2025-03-19T14:48:12.126464858-05:00","level":"INFO","msg":"created symlink","path":"/home/dk32578/project/QGPM_baseline/wandb/run-20250319_144812-onwk79ht/logs/debug-core.log"}
+{"time":"2025-03-19T14:48:12.239032992-05:00","level":"INFO","msg":"created new stream","id":"onwk79ht"}
+{"time":"2025-03-19T14:48:12.239114593-05:00","level":"INFO","msg":"stream: started","id":"onwk79ht"}
+{"time":"2025-03-19T14:48:12.239228015-05:00","level":"INFO","msg":"sender: started","stream_id":"onwk79ht"}
+{"time":"2025-03-19T14:48:12.239149844-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"onwk79ht"}}
+{"time":"2025-03-19T14:48:12.239207635-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"onwk79ht"}}
+{"time":"2025-03-19T14:48:12.635912073-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-19T15:04:22.680874645-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-19T15:04:22.681458836-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-19T15:04:23.681380284-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.820704639}],"total_operations":1}}
+{"time":"2025-03-19T15:04:23.864444567-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-19T15:04:25.008193661-05:00","level":"INFO","msg":"stream: closing","id":"onwk79ht"}
+{"time":"2025-03-19T15:04:25.008218141-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"onwk79ht"}}
+{"time":"2025-03-19T15:04:25.008238171-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"onwk79ht"}}
+{"time":"2025-03-19T15:04:25.008270382-05:00","level":"INFO","msg":"sender: closed","stream_id":"onwk79ht"}
+{"time":"2025-03-19T15:04:25.008331523-05:00","level":"INFO","msg":"stream: closed","id":"onwk79ht"}

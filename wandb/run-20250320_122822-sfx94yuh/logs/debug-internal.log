@@ -1,0 +1,16 @@
+{"time":"2025-03-20T12:28:22.636023396-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2025-03-20T12:28:22.636042016-05:00","level":"INFO","msg":"created symlink","path":"/home/dk32578/project/QGPM_baseline/wandb/run-20250320_122822-sfx94yuh/logs/debug-core.log"}
+{"time":"2025-03-20T12:28:22.744362046-05:00","level":"INFO","msg":"created new stream","id":"sfx94yuh"}
+{"time":"2025-03-20T12:28:22.744406217-05:00","level":"INFO","msg":"stream: started","id":"sfx94yuh"}
+{"time":"2025-03-20T12:28:22.744448017-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"sfx94yuh"}}
+{"time":"2025-03-20T12:28:22.744865885-05:00","level":"INFO","msg":"sender: started","stream_id":"sfx94yuh"}
+{"time":"2025-03-20T12:28:22.744928237-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"sfx94yuh"}}
+{"time":"2025-03-20T12:28:22.936142333-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-20T12:29:23.95551841-05:00","level":"INFO","msg":"stream: closing","id":"sfx94yuh"}
+{"time":"2025-03-20T12:29:23.955546221-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-20T12:29:23.956382297-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-20T12:29:24.303291681-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-20T12:29:24.3981936-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"sfx94yuh"}}
+{"time":"2025-03-20T12:29:24.39823196-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"sfx94yuh"}}
+{"time":"2025-03-20T12:29:24.398267491-05:00","level":"INFO","msg":"sender: closed","stream_id":"sfx94yuh"}
+{"time":"2025-03-20T12:29:24.398302762-05:00","level":"INFO","msg":"stream: closed","id":"sfx94yuh"}

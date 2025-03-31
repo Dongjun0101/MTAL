@@ -1,0 +1,17 @@
+{"time":"2025-03-20T12:15:04.603266081-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2025-03-20T12:15:04.603285292-05:00","level":"INFO","msg":"created symlink","path":"/home/dk32578/project/QGPM_baseline/wandb/run-20250320_121504-xriidew3/logs/debug-core.log"}
+{"time":"2025-03-20T12:15:04.723334059-05:00","level":"INFO","msg":"created new stream","id":"xriidew3"}
+{"time":"2025-03-20T12:15:04.72337038-05:00","level":"INFO","msg":"stream: started","id":"xriidew3"}
+{"time":"2025-03-20T12:15:04.723971181-05:00","level":"INFO","msg":"sender: started","stream_id":"xriidew3"}
+{"time":"2025-03-20T12:15:04.72389602-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"xriidew3"}}
+{"time":"2025-03-20T12:15:04.72392487-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"xriidew3"}}
+{"time":"2025-03-20T12:15:05.020827046-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-20T12:35:48.203462092-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-20T12:35:48.206206006-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-20T12:35:49.170689558-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-03-20T12:35:49.213845945-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-20T12:35:50.340940299-05:00","level":"INFO","msg":"stream: closing","id":"xriidew3"}
+{"time":"2025-03-20T12:35:50.340959179-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"xriidew3"}}
+{"time":"2025-03-20T12:35:50.34097894-05:00","level":"INFO","msg":"sender: closed","stream_id":"xriidew3"}
+{"time":"2025-03-20T12:35:50.34097577-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"xriidew3"}}
+{"time":"2025-03-20T12:35:50.341090892-05:00","level":"INFO","msg":"stream: closed","id":"xriidew3"}

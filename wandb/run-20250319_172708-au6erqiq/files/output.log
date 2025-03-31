@@ -1,0 +1,23 @@
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'seed': 1, 'local_epochs': 1, 'buffer_size': 500}
+Number of GPU available:  1
+Files already downloaded and verified
+Files already downloaded and verified
+Data partition_sizes among clients: [1.0]
+rank 0's total num of datasample in task0:  5056
+Epoch: 0, Task: 0, Avg train Loss: 2.4211
+Traceback (most recent call last):
+  File "pogd_single.py", line 997, in <module>
+    client.update_pca_ogd_basis(task_id)    # compute new basis and merge it
+  File "pogd_single.py", line 923, in update_pca_ogd_basis
+    U, S, Vt = svd(G_t, full_matrices=False)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/scipy/linalg/_decomp_svd.py", line 127, in svd
+    u, s, v, info = gesXd(a1, compute_uv=compute_uv, lwork=lwork,
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "pogd_single.py", line 997, in <module>
+    client.update_pca_ogd_basis(task_id)    # compute new basis and merge it
+  File "pogd_single.py", line 923, in update_pca_ogd_basis
+    U, S, Vt = svd(G_t, full_matrices=False)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/scipy/linalg/_decomp_svd.py", line 127, in svd
+    u, s, v, info = gesXd(a1, compute_uv=compute_uv, lwork=lwork,
+KeyboardInterrupt

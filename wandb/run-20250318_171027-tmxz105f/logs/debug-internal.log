@@ -1,0 +1,16 @@
+{"time":"2025-03-18T17:10:27.865772541-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2025-03-18T17:10:27.865795471-05:00","level":"INFO","msg":"created symlink","path":"/home/dk32578/project/QGPM_baseline/wandb/run-20250318_171027-tmxz105f/logs/debug-core.log"}
+{"time":"2025-03-18T17:10:27.974321632-05:00","level":"INFO","msg":"created new stream","id":"tmxz105f"}
+{"time":"2025-03-18T17:10:27.974374323-05:00","level":"INFO","msg":"stream: started","id":"tmxz105f"}
+{"time":"2025-03-18T17:10:27.974497265-05:00","level":"INFO","msg":"sender: started","stream_id":"tmxz105f"}
+{"time":"2025-03-18T17:10:27.974451704-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"tmxz105f"}}
+{"time":"2025-03-18T17:10:27.974556606-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"tmxz105f"}}
+{"time":"2025-03-18T17:10:28.185823144-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-18T17:11:00.506590624-05:00","level":"INFO","msg":"stream: closing","id":"tmxz105f"}
+{"time":"2025-03-18T17:11:00.506648105-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-18T17:11:00.507185975-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-18T17:11:00.901145809-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-18T17:11:00.992797602-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"tmxz105f"}}
+{"time":"2025-03-18T17:11:00.992849323-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"tmxz105f"}}
+{"time":"2025-03-18T17:11:00.992883884-05:00","level":"INFO","msg":"sender: closed","stream_id":"tmxz105f"}
+{"time":"2025-03-18T17:11:00.992971166-05:00","level":"INFO","msg":"stream: closed","id":"tmxz105f"}

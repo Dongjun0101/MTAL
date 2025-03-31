@@ -1,0 +1,139 @@
+{
+  "os":  "Linux-5.15.0-124-generic-x86_64-with-glibc2.10",
+  "python":  "3.8.18",
+  "startedAt":  "2025-03-20T17:12:42.539189Z",
+  "program":  "fdr_single.py",
+  "codePath":  "fdr_single.py",
+  "git":  {
+    "remote":  "git@github.com:Dongjun0101/QGPM.git",
+    "commit":  "023cbc12e7766323539d185f5e17db18fdccdc97"
+  },
+  "email":  "dongjungim20@utexas.edu",
+  "root":  "/home/dk32578/project/QGPM_baseline",
+  "host":  "ECE-A13783",
+  "username":  "dk32578@austin.utexas.edu",
+  "executable":  "/home/dk32578/anaconda3/envs/DJ/bin/python",
+  "codePathLocal":  "fdr_single.py",
+  "cpu_count":  48,
+  "cpu_count_logical":  96,
+  "gpu_count":  8,
+  "disk":  {
+    "/":  {
+      "total":  "1916375592960",
+      "used":  "1905838620672"
+    }
+  },
+  "memory":  {
+    "total":  "540672245760"
+  },
+  "cpu":  {
+    "count":  48,
+    "countLogical":  96
+  },
+  "gpu_amd":  [
+    {
+      "id":  "0x66a1",
+      "uniqueId":  "0xeb9c592172e620f6",
+      "vbiosVersion":  "113-D1631700-111",
+      "performanceLevel":  "auto",
+      "gpuOverdrive":  "0",
+      "gpuMemoryOverdrive":  "0",
+      "maxPower":  "225.0",
+      "series":  "deon Instinct MI50 32GB",
+      "model":  "0x66a1",
+      "vendor":  "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku":  "D1631700"
+    },
+    {
+      "id":  "0x66a1",
+      "uniqueId":  "0xf130194172e620fe",
+      "vbiosVersion":  "113-D1631700-111",
+      "performanceLevel":  "auto",
+      "gpuOverdrive":  "0",
+      "gpuMemoryOverdrive":  "0",
+      "maxPower":  "225.0",
+      "series":  "deon Instinct MI50 32GB",
+      "model":  "0x66a1",
+      "vendor":  "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku":  "D1631700"
+    },
+    {
+      "id":  "0x66a1",
+      "uniqueId":  "0x956480c172e620f5",
+      "vbiosVersion":  "113-D1631700-111",
+      "performanceLevel":  "auto",
+      "gpuOverdrive":  "0",
+      "gpuMemoryOverdrive":  "0",
+      "maxPower":  "225.0",
+      "series":  "deon Instinct MI50 32GB",
+      "model":  "0x66a1",
+      "vendor":  "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku":  "D1631700"
+    },
+    {
+      "id":  "0x66a1",
+      "uniqueId":  "0x5192596172e62697",
+      "vbiosVersion":  "113-D1631700-111",
+      "performanceLevel":  "auto",
+      "gpuOverdrive":  "0",
+      "gpuMemoryOverdrive":  "0",
+      "maxPower":  "225.0",
+      "series":  "deon Instinct MI50 32GB",
+      "model":  "0x66a1",
+      "vendor":  "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku":  "D1631700"
+    },
+    {
+      "id":  "0x66a1",
+      "uniqueId":  "0x956420c172e620f5",
+      "vbiosVersion":  "113-D1631700-111",
+      "performanceLevel":  "auto",
+      "gpuOverdrive":  "0",
+      "gpuMemoryOverdrive":  "0",
+      "maxPower":  "225.0",
+      "series":  "deon Instinct MI50 32GB",
+      "model":  "0x66a1",
+      "vendor":  "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku":  "D1631700"
+    },
+    {
+      "id":  "0x66a1",
+      "uniqueId":  "0x22d8612172e620fa",
+      "vbiosVersion":  "113-D1631700-111",
+      "performanceLevel":  "auto",
+      "gpuOverdrive":  "0",
+      "gpuMemoryOverdrive":  "0",
+      "maxPower":  "225.0",
+      "series":  "deon Instinct MI50 32GB",
+      "model":  "0x66a1",
+      "vendor":  "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku":  "D1631700"
+    },
+    {
+      "id":  "0x66a1",
+      "uniqueId":  "0xeb5a88e172df888f",
+      "vbiosVersion":  "113-D1631700-111",
+      "performanceLevel":  "auto",
+      "gpuOverdrive":  "0",
+      "gpuMemoryOverdrive":  "0",
+      "maxPower":  "225.0",
+      "series":  "deon Instinct MI50 32GB",
+      "model":  "0x66a1",
+      "vendor":  "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku":  "D1631700"
+    },
+    {
+      "id":  "0x66a1",
+      "uniqueId":  "0x7bc2614172e620ff",
+      "vbiosVersion":  "113-D1631700-111",
+      "performanceLevel":  "auto",
+      "gpuOverdrive":  "0",
+      "gpuMemoryOverdrive":  "0",
+      "maxPower":  "225.0",
+      "series":  "deon Instinct MI50 32GB",
+      "model":  "0x66a1",
+      "vendor":  "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku":  "D1631700"
+    }
+  ]
+}

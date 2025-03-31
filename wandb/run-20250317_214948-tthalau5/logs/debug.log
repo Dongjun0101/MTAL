@@ -1,0 +1,32 @@
+2025-03-17 21:49:48,841 INFO    MainThread:1671504 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2025-03-17 21:49:48,841 INFO    MainThread:1671504 [wandb_setup.py:_flush():79] Configure stats pid to 1671504
+2025-03-17 21:49:48,841 INFO    MainThread:1671504 [wandb_setup.py:_flush():79] Loading settings from /home/dk32578/.config/wandb/settings
+2025-03-17 21:49:48,841 INFO    MainThread:1671504 [wandb_setup.py:_flush():79] Loading settings from /home/dk32578/project/QGPM_baseline/wandb/settings
+2025-03-17 21:49:48,841 INFO    MainThread:1671504 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2025-03-17 21:49:48,841 INFO    MainThread:1671504 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2025-03-17 21:49:48,841 INFO    MainThread:1671504 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'derpp_single.py', 'program_abspath': '/home/dk32578/project/QGPM_baseline/derpp_single.py', 'program': 'derpp_single.py'}
+2025-03-17 21:49:48,841 INFO    MainThread:1671504 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-03-17 21:49:48,841 INFO    MainThread:1671504 [wandb_init.py:_log_setup():534] Logging user logs to /home/dk32578/project/QGPM_baseline/wandb/run-20250317_214948-tthalau5/logs/debug.log
+2025-03-17 21:49:48,842 INFO    MainThread:1671504 [wandb_init.py:_log_setup():535] Logging internal logs to /home/dk32578/project/QGPM_baseline/wandb/run-20250317_214948-tthalau5/logs/debug-internal.log
+2025-03-17 21:49:48,842 INFO    MainThread:1671504 [wandb_init.py:init():621] calling init triggers
+2025-03-17 21:49:48,842 INFO    MainThread:1671504 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'derpp_flag': True, 'seed': 1, 'local_epochs': 30, 'buffer_size': 6000, 'alpha': 0.1, 'beta': 1}
+2025-03-17 21:49:48,842 INFO    MainThread:1671504 [wandb_init.py:init():671] starting backend
+2025-03-17 21:49:48,842 INFO    MainThread:1671504 [wandb_init.py:init():675] sending inform_init request
+2025-03-17 21:49:48,843 INFO    MainThread:1671504 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-17 21:49:48,843 INFO    MainThread:1671504 [wandb_init.py:init():688] backend started and connected
+2025-03-17 21:49:48,847 INFO    MainThread:1671504 [wandb_init.py:init():783] updated telemetry
+2025-03-17 21:49:48,880 INFO    MainThread:1671504 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2025-03-17 21:49:49,149 INFO    MainThread:1671504 [wandb_init.py:init():867] starting run threads in backend
+2025-03-17 21:49:49,300 INFO    MainThread:1671504 [wandb_run.py:_console_start():2463] atexit reg
+2025-03-17 21:49:49,309 INFO    MainThread:1671504 [wandb_run.py:_redirect():2311] redirect: wrap_raw
+2025-03-17 21:49:49,309 INFO    MainThread:1671504 [wandb_run.py:_redirect():2376] Wrapping output streams.
+2025-03-17 21:49:49,309 INFO    MainThread:1671504 [wandb_run.py:_redirect():2401] Redirects installed.
+2025-03-17 21:49:49,311 INFO    MainThread:1671504 [wandb_init.py:init():911] run started, returning control to user process
+2025-03-17 22:20:46,607 INFO    MainThread:1671504 [wandb_run.py:_finish():2158] finishing run dongjungim20-university-of-texas-austin/QGPM_Baseline_test/tthalau5
+2025-03-17 22:20:46,607 INFO    MainThread:1671504 [wandb_run.py:_atexit_cleanup():2426] got exitcode: 0
+2025-03-17 22:20:46,607 INFO    MainThread:1671504 [wandb_run.py:_restore():2408] restore
+2025-03-17 22:20:46,608 INFO    MainThread:1671504 [wandb_run.py:_restore():2414] restore done
+2025-03-17 22:20:48,188 INFO    MainThread:1671504 [wandb_run.py:_footer_history_summary_info():3975] rendering history
+2025-03-17 22:20:48,189 INFO    MainThread:1671504 [wandb_run.py:_footer_history_summary_info():4007] rendering summary
+2025-03-17 22:20:48,201 INFO    MainThread:1671504 [wandb_run.py:_footer_sync_info():3934] logging synced files

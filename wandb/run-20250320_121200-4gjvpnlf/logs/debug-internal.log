@@ -1,0 +1,17 @@
+{"time":"2025-03-20T12:12:00.874639727-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2025-03-20T12:12:00.874657388-05:00","level":"INFO","msg":"created symlink","path":"/home/dk32578/project/QGPM_baseline/wandb/run-20250320_121200-4gjvpnlf/logs/debug-core.log"}
+{"time":"2025-03-20T12:12:00.98209767-05:00","level":"INFO","msg":"created new stream","id":"4gjvpnlf"}
+{"time":"2025-03-20T12:12:00.982141831-05:00","level":"INFO","msg":"stream: started","id":"4gjvpnlf"}
+{"time":"2025-03-20T12:12:00.982200362-05:00","level":"INFO","msg":"sender: started","stream_id":"4gjvpnlf"}
+{"time":"2025-03-20T12:12:00.982164832-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"4gjvpnlf"}}
+{"time":"2025-03-20T12:12:00.982224563-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"4gjvpnlf"}}
+{"time":"2025-03-20T12:12:01.197298792-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-20T12:33:25.342405316-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-20T12:33:25.343580819-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-20T12:33:25.833163788-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-20T12:33:25.946885662-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-03-20T12:33:26.956172213-05:00","level":"INFO","msg":"stream: closing","id":"4gjvpnlf"}
+{"time":"2025-03-20T12:33:26.956190084-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"4gjvpnlf"}}
+{"time":"2025-03-20T12:33:26.956207284-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"4gjvpnlf"}}
+{"time":"2025-03-20T12:33:26.956283505-05:00","level":"INFO","msg":"sender: closed","stream_id":"4gjvpnlf"}
+{"time":"2025-03-20T12:33:26.956290956-05:00","level":"INFO","msg":"stream: closed","id":"4gjvpnlf"}

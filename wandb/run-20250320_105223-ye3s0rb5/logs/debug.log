@@ -1,0 +1,26 @@
+2025-03-20 10:52:23,052 INFO    MainThread:2328644 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2025-03-20 10:52:23,053 INFO    MainThread:2328644 [wandb_setup.py:_flush():79] Configure stats pid to 2328644
+2025-03-20 10:52:23,053 INFO    MainThread:2328644 [wandb_setup.py:_flush():79] Loading settings from /home/dk32578/.config/wandb/settings
+2025-03-20 10:52:23,053 INFO    MainThread:2328644 [wandb_setup.py:_flush():79] Loading settings from /home/dk32578/project/QGPM_baseline/wandb/settings
+2025-03-20 10:52:23,053 INFO    MainThread:2328644 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2025-03-20 10:52:23,053 INFO    MainThread:2328644 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2025-03-20 10:52:23,053 INFO    MainThread:2328644 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'pogd_single.py', 'program_abspath': '/home/dk32578/project/QGPM_baseline/pogd_single.py', 'program': 'pogd_single.py'}
+2025-03-20 10:52:23,053 INFO    MainThread:2328644 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-03-20 10:52:23,053 INFO    MainThread:2328644 [wandb_init.py:_log_setup():534] Logging user logs to /home/dk32578/project/QGPM_baseline/wandb/run-20250320_105223-ye3s0rb5/logs/debug.log
+2025-03-20 10:52:23,053 INFO    MainThread:2328644 [wandb_init.py:_log_setup():535] Logging internal logs to /home/dk32578/project/QGPM_baseline/wandb/run-20250320_105223-ye3s0rb5/logs/debug-internal.log
+2025-03-20 10:52:23,053 INFO    MainThread:2328644 [wandb_init.py:init():621] calling init triggers
+2025-03-20 10:52:23,053 INFO    MainThread:2328644 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'seed': 1, 'local_epochs': 30, 'buffer_size': 500}
+2025-03-20 10:52:23,053 INFO    MainThread:2328644 [wandb_init.py:init():671] starting backend
+2025-03-20 10:52:23,053 INFO    MainThread:2328644 [wandb_init.py:init():675] sending inform_init request
+2025-03-20 10:52:23,055 INFO    MainThread:2328644 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-20 10:52:23,055 INFO    MainThread:2328644 [wandb_init.py:init():688] backend started and connected
+2025-03-20 10:52:23,060 INFO    MainThread:2328644 [wandb_init.py:init():783] updated telemetry
+2025-03-20 10:52:23,125 INFO    MainThread:2328644 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2025-03-20 10:52:23,417 INFO    MainThread:2328644 [wandb_init.py:init():867] starting run threads in backend
+2025-03-20 10:52:23,565 INFO    MainThread:2328644 [wandb_run.py:_console_start():2463] atexit reg
+2025-03-20 10:52:23,566 INFO    MainThread:2328644 [wandb_run.py:_redirect():2311] redirect: wrap_raw
+2025-03-20 10:52:23,566 INFO    MainThread:2328644 [wandb_run.py:_redirect():2376] Wrapping output streams.
+2025-03-20 10:52:23,566 INFO    MainThread:2328644 [wandb_run.py:_redirect():2401] Redirects installed.
+2025-03-20 10:52:23,567 INFO    MainThread:2328644 [wandb_init.py:init():911] run started, returning control to user process
+2025-03-20 11:07:11,552 WARNING MsgRouterThr:2328644 [router.py:message_loop():77] message_loop has been closed

@@ -1,0 +1,120 @@
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'resnet', 'dataset': 'miniimagenet', 'classes': 100, 'num_tasks': 5, 'print_times': 5, 'wandb': True, 'baseline': 'fdr', 'seed': 1, 'local_epochs': 50, 'buffer_size': 40, 'threshold': 0.9, 'alpha': 0.1, 'beta': 0.5, 'alpha_fdr': 0.6}
+Random seed set to: 1
+Number of GPU available:  1
+<class 'list'>
+<class 'list'>
+Data partition_sizes among clients: [1.0]
+Epoch: 0, Task: 0, Avg train Loss: 2.5668
+Epoch: 1, Task: 0, Avg train Loss: 2.0983
+Epoch: 2, Task: 0, Avg train Loss: 1.8662
+Epoch: 3, Task: 0, Avg train Loss: 1.6868
+Epoch: 4, Task: 0, Avg train Loss: 1.5016
+Epoch: 5, Task: 0, Avg train Loss: 1.3372
+Epoch: 6, Task: 0, Avg train Loss: 1.1472
+Epoch: 7, Task: 0, Avg train Loss: 0.9592
+Epoch: 8, Task: 0, Avg train Loss: 0.7757
+Epoch: 9, Task: 0, Avg train Loss: 0.5823, Current Val Acc: 34.30, Accumulated Val Acc: 34.30
+Epoch: 10, Task: 0, Avg train Loss: 0.4260
+Epoch: 11, Task: 0, Avg train Loss: 0.2610
+Epoch: 12, Task: 0, Avg train Loss: 0.1788
+Epoch: 13, Task: 0, Avg train Loss: 0.1399
+Epoch: 14, Task: 0, Avg train Loss: 0.0675
+Epoch: 15, Task: 0, Avg train Loss: 0.0468
+Epoch: 16, Task: 0, Avg train Loss: 0.0465
+Epoch: 17, Task: 0, Avg train Loss: 0.0300
+Epoch: 18, Task: 0, Avg train Loss: 0.0253
+Epoch: 19, Task: 0, Avg train Loss: 0.0157, Current Val Acc: 39.05, Accumulated Val Acc: 39.05
+Epoch: 20, Task: 0, Avg train Loss: 0.0159
+Epoch: 21, Task: 0, Avg train Loss: 0.0135
+Epoch: 22, Task: 0, Avg train Loss: 0.0128
+Epoch: 23, Task: 0, Avg train Loss: 0.0134
+Epoch: 24, Task: 0, Avg train Loss: 0.0110
+Epoch: 25, Task: 0, Avg train Loss: 0.0684
+Epoch: 26, Task: 0, Avg train Loss: 0.0158
+Epoch: 27, Task: 0, Avg train Loss: 0.0128
+Epoch: 28, Task: 0, Avg train Loss: 0.0110
+Epoch: 29, Task: 0, Avg train Loss: 0.0096, Current Val Acc: 39.30, Accumulated Val Acc: 39.30
+Epoch: 30, Task: 0, Avg train Loss: 0.0089
+Epoch: 31, Task: 0, Avg train Loss: 0.0085
+Epoch: 32, Task: 0, Avg train Loss: 0.0086
+Epoch: 33, Task: 0, Avg train Loss: 0.0078
+Epoch: 34, Task: 0, Avg train Loss: 0.0072
+Epoch: 35, Task: 0, Avg train Loss: 0.0080
+Epoch: 36, Task: 0, Avg train Loss: 0.0075
+Epoch: 37, Task: 0, Avg train Loss: 0.0077
+Epoch: 38, Task: 0, Avg train Loss: 0.0074
+Epoch: 39, Task: 0, Avg train Loss: 0.0071, Current Val Acc: 41.35, Accumulated Val Acc: 41.35
+Epoch: 40, Task: 0, Avg train Loss: 0.0069
+Epoch: 41, Task: 0, Avg train Loss: 0.0083
+Epoch: 42, Task: 0, Avg train Loss: 0.0067
+Epoch: 43, Task: 0, Avg train Loss: 0.0069
+Epoch: 44, Task: 0, Avg train Loss: 0.0074
+Epoch: 45, Task: 0, Avg train Loss: 0.0073
+Epoch: 46, Task: 0, Avg train Loss: 0.0064
+Epoch: 47, Task: 0, Avg train Loss: 0.0075
+Epoch: 48, Task: 0, Avg train Loss: 0.0065
+Epoch: 49, Task: 0, Avg train Loss: 0.0077, Current Val Acc: 39.80, Accumulated Val Acc: 39.80
+Node 0 Overall Accuracies:
+	 40.3%   0.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 1, Avg train Loss: 2.7440
+Epoch: 1, Task: 1, Avg train Loss: 2.0732
+Epoch: 2, Task: 1, Avg train Loss: 1.7432
+Epoch: 3, Task: 1, Avg train Loss: 1.4557
+Epoch: 4, Task: 1, Avg train Loss: 1.1400
+Epoch: 5, Task: 1, Avg train Loss: 0.8179
+Epoch: 6, Task: 1, Avg train Loss: 0.5732
+Epoch: 7, Task: 1, Avg train Loss: 0.3184
+Epoch: 8, Task: 1, Avg train Loss: 0.2143
+Epoch: 9, Task: 1, Avg train Loss: 0.0802, Current Val Acc: 32.50, Accumulated Val Acc: 27.32
+Epoch: 10, Task: 1, Avg train Loss: 0.0430
+Epoch: 11, Task: 1, Avg train Loss: 0.0270
+Epoch: 12, Task: 1, Avg train Loss: 0.0208
+Epoch: 13, Task: 1, Avg train Loss: 0.0189
+Epoch: 14, Task: 1, Avg train Loss: 0.0195
+Epoch: 15, Task: 1, Avg train Loss: 0.0169
+Epoch: 16, Task: 1, Avg train Loss: 0.0114
+Epoch: 17, Task: 1, Avg train Loss: 0.0119
+Epoch: 18, Task: 1, Avg train Loss: 0.0094
+Epoch: 19, Task: 1, Avg train Loss: 0.0080, Current Val Acc: 32.65, Accumulated Val Acc: 26.48
+Epoch: 20, Task: 1, Avg train Loss: 0.0095
+Epoch: 21, Task: 1, Avg train Loss: 0.0074
+Epoch: 22, Task: 1, Avg train Loss: 0.0069
+Epoch: 23, Task: 1, Avg train Loss: 0.0065
+Epoch: 24, Task: 1, Avg train Loss: 0.0056
+Epoch: 25, Task: 1, Avg train Loss: 0.0129
+Epoch: 26, Task: 1, Avg train Loss: 0.0068
+Epoch: 27, Task: 1, Avg train Loss: 0.0061
+Epoch: 28, Task: 1, Avg train Loss: 0.0065
+Epoch: 29, Task: 1, Avg train Loss: 0.0057, Current Val Acc: 34.60, Accumulated Val Acc: 27.07
+Epoch: 30, Task: 1, Avg train Loss: 0.0061
+Epoch: 31, Task: 1, Avg train Loss: 0.0055
+Epoch: 32, Task: 1, Avg train Loss: 0.0054
+Epoch: 33, Task: 1, Avg train Loss: 0.0055
+Epoch: 34, Task: 1, Avg train Loss: 0.0053
+Epoch: 35, Task: 1, Avg train Loss: 0.0052
+Epoch: 36, Task: 1, Avg train Loss: 0.0055
+Epoch: 37, Task: 1, Avg train Loss: 0.0051
+Epoch: 38, Task: 1, Avg train Loss: 0.0056
+Epoch: 39, Task: 1, Avg train Loss: 0.0049, Current Val Acc: 34.55, Accumulated Val Acc: 27.02
+Epoch: 40, Task: 1, Avg train Loss: 0.0052
+Epoch: 41, Task: 1, Avg train Loss: 0.0055
+Epoch: 42, Task: 1, Avg train Loss: 0.0051
+Epoch: 43, Task: 1, Avg train Loss: 0.0053
+Epoch: 44, Task: 1, Avg train Loss: 0.0052
+Epoch: 45, Task: 1, Avg train Loss: 0.0052
+Epoch: 46, Task: 1, Avg train Loss: 0.0052
+Epoch: 47, Task: 1, Avg train Loss: 0.0054
+Epoch: 48, Task: 1, Avg train Loss: 0.0052
+Epoch: 49, Task: 1, Avg train Loss: 0.0051, Current Val Acc: 35.50, Accumulated Val Acc: 28.12
+Node 0 Overall Accuracies:
+	 40.3%   0.0%   0.0%   0.0%   0.0%
+	 20.1%  35.6%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 2, Avg train Loss: 2.4327
+Epoch: 1, Task: 2, Avg train Loss: 1.5904
+Epoch: 2, Task: 2, Avg train Loss: 1.2260
+Epoch: 3, Task: 2, Avg train Loss: 0.9441
+Epoch: 4, Task: 2, Avg train Loss: 0.6173
+Epoch: 5, Task: 2, Avg train Loss: 0.4093
+Epoch: 6, Task: 2, Avg train Loss: 0.2140
+Epoch: 7, Task: 2, Avg train Loss: 0.1080
+Epoch: 8, Task: 2, Avg train Loss: 0.0655

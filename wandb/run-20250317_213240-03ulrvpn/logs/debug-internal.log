@@ -1,0 +1,8 @@
+{"time":"2025-03-17T21:32:40.48766879-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2025-03-17T21:32:40.487704231-05:00","level":"INFO","msg":"created symlink","path":"/home/dk32578/project/QGPM_baseline/wandb/run-20250317_213240-03ulrvpn/logs/debug-core.log"}
+{"time":"2025-03-17T21:32:40.597654363-05:00","level":"INFO","msg":"created new stream","id":"03ulrvpn"}
+{"time":"2025-03-17T21:32:40.597700493-05:00","level":"INFO","msg":"stream: started","id":"03ulrvpn"}
+{"time":"2025-03-17T21:32:40.597756064-05:00","level":"INFO","msg":"sender: started","stream_id":"03ulrvpn"}
+{"time":"2025-03-17T21:32:40.597738854-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"03ulrvpn"}}
+{"time":"2025-03-17T21:32:40.597736534-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"03ulrvpn"}}
+{"time":"2025-03-17T21:32:40.805488421-05:00","level":"INFO","msg":"Starting system monitor"}

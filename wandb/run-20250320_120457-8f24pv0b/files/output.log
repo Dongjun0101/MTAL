@@ -1,0 +1,376 @@
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'gpmflag': True, 'seed': 1234, 'local_epochs': 30, 'buffer_size': 6000, 'alpha': 1.0}
+Number of GPU available:  1
+Files already downloaded and verified
+Files already downloaded and verified
+Data partition_sizes among clients: [1.0]
+rank 0's total num of datasample in task0:  5056
+Epoch: 0, Task: 0, Avg train Loss: 2.0870
+Epoch: 1, Task: 0, Avg train Loss: 1.7792
+Epoch: 2, Task: 0, Avg train Loss: 1.6381
+Epoch: 3, Task: 0, Avg train Loss: 1.5590
+Epoch: 4, Task: 0, Avg train Loss: 1.4716
+Epoch: 5, Task: 0, Avg train Loss: 1.4316, Current Val Acc: 60.60, Accumulated Val Acc: 60.60
+Epoch: 6, Task: 0, Avg train Loss: 1.3896
+Epoch: 7, Task: 0, Avg train Loss: 1.3054
+Epoch: 8, Task: 0, Avg train Loss: 1.2847
+Epoch: 9, Task: 0, Avg train Loss: 1.2785
+Epoch: 10, Task: 0, Avg train Loss: 1.2541
+Epoch: 11, Task: 0, Avg train Loss: 1.2189, Current Val Acc: 65.60, Accumulated Val Acc: 65.60
+Epoch: 12, Task: 0, Avg train Loss: 1.1874
+Epoch: 13, Task: 0, Avg train Loss: 1.1774
+Epoch: 14, Task: 0, Avg train Loss: 1.1788
+Epoch: 15, Task: 0, Avg train Loss: 1.1343
+Epoch: 16, Task: 0, Avg train Loss: 1.0674
+Epoch: 17, Task: 0, Avg train Loss: 1.0620, Current Val Acc: 68.50, Accumulated Val Acc: 68.50
+Epoch: 18, Task: 0, Avg train Loss: 1.0878
+Epoch: 19, Task: 0, Avg train Loss: 1.0628
+Epoch: 20, Task: 0, Avg train Loss: 1.0299
+Epoch: 21, Task: 0, Avg train Loss: 1.0409
+Epoch: 22, Task: 0, Avg train Loss: 1.0364
+Epoch: 23, Task: 0, Avg train Loss: 1.0257, Current Val Acc: 71.70, Accumulated Val Acc: 71.70
+Epoch: 24, Task: 0, Avg train Loss: 1.0464
+Epoch: 25, Task: 0, Avg train Loss: 1.0406
+Epoch: 26, Task: 0, Avg train Loss: 1.0515
+Epoch: 27, Task: 0, Avg train Loss: 1.0348
+Epoch: 28, Task: 0, Avg train Loss: 1.0334
+Epoch: 29, Task: 0, Avg train Loss: 1.0259, Current Val Acc: 71.80, Accumulated Val Acc: 71.80
+Node 0 Overall Accuracies:
+	 70.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 1, Avg train Loss: 2.6983
+Epoch: 1, Task: 1, Avg train Loss: 2.4182
+Epoch: 2, Task: 1, Avg train Loss: 2.3323
+Epoch: 3, Task: 1, Avg train Loss: 2.2913
+Epoch: 4, Task: 1, Avg train Loss: 2.2438
+Epoch: 5, Task: 1, Avg train Loss: 2.2026, Current Val Acc: 54.50, Accumulated Val Acc: 57.05
+Epoch: 6, Task: 1, Avg train Loss: 2.1996
+Epoch: 7, Task: 1, Avg train Loss: 2.1339
+Epoch: 8, Task: 1, Avg train Loss: 2.1242
+Epoch: 9, Task: 1, Avg train Loss: 2.1134
+Epoch: 10, Task: 1, Avg train Loss: 2.0631
+Epoch: 11, Task: 1, Avg train Loss: 2.0397, Current Val Acc: 58.10, Accumulated Val Acc: 58.65
+Epoch: 12, Task: 1, Avg train Loss: 2.0299
+Epoch: 13, Task: 1, Avg train Loss: 2.0202
+Epoch: 14, Task: 1, Avg train Loss: 2.0086
+Epoch: 15, Task: 1, Avg train Loss: 1.9169
+Epoch: 16, Task: 1, Avg train Loss: 1.9030
+Epoch: 17, Task: 1, Avg train Loss: 1.8988, Current Val Acc: 64.50, Accumulated Val Acc: 62.60
+Epoch: 18, Task: 1, Avg train Loss: 1.8863
+Epoch: 19, Task: 1, Avg train Loss: 1.8892
+Epoch: 20, Task: 1, Avg train Loss: 1.8906
+Epoch: 21, Task: 1, Avg train Loss: 1.8824
+Epoch: 22, Task: 1, Avg train Loss: 1.8872
+Epoch: 23, Task: 1, Avg train Loss: 1.8694, Current Val Acc: 63.70, Accumulated Val Acc: 62.25
+Epoch: 24, Task: 1, Avg train Loss: 1.8848
+Epoch: 25, Task: 1, Avg train Loss: 1.8761
+Epoch: 26, Task: 1, Avg train Loss: 1.8996
+Epoch: 27, Task: 1, Avg train Loss: 1.8880
+Epoch: 28, Task: 1, Avg train Loss: 1.8575
+Epoch: 29, Task: 1, Avg train Loss: 1.8557, Current Val Acc: 64.70, Accumulated Val Acc: 63.25
+Node 0 Overall Accuracies:
+	 70.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 61.7%  64.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 2, Avg train Loss: 2.5329
+Epoch: 1, Task: 2, Avg train Loss: 2.2577
+Epoch: 2, Task: 2, Avg train Loss: 2.1668
+Epoch: 3, Task: 2, Avg train Loss: 2.1086
+Epoch: 4, Task: 2, Avg train Loss: 2.0710
+Epoch: 5, Task: 2, Avg train Loss: 2.0181, Current Val Acc: 57.40, Accumulated Val Acc: 57.80
+Epoch: 6, Task: 2, Avg train Loss: 1.9924
+Epoch: 7, Task: 2, Avg train Loss: 1.9399
+Epoch: 8, Task: 2, Avg train Loss: 1.9320
+Epoch: 9, Task: 2, Avg train Loss: 1.9086
+Epoch: 10, Task: 2, Avg train Loss: 1.9039
+Epoch: 11, Task: 2, Avg train Loss: 1.8587, Current Val Acc: 63.50, Accumulated Val Acc: 60.57
+Epoch: 12, Task: 2, Avg train Loss: 1.8420
+Epoch: 13, Task: 2, Avg train Loss: 1.8090
+Epoch: 14, Task: 2, Avg train Loss: 1.7876
+Epoch: 15, Task: 2, Avg train Loss: 1.8310
+Epoch: 16, Task: 2, Avg train Loss: 1.7514
+Epoch: 17, Task: 2, Avg train Loss: 1.7217, Current Val Acc: 69.30, Accumulated Val Acc: 62.70
+Epoch: 18, Task: 2, Avg train Loss: 1.6993
+Epoch: 19, Task: 2, Avg train Loss: 1.6859
+Epoch: 20, Task: 2, Avg train Loss: 1.7000
+Epoch: 21, Task: 2, Avg train Loss: 1.6804
+Epoch: 22, Task: 2, Avg train Loss: 1.6789
+Epoch: 23, Task: 2, Avg train Loss: 1.6853, Current Val Acc: 69.70, Accumulated Val Acc: 63.47
+Epoch: 24, Task: 2, Avg train Loss: 1.6907
+Epoch: 25, Task: 2, Avg train Loss: 1.6791
+Epoch: 26, Task: 2, Avg train Loss: 1.6677
+Epoch: 27, Task: 2, Avg train Loss: 1.6767
+Epoch: 28, Task: 2, Avg train Loss: 1.6719
+Epoch: 29, Task: 2, Avg train Loss: 1.6691, Current Val Acc: 70.30, Accumulated Val Acc: 63.03
+Node 0 Overall Accuracies:
+	 70.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 61.7%  64.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.9%  56.4%  70.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 3, Avg train Loss: 2.5755
+Epoch: 1, Task: 3, Avg train Loss: 2.2893
+Epoch: 2, Task: 3, Avg train Loss: 2.2012
+Epoch: 3, Task: 3, Avg train Loss: 2.1599
+Epoch: 4, Task: 3, Avg train Loss: 2.0862
+Epoch: 5, Task: 3, Avg train Loss: 2.0481, Current Val Acc: 57.40, Accumulated Val Acc: 57.15
+Epoch: 6, Task: 3, Avg train Loss: 2.0065
+Epoch: 7, Task: 3, Avg train Loss: 1.9724
+Epoch: 8, Task: 3, Avg train Loss: 1.9816
+Epoch: 9, Task: 3, Avg train Loss: 1.9441
+Epoch: 10, Task: 3, Avg train Loss: 1.9269
+Epoch: 11, Task: 3, Avg train Loss: 1.9191, Current Val Acc: 64.00, Accumulated Val Acc: 60.83
+Epoch: 12, Task: 3, Avg train Loss: 1.8900
+Epoch: 13, Task: 3, Avg train Loss: 1.8884
+Epoch: 14, Task: 3, Avg train Loss: 1.8901
+Epoch: 15, Task: 3, Avg train Loss: 1.8419
+Epoch: 16, Task: 3, Avg train Loss: 1.7994
+Epoch: 17, Task: 3, Avg train Loss: 1.7672, Current Val Acc: 68.00, Accumulated Val Acc: 62.15
+Epoch: 18, Task: 3, Avg train Loss: 1.7644
+Epoch: 19, Task: 3, Avg train Loss: 1.7728
+Epoch: 20, Task: 3, Avg train Loss: 1.7572
+Epoch: 21, Task: 3, Avg train Loss: 1.7729
+Epoch: 22, Task: 3, Avg train Loss: 1.7678
+Epoch: 23, Task: 3, Avg train Loss: 1.7322, Current Val Acc: 68.60, Accumulated Val Acc: 62.00
+Epoch: 24, Task: 3, Avg train Loss: 1.7507
+Epoch: 25, Task: 3, Avg train Loss: 1.7582
+Epoch: 26, Task: 3, Avg train Loss: 1.7428
+Epoch: 27, Task: 3, Avg train Loss: 1.7550
+Epoch: 28, Task: 3, Avg train Loss: 1.7751
+Epoch: 29, Task: 3, Avg train Loss: 1.7522, Current Val Acc: 69.00, Accumulated Val Acc: 62.35
+Node 0 Overall Accuracies:
+	 70.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 61.7%  64.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.9%  56.4%  70.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 60.3%  56.1%  62.3%  69.3%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 4, Avg train Loss: 2.3570
+Epoch: 1, Task: 4, Avg train Loss: 2.0258
+Epoch: 2, Task: 4, Avg train Loss: 1.9415
+Epoch: 3, Task: 4, Avg train Loss: 1.8971
+Epoch: 4, Task: 4, Avg train Loss: 1.8683
+Epoch: 5, Task: 4, Avg train Loss: 1.8218, Current Val Acc: 64.20, Accumulated Val Acc: 57.02
+Epoch: 6, Task: 4, Avg train Loss: 1.8123
+Epoch: 7, Task: 4, Avg train Loss: 1.7738
+Epoch: 8, Task: 4, Avg train Loss: 1.7470
+Epoch: 9, Task: 4, Avg train Loss: 1.7219
+Epoch: 10, Task: 4, Avg train Loss: 1.7196
+Epoch: 11, Task: 4, Avg train Loss: 1.6938, Current Val Acc: 67.40, Accumulated Val Acc: 59.80
+Epoch: 12, Task: 4, Avg train Loss: 1.6897
+Epoch: 13, Task: 4, Avg train Loss: 1.6504
+Epoch: 14, Task: 4, Avg train Loss: 1.6505
+Epoch: 15, Task: 4, Avg train Loss: 1.6046
+Epoch: 16, Task: 4, Avg train Loss: 1.5846
+Epoch: 17, Task: 4, Avg train Loss: 1.5794, Current Val Acc: 70.90, Accumulated Val Acc: 61.98
+Epoch: 18, Task: 4, Avg train Loss: 1.5759
+Epoch: 19, Task: 4, Avg train Loss: 1.5493
+Epoch: 20, Task: 4, Avg train Loss: 1.5489
+Epoch: 21, Task: 4, Avg train Loss: 1.5499
+Epoch: 22, Task: 4, Avg train Loss: 1.5593
+Epoch: 23, Task: 4, Avg train Loss: 1.5464, Current Val Acc: 73.40, Accumulated Val Acc: 62.48
+Epoch: 24, Task: 4, Avg train Loss: 1.5594
+Epoch: 25, Task: 4, Avg train Loss: 1.5534
+Epoch: 26, Task: 4, Avg train Loss: 1.5443
+Epoch: 27, Task: 4, Avg train Loss: 1.5352
+Epoch: 28, Task: 4, Avg train Loss: 1.5473
+Epoch: 29, Task: 4, Avg train Loss: 1.5483, Current Val Acc: 72.20, Accumulated Val Acc: 61.86
+Node 0 Overall Accuracies:
+	 70.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 61.7%  64.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.9%  56.4%  70.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 60.3%  56.1%  62.3%  69.3%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 62.3%  55.2%  60.6%  60.0%  73.2%   0.0%   0.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 5, Avg train Loss: 2.3692
+Epoch: 1, Task: 5, Avg train Loss: 2.0659
+Epoch: 2, Task: 5, Avg train Loss: 1.9843
+Epoch: 3, Task: 5, Avg train Loss: 1.9281
+Epoch: 4, Task: 5, Avg train Loss: 1.9210
+Epoch: 5, Task: 5, Avg train Loss: 1.8652, Current Val Acc: 63.80, Accumulated Val Acc: 57.88
+Epoch: 6, Task: 5, Avg train Loss: 1.8470
+Epoch: 7, Task: 5, Avg train Loss: 1.8063
+Epoch: 8, Task: 5, Avg train Loss: 1.7512
+Epoch: 9, Task: 5, Avg train Loss: 1.7624
+Epoch: 10, Task: 5, Avg train Loss: 1.7389
+Epoch: 11, Task: 5, Avg train Loss: 1.7209, Current Val Acc: 67.20, Accumulated Val Acc: 56.83
+Epoch: 12, Task: 5, Avg train Loss: 1.6975
+Epoch: 13, Task: 5, Avg train Loss: 1.6668
+Epoch: 14, Task: 5, Avg train Loss: 1.6699
+Epoch: 15, Task: 5, Avg train Loss: 1.6992
+Epoch: 16, Task: 5, Avg train Loss: 1.6437
+Epoch: 17, Task: 5, Avg train Loss: 1.5989, Current Val Acc: 73.10, Accumulated Val Acc: 58.47
+Epoch: 18, Task: 5, Avg train Loss: 1.6127
+Epoch: 19, Task: 5, Avg train Loss: 1.5833
+Epoch: 20, Task: 5, Avg train Loss: 1.5954
+Epoch: 21, Task: 5, Avg train Loss: 1.5837
+Epoch: 22, Task: 5, Avg train Loss: 1.5846
+Epoch: 23, Task: 5, Avg train Loss: 1.5688, Current Val Acc: 73.30, Accumulated Val Acc: 59.87
+Epoch: 24, Task: 5, Avg train Loss: 1.5917
+Epoch: 25, Task: 5, Avg train Loss: 1.5765
+Epoch: 26, Task: 5, Avg train Loss: 1.5705
+Epoch: 27, Task: 5, Avg train Loss: 1.5772
+Epoch: 28, Task: 5, Avg train Loss: 1.5695
+Epoch: 29, Task: 5, Avg train Loss: 1.5900, Current Val Acc: 72.20, Accumulated Val Acc: 59.50
+Node 0 Overall Accuracies:
+	 70.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 61.7%  64.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.9%  56.4%  70.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 60.3%  56.1%  62.3%  69.3%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 62.3%  55.2%  60.6%  60.0%  73.2%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 59.0%  48.0%  55.8%  56.4%  65.7%  72.2%   0.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 6, Avg train Loss: 2.2502
+Epoch: 1, Task: 6, Avg train Loss: 1.9086
+Epoch: 2, Task: 6, Avg train Loss: 1.8238
+Epoch: 3, Task: 6, Avg train Loss: 1.7528
+Epoch: 4, Task: 6, Avg train Loss: 1.7317
+Epoch: 5, Task: 6, Avg train Loss: 1.6814, Current Val Acc: 65.30, Accumulated Val Acc: 59.04
+Epoch: 6, Task: 6, Avg train Loss: 1.6819
+Epoch: 7, Task: 6, Avg train Loss: 1.6230
+Epoch: 8, Task: 6, Avg train Loss: 1.6078
+Epoch: 9, Task: 6, Avg train Loss: 1.5797
+Epoch: 10, Task: 6, Avg train Loss: 1.5903
+Epoch: 11, Task: 6, Avg train Loss: 1.5718, Current Val Acc: 66.60, Accumulated Val Acc: 57.17
+Epoch: 12, Task: 6, Avg train Loss: 1.5418
+Epoch: 13, Task: 6, Avg train Loss: 1.5257
+Epoch: 14, Task: 6, Avg train Loss: 1.4873
+Epoch: 15, Task: 6, Avg train Loss: 1.5241
+Epoch: 16, Task: 6, Avg train Loss: 1.4435
+Epoch: 17, Task: 6, Avg train Loss: 1.4513, Current Val Acc: 72.30, Accumulated Val Acc: 60.84
+Epoch: 18, Task: 6, Avg train Loss: 1.4428
+Epoch: 19, Task: 6, Avg train Loss: 1.4346
+Epoch: 20, Task: 6, Avg train Loss: 1.4331
+Epoch: 21, Task: 6, Avg train Loss: 1.4336
+Epoch: 22, Task: 6, Avg train Loss: 1.4353
+Epoch: 23, Task: 6, Avg train Loss: 1.4228, Current Val Acc: 72.60, Accumulated Val Acc: 60.97
+Epoch: 24, Task: 6, Avg train Loss: 1.4022
+Epoch: 25, Task: 6, Avg train Loss: 1.4286
+Epoch: 26, Task: 6, Avg train Loss: 1.4273
+Epoch: 27, Task: 6, Avg train Loss: 1.4120
+Epoch: 28, Task: 6, Avg train Loss: 1.4307
+Epoch: 29, Task: 6, Avg train Loss: 1.4185, Current Val Acc: 73.90, Accumulated Val Acc: 61.00
+Node 0 Overall Accuracies:
+	 70.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 61.7%  64.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.9%  56.4%  70.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 60.3%  56.1%  62.3%  69.3%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 62.3%  55.2%  60.6%  60.0%  73.2%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 59.0%  48.0%  55.8%  56.4%  65.7%  72.2%   0.0%   0.0%   0.0%   0.0%
+	 63.2%  49.3%  58.5%  56.4%  62.9%  65.7%  73.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 7, Avg train Loss: 2.2297
+Epoch: 1, Task: 7, Avg train Loss: 1.9220
+Epoch: 2, Task: 7, Avg train Loss: 1.8457
+Epoch: 3, Task: 7, Avg train Loss: 1.8171
+Epoch: 4, Task: 7, Avg train Loss: 1.7707
+Epoch: 5, Task: 7, Avg train Loss: 1.7432, Current Val Acc: 64.20, Accumulated Val Acc: 57.66
+Epoch: 6, Task: 7, Avg train Loss: 1.7063
+Epoch: 7, Task: 7, Avg train Loss: 1.6845
+Epoch: 8, Task: 7, Avg train Loss: 1.6575
+Epoch: 9, Task: 7, Avg train Loss: 1.6434
+Epoch: 10, Task: 7, Avg train Loss: 1.6249
+Epoch: 11, Task: 7, Avg train Loss: 1.6207, Current Val Acc: 66.50, Accumulated Val Acc: 58.06
+Epoch: 12, Task: 7, Avg train Loss: 1.5926
+Epoch: 13, Task: 7, Avg train Loss: 1.5873
+Epoch: 14, Task: 7, Avg train Loss: 1.5651
+Epoch: 15, Task: 7, Avg train Loss: 1.5549
+Epoch: 16, Task: 7, Avg train Loss: 1.5209
+Epoch: 17, Task: 7, Avg train Loss: 1.5170, Current Val Acc: 71.10, Accumulated Val Acc: 58.92
+Epoch: 18, Task: 7, Avg train Loss: 1.5026
+Epoch: 19, Task: 7, Avg train Loss: 1.5138
+Epoch: 20, Task: 7, Avg train Loss: 1.5015
+Epoch: 21, Task: 7, Avg train Loss: 1.4927
+Epoch: 22, Task: 7, Avg train Loss: 1.4993
+Epoch: 23, Task: 7, Avg train Loss: 1.4705, Current Val Acc: 71.40, Accumulated Val Acc: 59.01
+Epoch: 24, Task: 7, Avg train Loss: 1.4931
+Epoch: 25, Task: 7, Avg train Loss: 1.4876
+Epoch: 26, Task: 7, Avg train Loss: 1.4871
+Epoch: 27, Task: 7, Avg train Loss: 1.4943
+Epoch: 28, Task: 7, Avg train Loss: 1.5091
+Epoch: 29, Task: 7, Avg train Loss: 1.4802, Current Val Acc: 71.40, Accumulated Val Acc: 58.60
+Node 0 Overall Accuracies:
+	 70.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 61.7%  64.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.9%  56.4%  70.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 60.3%  56.1%  62.3%  69.3%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 62.3%  55.2%  60.6%  60.0%  73.2%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 59.0%  48.0%  55.8%  56.4%  65.7%  72.2%   0.0%   0.0%   0.0%   0.0%
+	 63.2%  49.3%  58.5%  56.4%  62.9%  65.7%  73.0%   0.0%   0.0%   0.0%
+	 62.9%  47.1%  54.0%  49.9%  58.1%  60.1%  68.7%  69.4%   0.0%   0.0%
+Epoch: 0, Task: 8, Avg train Loss: 2.3898
+Epoch: 1, Task: 8, Avg train Loss: 2.0763
+Epoch: 2, Task: 8, Avg train Loss: 1.9973
+Epoch: 3, Task: 8, Avg train Loss: 1.9360
+Epoch: 4, Task: 8, Avg train Loss: 1.9149
+Epoch: 5, Task: 8, Avg train Loss: 1.8797, Current Val Acc: 66.70, Accumulated Val Acc: 50.80
+Epoch: 6, Task: 8, Avg train Loss: 1.8807
+Epoch: 7, Task: 8, Avg train Loss: 1.8373
+Epoch: 8, Task: 8, Avg train Loss: 1.8291
+Epoch: 9, Task: 8, Avg train Loss: 1.7740
+Epoch: 10, Task: 8, Avg train Loss: 1.7667
+Epoch: 11, Task: 8, Avg train Loss: 1.7501, Current Val Acc: 60.20, Accumulated Val Acc: 48.09
+Epoch: 12, Task: 8, Avg train Loss: 1.7712
+Epoch: 13, Task: 8, Avg train Loss: 1.7229
+Epoch: 14, Task: 8, Avg train Loss: 1.7033
+Epoch: 15, Task: 8, Avg train Loss: 1.6684
+Epoch: 16, Task: 8, Avg train Loss: 1.6285
+Epoch: 17, Task: 8, Avg train Loss: 1.6299, Current Val Acc: 75.10, Accumulated Val Acc: 56.90
+Epoch: 18, Task: 8, Avg train Loss: 1.6162
+Epoch: 19, Task: 8, Avg train Loss: 1.6432
+Epoch: 20, Task: 8, Avg train Loss: 1.5951
+Epoch: 21, Task: 8, Avg train Loss: 1.6198
+Epoch: 22, Task: 8, Avg train Loss: 1.6094
+Epoch: 23, Task: 8, Avg train Loss: 1.5999, Current Val Acc: 73.20, Accumulated Val Acc: 56.77
+Epoch: 24, Task: 8, Avg train Loss: 1.6074
+Epoch: 25, Task: 8, Avg train Loss: 1.6001
+Epoch: 26, Task: 8, Avg train Loss: 1.5985
+Epoch: 27, Task: 8, Avg train Loss: 1.6250
+Epoch: 28, Task: 8, Avg train Loss: 1.5945
+Epoch: 29, Task: 8, Avg train Loss: 1.5990, Current Val Acc: 74.00, Accumulated Val Acc: 56.96
+Node 0 Overall Accuracies:
+	 70.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 61.7%  64.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.9%  56.4%  70.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 60.3%  56.1%  62.3%  69.3%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 62.3%  55.2%  60.6%  60.0%  73.2%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 59.0%  48.0%  55.8%  56.4%  65.7%  72.2%   0.0%   0.0%   0.0%   0.0%
+	 63.2%  49.3%  58.5%  56.4%  62.9%  65.7%  73.0%   0.0%   0.0%   0.0%
+	 62.9%  47.1%  54.0%  49.9%  58.1%  60.1%  68.7%  69.4%   0.0%   0.0%
+	 60.6%  45.1%  49.5%  46.9%  56.5%  58.3%  60.2%  62.3%  73.5%   0.0%
+Epoch: 0, Task: 9, Avg train Loss: 2.2398
+Epoch: 1, Task: 9, Avg train Loss: 1.8894
+Epoch: 2, Task: 9, Avg train Loss: 1.8389
+Epoch: 3, Task: 9, Avg train Loss: 1.7693
+Epoch: 4, Task: 9, Avg train Loss: 1.7328
+Epoch: 5, Task: 9, Avg train Loss: 1.7176, Current Val Acc: 74.10, Accumulated Val Acc: 59.06
+Epoch: 6, Task: 9, Avg train Loss: 1.6739
+Epoch: 7, Task: 9, Avg train Loss: 1.6218
+Epoch: 8, Task: 9, Avg train Loss: 1.6190
+Epoch: 9, Task: 9, Avg train Loss: 1.5780
+Epoch: 10, Task: 9, Avg train Loss: 1.5738
+Epoch: 11, Task: 9, Avg train Loss: 1.5184, Current Val Acc: 72.70, Accumulated Val Acc: 55.62
+Epoch: 12, Task: 9, Avg train Loss: 1.5027
+Epoch: 13, Task: 9, Avg train Loss: 1.4981
+Epoch: 14, Task: 9, Avg train Loss: 1.4750
+Epoch: 15, Task: 9, Avg train Loss: 1.4564
+Epoch: 16, Task: 9, Avg train Loss: 1.4010
+Epoch: 17, Task: 9, Avg train Loss: 1.4137, Current Val Acc: 79.10, Accumulated Val Acc: 59.96
+Epoch: 18, Task: 9, Avg train Loss: 1.3930
+Epoch: 19, Task: 9, Avg train Loss: 1.3941
+Epoch: 20, Task: 9, Avg train Loss: 1.4136
+Epoch: 21, Task: 9, Avg train Loss: 1.3964
+Epoch: 22, Task: 9, Avg train Loss: 1.3833
+Epoch: 23, Task: 9, Avg train Loss: 1.3748, Current Val Acc: 77.40, Accumulated Val Acc: 59.07
+Epoch: 24, Task: 9, Avg train Loss: 1.3868
+Epoch: 25, Task: 9, Avg train Loss: 1.3888
+Epoch: 26, Task: 9, Avg train Loss: 1.3685
+Epoch: 27, Task: 9, Avg train Loss: 1.3869
+Epoch: 28, Task: 9, Avg train Loss: 1.3704
+Epoch: 29, Task: 9, Avg train Loss: 1.3859, Current Val Acc: 77.60, Accumulated Val Acc: 59.28
+Node 0 Overall Accuracies:
+	 70.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 61.7%  64.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.9%  56.4%  70.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 60.3%  56.1%  62.3%  69.3%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 62.3%  55.2%  60.6%  60.0%  73.2%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 59.0%  48.0%  55.8%  56.4%  65.7%  72.2%   0.0%   0.0%   0.0%   0.0%
+	 63.2%  49.3%  58.5%  56.4%  62.9%  65.7%  73.0%   0.0%   0.0%   0.0%
+	 62.9%  47.1%  54.0%  49.9%  58.1%  60.1%  68.7%  69.4%   0.0%   0.0%
+	 60.6%  45.1%  49.5%  46.9%  56.5%  58.3%  60.2%  62.3%  73.5%   0.0%
+	 58.6%  46.5%  49.0%  55.8%  59.7%  57.1%  60.3%  62.2%  67.2%  79.2%
+Node 0 Final Avg Accuracy: 59.56%
+Node 0 Backward Transfer: -13.29%
+average accuracy:  59.56 average bwt:  -13.288888888888886
+
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'gpmflag': True, 'seed': 1234, 'local_epochs': 30, 'buffer_size': 6000, 'alpha': 1.0}

@@ -1,0 +1,16 @@
+{"time":"2025-03-18T17:09:47.038590225-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2025-03-18T17:09:47.038616966-05:00","level":"INFO","msg":"created symlink","path":"/home/dk32578/project/QGPM_baseline/wandb/run-20250318_170947-lzbkhk4c/logs/debug-core.log"}
+{"time":"2025-03-18T17:09:47.15151404-05:00","level":"INFO","msg":"created new stream","id":"lzbkhk4c"}
+{"time":"2025-03-18T17:09:47.151580062-05:00","level":"INFO","msg":"stream: started","id":"lzbkhk4c"}
+{"time":"2025-03-18T17:09:47.151772575-05:00","level":"INFO","msg":"sender: started","stream_id":"lzbkhk4c"}
+{"time":"2025-03-18T17:09:47.151652773-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"lzbkhk4c"}}
+{"time":"2025-03-18T17:09:47.151657343-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"lzbkhk4c"}}
+{"time":"2025-03-18T17:09:47.410042364-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-18T17:10:10.22198297-05:00","level":"INFO","msg":"stream: closing","id":"lzbkhk4c"}
+{"time":"2025-03-18T17:10:10.222021181-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-18T17:10:10.222688824-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-18T17:10:11.377085053-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-18T17:10:11.480063386-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"lzbkhk4c"}}
+{"time":"2025-03-18T17:10:11.480091987-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"lzbkhk4c"}}
+{"time":"2025-03-18T17:10:11.480103307-05:00","level":"INFO","msg":"sender: closed","stream_id":"lzbkhk4c"}
+{"time":"2025-03-18T17:10:11.480152568-05:00","level":"INFO","msg":"stream: closed","id":"lzbkhk4c"}

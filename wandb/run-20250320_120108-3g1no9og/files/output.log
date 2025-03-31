@@ -1,0 +1,40 @@
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'gpmflag': True, 'seed': 1234, 'local_epochs': 30, 'buffer_size': 1000, 'alpha': 1.0}
+Number of GPU available:  1
+Files already downloaded and verified
+Files already downloaded and verified
+Data partition_sizes among clients: [1.0]
+rank 0's total num of datasample in task0:  5056
+Epoch: 0, Task: 0, Avg train Loss: 2.0870
+Epoch: 1, Task: 0, Avg train Loss: 1.7792
+Epoch: 2, Task: 0, Avg train Loss: 1.6381
+Epoch: 3, Task: 0, Avg train Loss: 1.5590
+Epoch: 4, Task: 0, Avg train Loss: 1.4716
+Epoch: 5, Task: 0, Avg train Loss: 1.4316, Current Val Acc: 60.60, Accumulated Val Acc: 60.60
+Epoch: 6, Task: 0, Avg train Loss: 1.3896
+Epoch: 7, Task: 0, Avg train Loss: 1.3054
+Epoch: 8, Task: 0, Avg train Loss: 1.2847
+Epoch: 9, Task: 0, Avg train Loss: 1.2785
+Traceback (most recent call last):
+  File "fdr_single.py", line 961, in <module>
+    w, avg_loss = client.train_epoch()  # train on single epoch
+  File "fdr_single.py", line 814, in train_epoch
+    self.optimizer.zero_grad()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/_compile.py", line 24, in inner
+    return torch._dynamo.disable(fn, recursive)(*args, **kwargs)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/_dynamo/eval_frame.py", line 323, in _fn
+    backend_ctx = backend_ctx_ctor()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/contextlib.py", line 698, in __init__
+    self.enter_result = enter_result
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "fdr_single.py", line 961, in <module>
+    w, avg_loss = client.train_epoch()  # train on single epoch
+  File "fdr_single.py", line 814, in train_epoch
+    self.optimizer.zero_grad()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/_compile.py", line 24, in inner
+    return torch._dynamo.disable(fn, recursive)(*args, **kwargs)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/_dynamo/eval_frame.py", line 323, in _fn
+    backend_ctx = backend_ctx_ctor()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/contextlib.py", line 698, in __init__
+    self.enter_result = enter_result
+KeyboardInterrupt

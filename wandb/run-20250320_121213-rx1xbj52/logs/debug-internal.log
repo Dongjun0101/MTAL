@@ -1,0 +1,17 @@
+{"time":"2025-03-20T12:12:13.980774966-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2025-03-20T12:12:13.980793597-05:00","level":"INFO","msg":"created symlink","path":"/home/dk32578/project/QGPM_baseline/wandb/run-20250320_121213-rx1xbj52/logs/debug-core.log"}
+{"time":"2025-03-20T12:12:14.088047096-05:00","level":"INFO","msg":"created new stream","id":"rx1xbj52"}
+{"time":"2025-03-20T12:12:14.088089757-05:00","level":"INFO","msg":"stream: started","id":"rx1xbj52"}
+{"time":"2025-03-20T12:12:14.088139158-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"rx1xbj52"}}
+{"time":"2025-03-20T12:12:14.088615417-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"rx1xbj52"}}
+{"time":"2025-03-20T12:12:14.088648178-05:00","level":"INFO","msg":"sender: started","stream_id":"rx1xbj52"}
+{"time":"2025-03-20T12:12:14.27809459-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-20T12:33:23.170508312-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-20T12:33:23.171081634-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-20T12:33:23.590585484-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-20T12:33:23.678027909-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-03-20T12:33:24.688544024-05:00","level":"INFO","msg":"stream: closing","id":"rx1xbj52"}
+{"time":"2025-03-20T12:33:24.688561684-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"rx1xbj52"}}
+{"time":"2025-03-20T12:33:24.688579754-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"rx1xbj52"}}
+{"time":"2025-03-20T12:33:24.688645766-05:00","level":"INFO","msg":"sender: closed","stream_id":"rx1xbj52"}
+{"time":"2025-03-20T12:33:24.688652796-05:00","level":"INFO","msg":"stream: closed","id":"rx1xbj52"}

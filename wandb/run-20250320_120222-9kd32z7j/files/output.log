@@ -1,0 +1,123 @@
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'gpmflag': True, 'seed': 1234, 'local_epochs': 30, 'buffer_size': 1000, 'alpha': 1.0}
+Number of GPU available:  1
+Files already downloaded and verified
+Files already downloaded and verified
+Data partition_sizes among clients: [1.0]
+rank 0's total num of datasample in task0:  5056
+Epoch: 0, Task: 0, Avg train Loss: 2.0870
+Epoch: 1, Task: 0, Avg train Loss: 1.7792
+Epoch: 2, Task: 0, Avg train Loss: 1.6381
+Epoch: 3, Task: 0, Avg train Loss: 1.5590
+Epoch: 4, Task: 0, Avg train Loss: 1.4716
+Epoch: 5, Task: 0, Avg train Loss: 1.4316, Current Val Acc: 60.60, Accumulated Val Acc: 60.60
+Epoch: 6, Task: 0, Avg train Loss: 1.3896
+Epoch: 7, Task: 0, Avg train Loss: 1.3054
+Epoch: 8, Task: 0, Avg train Loss: 1.2847
+Epoch: 9, Task: 0, Avg train Loss: 1.2785
+Epoch: 10, Task: 0, Avg train Loss: 1.2541
+Epoch: 11, Task: 0, Avg train Loss: 1.2189, Current Val Acc: 65.60, Accumulated Val Acc: 65.60
+Epoch: 12, Task: 0, Avg train Loss: 1.1874
+Epoch: 13, Task: 0, Avg train Loss: 1.1774
+Epoch: 14, Task: 0, Avg train Loss: 1.1788
+Epoch: 15, Task: 0, Avg train Loss: 1.1343
+Epoch: 16, Task: 0, Avg train Loss: 1.0674
+Epoch: 17, Task: 0, Avg train Loss: 1.0620, Current Val Acc: 68.50, Accumulated Val Acc: 68.50
+Epoch: 18, Task: 0, Avg train Loss: 1.0878
+Epoch: 19, Task: 0, Avg train Loss: 1.0628
+Epoch: 20, Task: 0, Avg train Loss: 1.0299
+Epoch: 21, Task: 0, Avg train Loss: 1.0409
+Epoch: 22, Task: 0, Avg train Loss: 1.0364
+Epoch: 23, Task: 0, Avg train Loss: 1.0257, Current Val Acc: 71.70, Accumulated Val Acc: 71.70
+Epoch: 24, Task: 0, Avg train Loss: 1.0464
+Epoch: 25, Task: 0, Avg train Loss: 1.0406
+Epoch: 26, Task: 0, Avg train Loss: 1.0515
+Epoch: 27, Task: 0, Avg train Loss: 1.0348
+Epoch: 28, Task: 0, Avg train Loss: 1.0334
+Epoch: 29, Task: 0, Avg train Loss: 1.0259, Current Val Acc: 71.80, Accumulated Val Acc: 71.80
+Node 0 Overall Accuracies:
+	 70.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 1, Avg train Loss: 2.6978
+Epoch: 1, Task: 1, Avg train Loss: 2.4038
+Epoch: 2, Task: 1, Avg train Loss: 2.3303
+Epoch: 3, Task: 1, Avg train Loss: 2.2605
+Epoch: 4, Task: 1, Avg train Loss: 2.2001
+Epoch: 5, Task: 1, Avg train Loss: 2.1945, Current Val Acc: 52.40, Accumulated Val Acc: 54.25
+Epoch: 6, Task: 1, Avg train Loss: 2.1662
+Epoch: 7, Task: 1, Avg train Loss: 2.1174
+Epoch: 8, Task: 1, Avg train Loss: 2.0866
+Epoch: 9, Task: 1, Avg train Loss: 2.0629
+Epoch: 10, Task: 1, Avg train Loss: 2.0254
+Epoch: 11, Task: 1, Avg train Loss: 2.0048, Current Val Acc: 57.70, Accumulated Val Acc: 56.35
+Epoch: 12, Task: 1, Avg train Loss: 1.9875
+Epoch: 13, Task: 1, Avg train Loss: 1.9711
+Epoch: 14, Task: 1, Avg train Loss: 1.9499
+Epoch: 15, Task: 1, Avg train Loss: 1.8809
+Epoch: 16, Task: 1, Avg train Loss: 1.8466
+Epoch: 17, Task: 1, Avg train Loss: 1.8377, Current Val Acc: 65.80, Accumulated Val Acc: 63.20
+Epoch: 18, Task: 1, Avg train Loss: 1.8424
+Epoch: 19, Task: 1, Avg train Loss: 1.8269
+Epoch: 20, Task: 1, Avg train Loss: 1.8428
+Epoch: 21, Task: 1, Avg train Loss: 1.8259
+Epoch: 22, Task: 1, Avg train Loss: 1.8242
+Epoch: 23, Task: 1, Avg train Loss: 1.8067, Current Val Acc: 63.40, Accumulated Val Acc: 61.65
+Epoch: 24, Task: 1, Avg train Loss: 1.8339
+Epoch: 25, Task: 1, Avg train Loss: 1.8243
+Epoch: 26, Task: 1, Avg train Loss: 1.8288
+Epoch: 27, Task: 1, Avg train Loss: 1.8041
+Epoch: 28, Task: 1, Avg train Loss: 1.7954
+Epoch: 29, Task: 1, Avg train Loss: 1.7991, Current Val Acc: 64.40, Accumulated Val Acc: 63.20
+Node 0 Overall Accuracies:
+	 70.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 61.3%  64.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 2, Avg train Loss: 2.5301
+Epoch: 1, Task: 2, Avg train Loss: 2.2354
+Epoch: 2, Task: 2, Avg train Loss: 2.1498
+Epoch: 3, Task: 2, Avg train Loss: 2.0706
+Epoch: 4, Task: 2, Avg train Loss: 2.0163
+Epoch: 5, Task: 2, Avg train Loss: 1.9876, Current Val Acc: 54.30, Accumulated Val Acc: 56.53
+Epoch: 6, Task: 2, Avg train Loss: 1.9355
+Epoch: 7, Task: 2, Avg train Loss: 1.8752
+Epoch: 8, Task: 2, Avg train Loss: 1.8550
+Epoch: 9, Task: 2, Avg train Loss: 1.8403
+Epoch: 10, Task: 2, Avg train Loss: 1.8265
+Epoch: 11, Task: 2, Avg train Loss: 1.7642, Current Val Acc: 62.10, Accumulated Val Acc: 58.87
+Epoch: 12, Task: 2, Avg train Loss: 1.7456
+Epoch: 13, Task: 2, Avg train Loss: 1.7131
+Epoch: 14, Task: 2, Avg train Loss: 1.6980
+Epoch: 15, Task: 2, Avg train Loss: 1.7417
+Traceback (most recent call last):
+  File "fdr_single.py", line 961, in <module>
+    w, avg_loss = client.train_epoch()  # train on single epoch
+  File "fdr_single.py", line 785, in train_epoch
+    for batch_idx, (input, target) in enumerate(self.train_loaders_list[self.task_id]): # For every mini-batch
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1345, in _next_data
+    return self._process_data(data)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1369, in _process_data
+    self._try_put_index()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1351, in _try_put_index
+    index = self._next_index()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 620, in _next_index
+    return next(self._sampler_iter)  # may raise StopIteration
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/sampler.py", line 282, in __iter__
+    for idx in self.sampler:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "fdr_single.py", line 961, in <module>
+    w, avg_loss = client.train_epoch()  # train on single epoch
+  File "fdr_single.py", line 785, in train_epoch
+    for batch_idx, (input, target) in enumerate(self.train_loaders_list[self.task_id]): # For every mini-batch
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1345, in _next_data
+    return self._process_data(data)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1369, in _process_data
+    self._try_put_index()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1351, in _try_put_index
+    index = self._next_index()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 620, in _next_index
+    return next(self._sampler_iter)  # may raise StopIteration
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/sampler.py", line 282, in __iter__
+    for idx in self.sampler:
+KeyboardInterrupt

@@ -1,0 +1,35 @@
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'gpmflag': True, 'seed': 1234, 'local_epochs': 5, 'buffer_size': 1000, 'alpha': 1.0}
+Number of GPU available:  1
+Files already downloaded and verified
+Files already downloaded and verified
+Data partition_sizes among clients: [1.0]
+rank 0's total num of datasample in task0:  5056
+Epoch: 0, Task: 0, Avg train Loss: 2.0870, Current Val Acc: 43.50, Accumulated Val Acc: 43.50
+Epoch: 1, Task: 0, Avg train Loss: 1.7855, Current Val Acc: 50.80, Accumulated Val Acc: 50.80
+Epoch: 2, Task: 0, Avg train Loss: 1.6762, Current Val Acc: 53.20, Accumulated Val Acc: 53.20
+Epoch: 3, Task: 0, Avg train Loss: 1.6537, Current Val Acc: 53.50, Accumulated Val Acc: 53.50
+Epoch: 4, Task: 0, Avg train Loss: 1.6435, Current Val Acc: 53.30, Accumulated Val Acc: 53.30
+Node 0 Overall Accuracies:
+	 53.7%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 1, Avg train Loss: 2.6628, Current Val Acc: 39.80, Accumulated Val Acc: 45.10
+Epoch: 1, Task: 1, Avg train Loss: 2.4325, Current Val Acc: 44.60, Accumulated Val Acc: 46.95
+Traceback (most recent call last):
+  File "fdr_single.py", line 961, in <module>
+    w, avg_loss = client.train_epoch()  # train on single epoch
+  File "fdr_single.py", line 815, in train_epoch
+    loss_total.backward()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "fdr_single.py", line 961, in <module>
+    w, avg_loss = client.train_epoch()  # train on single epoch
+  File "fdr_single.py", line 815, in train_epoch
+    loss_total.backward()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

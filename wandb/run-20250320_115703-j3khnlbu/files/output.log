@@ -1,0 +1,31 @@
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'gpmflag': True, 'seed': 1234, 'local_epochs': 5, 'buffer_size': 1000, 'alpha': 1.0}
+Number of GPU available:  1
+Files already downloaded and verified
+Files already downloaded and verified
+Data partition_sizes among clients: [1.0]
+rank 0's total num of datasample in task0:  5056
+/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:136: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+Epoch: 0, Task: 0, Avg train Loss: 2.4367, Current Val Acc: 8.50, Accumulated Val Acc: 8.50
+Epoch: 1, Task: 0, Avg train Loss: 2.4471, Current Val Acc: 7.70, Accumulated Val Acc: 7.70
+Epoch: 2, Task: 0, Avg train Loss: 2.4483, Current Val Acc: 8.40, Accumulated Val Acc: 8.40
+Epoch: 3, Task: 0, Avg train Loss: 2.4328, Current Val Acc: 8.50, Accumulated Val Acc: 8.50
+Epoch: 4, Task: 0, Avg train Loss: 2.4460, Current Val Acc: 7.90, Accumulated Val Acc: 7.90
+Node 0 Overall Accuracies:
+	  8.4%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+Traceback (most recent call last):
+  File "fdr_single.py", line 954, in <module>
+    w, avg_loss = client.train_epoch()  # train on single epoch
+  File "fdr_single.py", line 800, in train_epoch
+    buf_inputs, buf_labels, buf_logits, buf_task_labels = self.buffer.get_data(...)
+  File "fdr_single.py", line 690, in get_data
+    size = min(size, current_buffer_len)
+TypeError: '<' not supported between instances of 'int' and 'ellipsis'
+Traceback (most recent call last):
+  File "fdr_single.py", line 954, in <module>
+    w, avg_loss = client.train_epoch()  # train on single epoch
+  File "fdr_single.py", line 800, in train_epoch
+    buf_inputs, buf_labels, buf_logits, buf_task_labels = self.buffer.get_data(...)
+  File "fdr_single.py", line 690, in get_data
+    size = min(size, current_buffer_len)
+TypeError: '<' not supported between instances of 'int' and 'ellipsis'

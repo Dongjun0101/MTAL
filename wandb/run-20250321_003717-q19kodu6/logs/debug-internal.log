@@ -1,0 +1,8 @@
+{"time":"2025-03-21T00:37:17.092917118-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2025-03-21T00:37:17.092939999-05:00","level":"INFO","msg":"created symlink","path":"/home/dk32578/project/QGPM_baseline/wandb/run-20250321_003717-q19kodu6/logs/debug-core.log"}
+{"time":"2025-03-21T00:37:17.204911857-05:00","level":"INFO","msg":"created new stream","id":"q19kodu6"}
+{"time":"2025-03-21T00:37:17.204977008-05:00","level":"INFO","msg":"stream: started","id":"q19kodu6"}
+{"time":"2025-03-21T00:37:17.205006738-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"q19kodu6"}}
+{"time":"2025-03-21T00:37:17.205045049-05:00","level":"INFO","msg":"sender: started","stream_id":"q19kodu6"}
+{"time":"2025-03-21T00:37:17.205034899-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"q19kodu6"}}
+{"time":"2025-03-21T00:37:17.416455621-05:00","level":"INFO","msg":"Starting system monitor"}

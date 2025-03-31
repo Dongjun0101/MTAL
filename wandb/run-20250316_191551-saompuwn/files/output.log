@@ -1,0 +1,593 @@
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'local_epochs': 30, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'baseline': 'gpm', 'seed': 1, 'threshold': 0.9, 'sample_number': 500}
+Random seed set to: 1
+Number of GPU available:  1
+Files already downloaded and verified
+Files already downloaded and verified
+Data partition_sizes among clients: [1.0]
+----------------------------------------
+Epoch: 0, Task: 0, Avg train Loss: 2.0814
+Epoch: 1, Task: 0, Avg train Loss: 1.7815
+Epoch: 2, Task: 0, Avg train Loss: 1.6517
+Epoch: 3, Task: 0, Avg train Loss: 1.5388
+Epoch: 4, Task: 0, Avg train Loss: 1.4743
+Epoch: 5, Task: 0, Avg train Loss: 1.4251, Current Val Acc: 60.70, Accumulated Val Acc: 60.70
+Epoch: 6, Task: 0, Avg train Loss: 1.3581
+Epoch: 7, Task: 0, Avg train Loss: 1.3074
+Epoch: 8, Task: 0, Avg train Loss: 1.2892
+Epoch: 9, Task: 0, Avg train Loss: 1.2455
+Epoch: 10, Task: 0, Avg train Loss: 1.2288
+Epoch: 11, Task: 0, Avg train Loss: 1.1885, Current Val Acc: 61.90, Accumulated Val Acc: 61.90
+Epoch: 12, Task: 0, Avg train Loss: 1.1730
+Epoch: 13, Task: 0, Avg train Loss: 1.1501
+Epoch: 14, Task: 0, Avg train Loss: 1.1456
+Epoch: 15, Task: 0, Avg train Loss: 1.1201
+Epoch: 16, Task: 0, Avg train Loss: 1.0909
+Epoch: 17, Task: 0, Avg train Loss: 1.0478, Current Val Acc: 69.20, Accumulated Val Acc: 69.20
+Epoch: 18, Task: 0, Avg train Loss: 1.0479
+Epoch: 19, Task: 0, Avg train Loss: 1.0320
+Epoch: 20, Task: 0, Avg train Loss: 1.0463
+Epoch: 21, Task: 0, Avg train Loss: 1.0389
+Epoch: 22, Task: 0, Avg train Loss: 1.0100
+Epoch: 23, Task: 0, Avg train Loss: 1.0213, Current Val Acc: 70.50, Accumulated Val Acc: 70.50
+Epoch: 24, Task: 0, Avg train Loss: 1.0086
+Epoch: 25, Task: 0, Avg train Loss: 1.0014
+Epoch: 26, Task: 0, Avg train Loss: 1.0122
+Epoch: 27, Task: 0, Avg train Loss: 1.0166
+Epoch: 28, Task: 0, Avg train Loss: 1.0297
+Epoch: 29, Task: 0, Avg train Loss: 1.0165, Current Val Acc: 70.50, Accumulated Val Acc: 70.50
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (48, 48)
+Layer 2 : (576, 576)
+Layer 3 : (512, 512)
+Layer 4 : (1024, 125)
+Layer 5 : (2048, 125)
+------------------------------
+Threshold of GPM:  [0.9 0.9 0.9 0.9 0.9]
+Number of Added Components:  [3, 29, 33, 31, 56]
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 3/48
+Layer 2 : 29/576
+Layer 3 : 33/512
+Layer 4 : 31/1024
+Layer 5 : 56/2048
+----------------------------------------
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+----------------------------------------
+Epoch: 0, Task: 1, Avg train Loss: 2.0368
+Epoch: 1, Task: 1, Avg train Loss: 1.7185
+Epoch: 2, Task: 1, Avg train Loss: 1.6088
+Epoch: 3, Task: 1, Avg train Loss: 1.5519
+Epoch: 4, Task: 1, Avg train Loss: 1.5032
+Epoch: 5, Task: 1, Avg train Loss: 1.4567, Current Val Acc: 58.80, Accumulated Val Acc: 63.70
+Epoch: 6, Task: 1, Avg train Loss: 1.4120
+Epoch: 7, Task: 1, Avg train Loss: 1.3770
+Epoch: 8, Task: 1, Avg train Loss: 1.3565
+Epoch: 9, Task: 1, Avg train Loss: 1.3384
+Epoch: 10, Task: 1, Avg train Loss: 1.3227
+Epoch: 11, Task: 1, Avg train Loss: 1.2937, Current Val Acc: 63.10, Accumulated Val Acc: 65.95
+Epoch: 12, Task: 1, Avg train Loss: 1.2726
+Epoch: 13, Task: 1, Avg train Loss: 1.2668
+Epoch: 14, Task: 1, Avg train Loss: 1.2436
+Epoch: 15, Task: 1, Avg train Loss: 1.2285
+Epoch: 16, Task: 1, Avg train Loss: 1.2068
+Epoch: 17, Task: 1, Avg train Loss: 1.2037, Current Val Acc: 64.40, Accumulated Val Acc: 66.35
+Epoch: 18, Task: 1, Avg train Loss: 1.2212
+Epoch: 19, Task: 1, Avg train Loss: 1.1999
+Epoch: 20, Task: 1, Avg train Loss: 1.2198
+Epoch: 21, Task: 1, Avg train Loss: 1.2146
+Epoch: 22, Task: 1, Avg train Loss: 1.2120
+Epoch: 23, Task: 1, Avg train Loss: 1.2281, Current Val Acc: 65.10, Accumulated Val Acc: 67.05
+Epoch: 24, Task: 1, Avg train Loss: 1.1844
+Epoch: 25, Task: 1, Avg train Loss: 1.1932
+Epoch: 26, Task: 1, Avg train Loss: 1.2076
+Epoch: 27, Task: 1, Avg train Loss: 1.2052
+Epoch: 28, Task: 1, Avg train Loss: 1.1775
+Epoch: 29, Task: 1, Avg train Loss: 1.1836, Current Val Acc: 65.00, Accumulated Val Acc: 66.50
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (48, 48)
+Layer 2 : (576, 576)
+Layer 3 : (512, 512)
+Layer 4 : (1024, 125)
+Layer 5 : (2048, 125)
+------------------------------
+Threshold of GPM:  [0.901 0.901 0.901 0.901 0.901]
+Number of Added Components:  [2, 15, 20, 28, 55]
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 5/48
+Layer 2 : 44/576
+Layer 3 : 53/512
+Layer 4 : 59/1024
+Layer 5 : 111/2048
+----------------------------------------
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.5%  64.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+----------------------------------------
+Epoch: 0, Task: 2, Avg train Loss: 1.9226
+Epoch: 1, Task: 2, Avg train Loss: 1.5623
+Epoch: 2, Task: 2, Avg train Loss: 1.4576
+Epoch: 3, Task: 2, Avg train Loss: 1.3970
+Epoch: 4, Task: 2, Avg train Loss: 1.3396
+Epoch: 5, Task: 2, Avg train Loss: 1.3120, Current Val Acc: 62.70, Accumulated Val Acc: 64.23
+Epoch: 6, Task: 2, Avg train Loss: 1.2735
+Epoch: 7, Task: 2, Avg train Loss: 1.2581
+Epoch: 8, Task: 2, Avg train Loss: 1.2312
+Epoch: 9, Task: 2, Avg train Loss: 1.2073
+Epoch: 10, Task: 2, Avg train Loss: 1.1889
+Epoch: 11, Task: 2, Avg train Loss: 1.1830, Current Val Acc: 67.20, Accumulated Val Acc: 66.20
+Epoch: 12, Task: 2, Avg train Loss: 1.1646
+Epoch: 13, Task: 2, Avg train Loss: 1.1467
+Epoch: 14, Task: 2, Avg train Loss: 1.1032
+Epoch: 15, Task: 2, Avg train Loss: 1.0994
+Epoch: 16, Task: 2, Avg train Loss: 1.0818
+Epoch: 17, Task: 2, Avg train Loss: 1.0914, Current Val Acc: 69.80, Accumulated Val Acc: 66.93
+Epoch: 18, Task: 2, Avg train Loss: 1.0866
+Epoch: 19, Task: 2, Avg train Loss: 1.0679
+Epoch: 20, Task: 2, Avg train Loss: 1.0920
+Epoch: 21, Task: 2, Avg train Loss: 1.0755
+Epoch: 22, Task: 2, Avg train Loss: 1.0821
+Epoch: 23, Task: 2, Avg train Loss: 1.0591, Current Val Acc: 69.30, Accumulated Val Acc: 67.10
+Epoch: 24, Task: 2, Avg train Loss: 1.0714
+Epoch: 25, Task: 2, Avg train Loss: 1.0921
+Epoch: 26, Task: 2, Avg train Loss: 1.0784
+Epoch: 27, Task: 2, Avg train Loss: 1.0570
+Epoch: 28, Task: 2, Avg train Loss: 1.0700
+Epoch: 29, Task: 2, Avg train Loss: 1.0822, Current Val Acc: 69.80, Accumulated Val Acc: 67.37
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (48, 48)
+Layer 2 : (576, 576)
+Layer 3 : (512, 512)
+Layer 4 : (1024, 125)
+Layer 5 : (2048, 125)
+------------------------------
+Threshold of GPM:  [0.902 0.902 0.902 0.902 0.902]
+Number of Added Components:  [1, 6, 10, 21, 49]
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 6/48
+Layer 2 : 50/576
+Layer 3 : 63/512
+Layer 4 : 80/1024
+Layer 5 : 160/2048
+----------------------------------------
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.5%  64.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.3%  63.2%  69.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+----------------------------------------
+Epoch: 0, Task: 3, Avg train Loss: 1.9396
+Epoch: 1, Task: 3, Avg train Loss: 1.6084
+Epoch: 2, Task: 3, Avg train Loss: 1.5088
+Epoch: 3, Task: 3, Avg train Loss: 1.4466
+Epoch: 4, Task: 3, Avg train Loss: 1.4047
+Epoch: 5, Task: 3, Avg train Loss: 1.3776, Current Val Acc: 58.10, Accumulated Val Acc: 64.03
+Epoch: 6, Task: 3, Avg train Loss: 1.3449
+Epoch: 7, Task: 3, Avg train Loss: 1.2955
+Epoch: 8, Task: 3, Avg train Loss: 1.3020
+Epoch: 9, Task: 3, Avg train Loss: 1.2878
+Epoch: 10, Task: 3, Avg train Loss: 1.2634
+Epoch: 11, Task: 3, Avg train Loss: 1.2501, Current Val Acc: 63.60, Accumulated Val Acc: 65.65
+Epoch: 12, Task: 3, Avg train Loss: 1.2593
+Epoch: 13, Task: 3, Avg train Loss: 1.2151
+Epoch: 14, Task: 3, Avg train Loss: 1.2075
+Epoch: 15, Task: 3, Avg train Loss: 1.1941
+Epoch: 16, Task: 3, Avg train Loss: 1.1765
+Epoch: 17, Task: 3, Avg train Loss: 1.2032, Current Val Acc: 65.30, Accumulated Val Acc: 66.17
+Epoch: 18, Task: 3, Avg train Loss: 1.1876
+Epoch: 19, Task: 3, Avg train Loss: 1.1641
+Epoch: 20, Task: 3, Avg train Loss: 1.1737
+Epoch: 21, Task: 3, Avg train Loss: 1.1722
+Epoch: 22, Task: 3, Avg train Loss: 1.1762
+Epoch: 23, Task: 3, Avg train Loss: 1.1693, Current Val Acc: 66.20, Accumulated Val Acc: 65.95
+Epoch: 24, Task: 3, Avg train Loss: 1.1739
+Epoch: 25, Task: 3, Avg train Loss: 1.1675
+Epoch: 26, Task: 3, Avg train Loss: 1.1580
+Epoch: 27, Task: 3, Avg train Loss: 1.1681
+Epoch: 28, Task: 3, Avg train Loss: 1.1612
+Epoch: 29, Task: 3, Avg train Loss: 1.1606, Current Val Acc: 64.70, Accumulated Val Acc: 65.88
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (48, 48)
+Layer 2 : (576, 576)
+Layer 3 : (512, 512)
+Layer 4 : (1024, 125)
+Layer 5 : (2048, 125)
+------------------------------
+Threshold of GPM:  [0.903 0.903 0.903 0.903 0.903]
+Skip Updating GPM for layer: 1
+Number of Added Components:  [0, 5, 10, 19, 47]
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 6/48
+Layer 2 : 55/576
+Layer 3 : 73/512
+Layer 4 : 99/1024
+Layer 5 : 207/2048
+----------------------------------------
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.5%  64.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.3%  63.2%  69.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.8%  63.6%  67.4%  65.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+----------------------------------------
+Epoch: 0, Task: 4, Avg train Loss: 1.7995
+Epoch: 1, Task: 4, Avg train Loss: 1.3868
+Epoch: 2, Task: 4, Avg train Loss: 1.2907
+Epoch: 3, Task: 4, Avg train Loss: 1.2076
+Epoch: 4, Task: 4, Avg train Loss: 1.1746
+Epoch: 5, Task: 4, Avg train Loss: 1.1439, Current Val Acc: 66.10, Accumulated Val Acc: 65.54
+Epoch: 6, Task: 4, Avg train Loss: 1.1162
+Epoch: 7, Task: 4, Avg train Loss: 1.1088
+Epoch: 8, Task: 4, Avg train Loss: 1.0757
+Epoch: 9, Task: 4, Avg train Loss: 1.0621
+Epoch: 10, Task: 4, Avg train Loss: 1.0468
+Epoch: 11, Task: 4, Avg train Loss: 1.0386, Current Val Acc: 70.40, Accumulated Val Acc: 65.98
+Epoch: 12, Task: 4, Avg train Loss: 1.0003
+Epoch: 13, Task: 4, Avg train Loss: 1.0114
+Epoch: 14, Task: 4, Avg train Loss: 0.9929
+Epoch: 15, Task: 4, Avg train Loss: 0.9797
+Epoch: 16, Task: 4, Avg train Loss: 0.9708
+Epoch: 17, Task: 4, Avg train Loss: 0.9755, Current Val Acc: 71.80, Accumulated Val Acc: 66.40
+Epoch: 18, Task: 4, Avg train Loss: 0.9855
+Epoch: 19, Task: 4, Avg train Loss: 0.9445
+Epoch: 20, Task: 4, Avg train Loss: 0.9491
+Epoch: 21, Task: 4, Avg train Loss: 0.9487
+Epoch: 22, Task: 4, Avg train Loss: 0.9639
+Epoch: 23, Task: 4, Avg train Loss: 0.9620, Current Val Acc: 72.60, Accumulated Val Acc: 66.44
+Epoch: 24, Task: 4, Avg train Loss: 0.9532
+Epoch: 25, Task: 4, Avg train Loss: 0.9586
+Epoch: 26, Task: 4, Avg train Loss: 0.9582
+Epoch: 27, Task: 4, Avg train Loss: 0.9633
+Epoch: 28, Task: 4, Avg train Loss: 0.9609
+Epoch: 29, Task: 4, Avg train Loss: 0.9565, Current Val Acc: 72.10, Accumulated Val Acc: 66.82
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (48, 48)
+Layer 2 : (576, 576)
+Layer 3 : (512, 512)
+Layer 4 : (1024, 125)
+Layer 5 : (2048, 125)
+------------------------------
+Threshold of GPM:  [0.904 0.904 0.904 0.904 0.904]
+Skip Updating GPM for layer: 1
+Number of Added Components:  [0, 4, 6, 16, 42]
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 6/48
+Layer 2 : 59/576
+Layer 3 : 79/512
+Layer 4 : 115/1024
+Layer 5 : 249/2048
+----------------------------------------
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.5%  64.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.3%  63.2%  69.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.8%  63.6%  67.4%  65.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 66.9%  62.0%  67.3%  65.5%  71.9%   0.0%   0.0%   0.0%   0.0%   0.0%
+----------------------------------------
+Epoch: 0, Task: 5, Avg train Loss: 1.7323
+Epoch: 1, Task: 5, Avg train Loss: 1.3605
+Epoch: 2, Task: 5, Avg train Loss: 1.2737
+Epoch: 3, Task: 5, Avg train Loss: 1.2056
+Epoch: 4, Task: 5, Avg train Loss: 1.1562
+Epoch: 5, Task: 5, Avg train Loss: 1.1283, Current Val Acc: 65.90, Accumulated Val Acc: 65.37
+Epoch: 6, Task: 5, Avg train Loss: 1.1160
+Epoch: 7, Task: 5, Avg train Loss: 1.0948
+Epoch: 8, Task: 5, Avg train Loss: 1.0858
+Epoch: 9, Task: 5, Avg train Loss: 1.0695
+Epoch: 10, Task: 5, Avg train Loss: 1.0452
+Epoch: 11, Task: 5, Avg train Loss: 1.0248, Current Val Acc: 68.40, Accumulated Val Acc: 65.93
+Epoch: 12, Task: 5, Avg train Loss: 1.0185
+Epoch: 13, Task: 5, Avg train Loss: 0.9926
+Epoch: 14, Task: 5, Avg train Loss: 1.0151
+Epoch: 15, Task: 5, Avg train Loss: 0.9876
+Epoch: 16, Task: 5, Avg train Loss: 0.9866
+Epoch: 17, Task: 5, Avg train Loss: 0.9724, Current Val Acc: 71.00, Accumulated Val Acc: 65.30
+Epoch: 18, Task: 5, Avg train Loss: 0.9802
+Epoch: 19, Task: 5, Avg train Loss: 0.9663
+Epoch: 20, Task: 5, Avg train Loss: 0.9795
+Epoch: 21, Task: 5, Avg train Loss: 0.9725
+Epoch: 22, Task: 5, Avg train Loss: 0.9667
+Epoch: 23, Task: 5, Avg train Loss: 0.9594, Current Val Acc: 70.60, Accumulated Val Acc: 65.63
+Epoch: 24, Task: 5, Avg train Loss: 0.9674
+Epoch: 25, Task: 5, Avg train Loss: 0.9679
+Epoch: 26, Task: 5, Avg train Loss: 0.9551
+Epoch: 27, Task: 5, Avg train Loss: 0.9611
+Epoch: 28, Task: 5, Avg train Loss: 0.9576
+Epoch: 29, Task: 5, Avg train Loss: 0.9487, Current Val Acc: 69.50, Accumulated Val Acc: 65.75
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (48, 48)
+Layer 2 : (576, 576)
+Layer 3 : (512, 512)
+Layer 4 : (1024, 125)
+Layer 5 : (2048, 125)
+------------------------------
+Threshold of GPM:  [0.905 0.905 0.905 0.905 0.905]
+Skip Updating GPM for layer: 1
+Number of Added Components:  [0, 3, 7, 15, 39]
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 6/48
+Layer 2 : 62/576
+Layer 3 : 86/512
+Layer 4 : 130/1024
+Layer 5 : 288/2048
+----------------------------------------
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.5%  64.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.3%  63.2%  69.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.8%  63.6%  67.4%  65.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 66.9%  62.0%  67.3%  65.5%  71.9%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 66.7%  58.6%  65.5%  64.2%  70.1%  70.5%   0.0%   0.0%   0.0%   0.0%
+----------------------------------------
+Epoch: 0, Task: 6, Avg train Loss: 1.7082
+Epoch: 1, Task: 6, Avg train Loss: 1.3149
+Epoch: 2, Task: 6, Avg train Loss: 1.2151
+Epoch: 3, Task: 6, Avg train Loss: 1.1750
+Epoch: 4, Task: 6, Avg train Loss: 1.1270
+Epoch: 5, Task: 6, Avg train Loss: 1.1007, Current Val Acc: 68.70, Accumulated Val Acc: 66.20
+Epoch: 6, Task: 6, Avg train Loss: 1.0771
+Epoch: 7, Task: 6, Avg train Loss: 1.0635
+Epoch: 8, Task: 6, Avg train Loss: 1.0284
+Epoch: 9, Task: 6, Avg train Loss: 1.0262
+Epoch: 10, Task: 6, Avg train Loss: 1.0093
+Epoch: 11, Task: 6, Avg train Loss: 1.0114, Current Val Acc: 69.10, Accumulated Val Acc: 66.04
+Epoch: 12, Task: 6, Avg train Loss: 0.9688
+Epoch: 13, Task: 6, Avg train Loss: 0.9648
+Epoch: 14, Task: 6, Avg train Loss: 0.9403
+Epoch: 15, Task: 6, Avg train Loss: 0.9542
+Epoch: 16, Task: 6, Avg train Loss: 0.9205
+Epoch: 17, Task: 6, Avg train Loss: 0.9336, Current Val Acc: 70.40, Accumulated Val Acc: 66.07
+Epoch: 18, Task: 6, Avg train Loss: 0.9466
+Epoch: 19, Task: 6, Avg train Loss: 0.9197
+Epoch: 20, Task: 6, Avg train Loss: 0.9368
+Epoch: 21, Task: 6, Avg train Loss: 0.9359
+Epoch: 22, Task: 6, Avg train Loss: 0.9148
+Epoch: 23, Task: 6, Avg train Loss: 0.9273, Current Val Acc: 70.90, Accumulated Val Acc: 66.47
+Epoch: 24, Task: 6, Avg train Loss: 0.9298
+Epoch: 25, Task: 6, Avg train Loss: 0.9139
+Epoch: 26, Task: 6, Avg train Loss: 0.9494
+Epoch: 27, Task: 6, Avg train Loss: 0.9267
+Epoch: 28, Task: 6, Avg train Loss: 0.9268
+Epoch: 29, Task: 6, Avg train Loss: 0.9264, Current Val Acc: 72.30, Accumulated Val Acc: 66.29
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (48, 48)
+Layer 2 : (576, 576)
+Layer 3 : (512, 512)
+Layer 4 : (1024, 125)
+Layer 5 : (2048, 125)
+------------------------------
+Threshold of GPM:  [0.906 0.906 0.906 0.906 0.906]
+Skip Updating GPM for layer: 1
+Number of Added Components:  [0, 2, 8, 15, 39]
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 6/48
+Layer 2 : 64/576
+Layer 3 : 94/512
+Layer 4 : 145/1024
+Layer 5 : 327/2048
+----------------------------------------
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.5%  64.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.3%  63.2%  69.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.8%  63.6%  67.4%  65.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 66.9%  62.0%  67.3%  65.5%  71.9%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 66.7%  58.6%  65.5%  64.2%  70.1%  70.5%   0.0%   0.0%   0.0%   0.0%
+	 65.8%  59.0%  65.6%  64.3%  69.7%  70.2%  71.4%   0.0%   0.0%   0.0%
+----------------------------------------
+Epoch: 0, Task: 7, Avg train Loss: 1.6977
+Epoch: 1, Task: 7, Avg train Loss: 1.3387
+Epoch: 2, Task: 7, Avg train Loss: 1.2578
+Epoch: 3, Task: 7, Avg train Loss: 1.2171
+Epoch: 4, Task: 7, Avg train Loss: 1.1779
+Epoch: 5, Task: 7, Avg train Loss: 1.1387, Current Val Acc: 63.30, Accumulated Val Acc: 64.98
+Epoch: 6, Task: 7, Avg train Loss: 1.1273
+Epoch: 7, Task: 7, Avg train Loss: 1.1169
+Epoch: 8, Task: 7, Avg train Loss: 1.1196
+Epoch: 9, Task: 7, Avg train Loss: 1.0899
+Epoch: 10, Task: 7, Avg train Loss: 1.0947
+Epoch: 11, Task: 7, Avg train Loss: 1.0604, Current Val Acc: 68.80, Accumulated Val Acc: 65.88
+Epoch: 12, Task: 7, Avg train Loss: 1.0662
+Epoch: 13, Task: 7, Avg train Loss: 1.0408
+Epoch: 14, Task: 7, Avg train Loss: 1.0498
+Epoch: 15, Task: 7, Avg train Loss: 1.0268
+Epoch: 16, Task: 7, Avg train Loss: 1.0112
+Epoch: 17, Task: 7, Avg train Loss: 1.0403, Current Val Acc: 70.50, Accumulated Val Acc: 66.39
+Epoch: 18, Task: 7, Avg train Loss: 0.9989
+Epoch: 19, Task: 7, Avg train Loss: 1.0153
+Epoch: 20, Task: 7, Avg train Loss: 1.0235
+Epoch: 21, Task: 7, Avg train Loss: 1.0121
+Epoch: 22, Task: 7, Avg train Loss: 0.9979
+Epoch: 23, Task: 7, Avg train Loss: 1.0201, Current Val Acc: 69.30, Accumulated Val Acc: 66.05
+Epoch: 24, Task: 7, Avg train Loss: 1.0066
+Epoch: 25, Task: 7, Avg train Loss: 1.0096
+Epoch: 26, Task: 7, Avg train Loss: 1.0044
+Epoch: 27, Task: 7, Avg train Loss: 1.0026
+Epoch: 28, Task: 7, Avg train Loss: 1.0031
+Epoch: 29, Task: 7, Avg train Loss: 1.0153, Current Val Acc: 68.80, Accumulated Val Acc: 65.71
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (48, 48)
+Layer 2 : (576, 576)
+Layer 3 : (512, 512)
+Layer 4 : (1024, 125)
+Layer 5 : (2048, 125)
+------------------------------
+Threshold of GPM:  [0.907 0.907 0.907 0.907 0.907]
+Skip Updating GPM for layer: 1
+Number of Added Components:  [0, 3, 4, 12, 35]
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 6/48
+Layer 2 : 67/576
+Layer 3 : 98/512
+Layer 4 : 157/1024
+Layer 5 : 362/2048
+----------------------------------------
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.5%  64.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.3%  63.2%  69.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.8%  63.6%  67.4%  65.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 66.9%  62.0%  67.3%  65.5%  71.9%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 66.7%  58.6%  65.5%  64.2%  70.1%  70.5%   0.0%   0.0%   0.0%   0.0%
+	 65.8%  59.0%  65.6%  64.3%  69.7%  70.2%  71.4%   0.0%   0.0%   0.0%
+	 65.6%  58.7%  63.8%  63.5%  67.9%  68.5%  70.9%  70.5%   0.0%   0.0%
+----------------------------------------
+Epoch: 0, Task: 8, Avg train Loss: 1.7602
+Epoch: 1, Task: 8, Avg train Loss: 1.3560
+Epoch: 2, Task: 8, Avg train Loss: 1.2373
+Epoch: 3, Task: 8, Avg train Loss: 1.2062
+Epoch: 4, Task: 8, Avg train Loss: 1.1612
+Epoch: 5, Task: 8, Avg train Loss: 1.1273, Current Val Acc: 68.80, Accumulated Val Acc: 66.26
+Epoch: 6, Task: 8, Avg train Loss: 1.0922
+Epoch: 7, Task: 8, Avg train Loss: 1.0844
+Epoch: 8, Task: 8, Avg train Loss: 1.0479
+Epoch: 9, Task: 8, Avg train Loss: 1.0445
+Epoch: 10, Task: 8, Avg train Loss: 1.0306
+Epoch: 11, Task: 8, Avg train Loss: 1.0099, Current Val Acc: 71.90, Accumulated Val Acc: 66.64
+Epoch: 12, Task: 8, Avg train Loss: 1.0153
+Epoch: 13, Task: 8, Avg train Loss: 1.0104
+Epoch: 14, Task: 8, Avg train Loss: 0.9825
+Epoch: 15, Task: 8, Avg train Loss: 1.0008
+Epoch: 16, Task: 8, Avg train Loss: 0.9590
+Epoch: 17, Task: 8, Avg train Loss: 0.9721, Current Val Acc: 74.60, Accumulated Val Acc: 66.44
+Epoch: 18, Task: 8, Avg train Loss: 0.9625
+Epoch: 19, Task: 8, Avg train Loss: 0.9638
+Epoch: 20, Task: 8, Avg train Loss: 0.9844
+Epoch: 21, Task: 8, Avg train Loss: 0.9504
+Epoch: 22, Task: 8, Avg train Loss: 0.9492
+Epoch: 23, Task: 8, Avg train Loss: 0.9568, Current Val Acc: 73.80, Accumulated Val Acc: 66.47
+Epoch: 24, Task: 8, Avg train Loss: 0.9650
+Epoch: 25, Task: 8, Avg train Loss: 0.9561
+Epoch: 26, Task: 8, Avg train Loss: 0.9504
+Epoch: 27, Task: 8, Avg train Loss: 0.9698
+Epoch: 28, Task: 8, Avg train Loss: 0.9646
+Epoch: 29, Task: 8, Avg train Loss: 0.9552, Current Val Acc: 72.80, Accumulated Val Acc: 65.99
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (48, 48)
+Layer 2 : (576, 576)
+Layer 3 : (512, 512)
+Layer 4 : (1024, 125)
+Layer 5 : (2048, 125)
+------------------------------
+Threshold of GPM:  [0.908 0.908 0.908 0.908 0.908]
+Skip Updating GPM for layer: 1
+Number of Added Components:  [0, 6, 8, 13, 36]
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 6/48
+Layer 2 : 73/576
+Layer 3 : 106/512
+Layer 4 : 170/1024
+Layer 5 : 398/2048
+----------------------------------------
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.5%  64.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.3%  63.2%  69.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.8%  63.6%  67.4%  65.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 66.9%  62.0%  67.3%  65.5%  71.9%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 66.7%  58.6%  65.5%  64.2%  70.1%  70.5%   0.0%   0.0%   0.0%   0.0%
+	 65.8%  59.0%  65.6%  64.3%  69.7%  70.2%  71.4%   0.0%   0.0%   0.0%
+	 65.6%  58.7%  63.8%  63.5%  67.9%  68.5%  70.9%  70.5%   0.0%   0.0%
+	 66.0%  59.5%  63.4%  62.7%  67.8%  66.9%  68.6%  68.8%  74.9%   0.0%
+----------------------------------------
+Epoch: 0, Task: 9, Avg train Loss: 1.6202
+Epoch: 1, Task: 9, Avg train Loss: 1.2081
+Epoch: 2, Task: 9, Avg train Loss: 1.0993
+Epoch: 3, Task: 9, Avg train Loss: 1.0555
+Epoch: 4, Task: 9, Avg train Loss: 1.0255
+Epoch: 5, Task: 9, Avg train Loss: 0.9849, Current Val Acc: 70.50, Accumulated Val Acc: 67.21
+Epoch: 6, Task: 9, Avg train Loss: 0.9857
+Epoch: 7, Task: 9, Avg train Loss: 0.9480
+Epoch: 8, Task: 9, Avg train Loss: 0.9440
+Epoch: 9, Task: 9, Avg train Loss: 0.9137
+Epoch: 10, Task: 9, Avg train Loss: 0.9275
+Epoch: 11, Task: 9, Avg train Loss: 0.9097, Current Val Acc: 74.50, Accumulated Val Acc: 66.63
+Epoch: 12, Task: 9, Avg train Loss: 0.8888
+Epoch: 13, Task: 9, Avg train Loss: 0.8748
+Epoch: 14, Task: 9, Avg train Loss: 0.8669
+Epoch: 15, Task: 9, Avg train Loss: 0.8828
+Epoch: 16, Task: 9, Avg train Loss: 0.8529
+Epoch: 17, Task: 9, Avg train Loss: 0.8366, Current Val Acc: 75.00, Accumulated Val Acc: 67.33
+Epoch: 18, Task: 9, Avg train Loss: 0.8378
+Epoch: 19, Task: 9, Avg train Loss: 0.8314
+Epoch: 20, Task: 9, Avg train Loss: 0.8429
+Epoch: 21, Task: 9, Avg train Loss: 0.8369
+Epoch: 22, Task: 9, Avg train Loss: 0.8570
+Epoch: 23, Task: 9, Avg train Loss: 0.8400, Current Val Acc: 76.90, Accumulated Val Acc: 67.43
+Epoch: 24, Task: 9, Avg train Loss: 0.8437
+Epoch: 25, Task: 9, Avg train Loss: 0.8401
+Epoch: 26, Task: 9, Avg train Loss: 0.8499
+Epoch: 27, Task: 9, Avg train Loss: 0.8320
+Epoch: 28, Task: 9, Avg train Loss: 0.8335
+Epoch: 29, Task: 9, Avg train Loss: 0.8484, Current Val Acc: 74.20, Accumulated Val Acc: 67.46
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (48, 48)
+Layer 2 : (576, 576)
+Layer 3 : (512, 512)
+Layer 4 : (1024, 125)
+Layer 5 : (2048, 125)
+------------------------------
+Threshold of GPM:  [0.909 0.909 0.909 0.909 0.909]
+Skip Updating GPM for layer: 2
+Number of Added Components:  [1, 0, 4, 11, 31]
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 7/48
+Layer 2 : 73/576
+Layer 3 : 110/512
+Layer 4 : 181/1024
+Layer 5 : 429/2048
+----------------------------------------
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.5%  64.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.3%  63.2%  69.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 68.8%  63.6%  67.4%  65.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 66.9%  62.0%  67.3%  65.5%  71.9%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 66.7%  58.6%  65.5%  64.2%  70.1%  70.5%   0.0%   0.0%   0.0%   0.0%
+	 65.8%  59.0%  65.6%  64.3%  69.7%  70.2%  71.4%   0.0%   0.0%   0.0%
+	 65.6%  58.7%  63.8%  63.5%  67.9%  68.5%  70.9%  70.5%   0.0%   0.0%
+	 66.0%  59.5%  63.4%  62.7%  67.8%  66.9%  68.6%  68.8%  74.9%   0.0%
+	 67.2%  60.4%  62.5%  63.8%  68.3%  68.0%  70.4%  67.3%  72.2%  74.3%
+Node 0 Final Avg Accuracy: 67.44%
+Node 0 Backward Transfer: -3.08%
+average accuracy:  67.44 average bwt:  -3.077777777777779
+
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'local_epochs': 30, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'baseline': 'gpm', 'seed': 1, 'threshold': 0.9, 'sample_number': 500}

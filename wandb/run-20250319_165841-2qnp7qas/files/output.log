@@ -1,0 +1,351 @@
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'seed': 1, 'local_epochs': 30, 'buffer_size': 1000}
+Number of GPU available:  1
+Files already downloaded and verified
+Files already downloaded and verified
+Data partition_sizes among clients: [1.0]
+rank 0's total num of datasample in task0:  5056
+Epoch: 0, Task: 0, Avg train Loss: 3.8578
+Epoch: 1, Task: 0, Avg train Loss: 3.1320
+Epoch: 2, Task: 0, Avg train Loss: 2.7677
+Epoch: 3, Task: 0, Avg train Loss: 2.5386
+Epoch: 4, Task: 0, Avg train Loss: 2.3863
+Epoch: 5, Task: 0, Avg train Loss: 2.3056, Current Val Acc: 65.60, Accumulated Val Acc: 65.60
+Epoch: 6, Task: 0, Avg train Loss: 2.1124
+Epoch: 7, Task: 0, Avg train Loss: 1.9548
+Epoch: 8, Task: 0, Avg train Loss: 1.9121
+Epoch: 9, Task: 0, Avg train Loss: 1.8124
+Epoch: 10, Task: 0, Avg train Loss: 1.7241
+Epoch: 11, Task: 0, Avg train Loss: 1.7008, Current Val Acc: 65.70, Accumulated Val Acc: 65.70
+Epoch: 12, Task: 0, Avg train Loss: 1.6221
+Epoch: 13, Task: 0, Avg train Loss: 1.6205
+Epoch: 14, Task: 0, Avg train Loss: 1.5216
+Epoch: 15, Task: 0, Avg train Loss: 1.3988
+Epoch: 16, Task: 0, Avg train Loss: 1.3935
+Epoch: 17, Task: 0, Avg train Loss: 1.4085, Current Val Acc: 73.60, Accumulated Val Acc: 73.60
+Epoch: 18, Task: 0, Avg train Loss: 1.3870
+Epoch: 19, Task: 0, Avg train Loss: 1.3890
+Epoch: 20, Task: 0, Avg train Loss: 1.3693
+Epoch: 21, Task: 0, Avg train Loss: 1.4102
+Epoch: 22, Task: 0, Avg train Loss: 1.3864
+Epoch: 23, Task: 0, Avg train Loss: 1.3779, Current Val Acc: 74.50, Accumulated Val Acc: 74.50
+Epoch: 24, Task: 0, Avg train Loss: 1.3858
+Epoch: 25, Task: 0, Avg train Loss: 1.4153
+Epoch: 26, Task: 0, Avg train Loss: 1.3765
+Epoch: 27, Task: 0, Avg train Loss: 1.4337
+Epoch: 28, Task: 0, Avg train Loss: 1.4297
+Epoch: 29, Task: 0, Avg train Loss: 1.4538, Current Val Acc: 75.20, Accumulated Val Acc: 75.20
+Node 0 Overall Accuracies:
+	 74.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 0] Node 0 buffer usage: 1000/1000 (Memory: 11.73 MB)
+Epoch: 0, Task: 1, Avg train Loss: 3.6786
+Epoch: 1, Task: 1, Avg train Loss: 3.2031
+Epoch: 2, Task: 1, Avg train Loss: 3.0110
+Epoch: 3, Task: 1, Avg train Loss: 2.8428
+Epoch: 4, Task: 1, Avg train Loss: 2.7684
+Epoch: 5, Task: 1, Avg train Loss: 2.6464, Current Val Acc: 49.20, Accumulated Val Acc: 59.35
+Epoch: 6, Task: 1, Avg train Loss: 2.5438
+Epoch: 7, Task: 1, Avg train Loss: 2.5013
+Epoch: 8, Task: 1, Avg train Loss: 2.3703
+Epoch: 9, Task: 1, Avg train Loss: 2.3509
+Epoch: 10, Task: 1, Avg train Loss: 2.2500
+Epoch: 11, Task: 1, Avg train Loss: 2.1678, Current Val Acc: 50.10, Accumulated Val Acc: 56.95
+Epoch: 12, Task: 1, Avg train Loss: 2.1634
+Epoch: 13, Task: 1, Avg train Loss: 2.0851
+Epoch: 14, Task: 1, Avg train Loss: 2.0097
+Epoch: 15, Task: 1, Avg train Loss: 1.9927
+Epoch: 16, Task: 1, Avg train Loss: 1.8730
+Epoch: 17, Task: 1, Avg train Loss: 1.8457, Current Val Acc: 60.50, Accumulated Val Acc: 64.75
+Epoch: 18, Task: 1, Avg train Loss: 1.8293
+Epoch: 19, Task: 1, Avg train Loss: 1.8227
+Epoch: 20, Task: 1, Avg train Loss: 1.8370
+Epoch: 21, Task: 1, Avg train Loss: 1.8209
+Epoch: 22, Task: 1, Avg train Loss: 1.8625
+Epoch: 23, Task: 1, Avg train Loss: 1.8569, Current Val Acc: 62.50, Accumulated Val Acc: 66.40
+Epoch: 24, Task: 1, Avg train Loss: 1.8702
+Epoch: 25, Task: 1, Avg train Loss: 1.8664
+Epoch: 26, Task: 1, Avg train Loss: 1.8923
+Epoch: 27, Task: 1, Avg train Loss: 1.8737
+Epoch: 28, Task: 1, Avg train Loss: 1.8561
+Epoch: 29, Task: 1, Avg train Loss: 1.9038, Current Val Acc: 62.70, Accumulated Val Acc: 66.25
+Node 0 Overall Accuracies:
+	 74.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 69.2%  62.9%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 1] Node 0 buffer usage: 1000/1000 (Memory: 11.73 MB)
+Epoch: 0, Task: 2, Avg train Loss: 3.4639
+Epoch: 1, Task: 2, Avg train Loss: 2.9047
+Epoch: 2, Task: 2, Avg train Loss: 2.7149
+Epoch: 3, Task: 2, Avg train Loss: 2.5376
+Epoch: 4, Task: 2, Avg train Loss: 2.3941
+Epoch: 5, Task: 2, Avg train Loss: 2.3336, Current Val Acc: 57.80, Accumulated Val Acc: 59.23
+Epoch: 6, Task: 2, Avg train Loss: 2.1907
+Epoch: 7, Task: 2, Avg train Loss: 2.1301
+Epoch: 8, Task: 2, Avg train Loss: 2.0407
+Epoch: 9, Task: 2, Avg train Loss: 2.0128
+Epoch: 10, Task: 2, Avg train Loss: 1.9808
+Epoch: 11, Task: 2, Avg train Loss: 1.8612, Current Val Acc: 63.70, Accumulated Val Acc: 60.03
+Epoch: 12, Task: 2, Avg train Loss: 1.8423
+Epoch: 13, Task: 2, Avg train Loss: 1.7364
+Epoch: 14, Task: 2, Avg train Loss: 1.7579
+Epoch: 15, Task: 2, Avg train Loss: 1.6886
+Epoch: 16, Task: 2, Avg train Loss: 1.5461
+Epoch: 17, Task: 2, Avg train Loss: 1.5272, Current Val Acc: 70.30, Accumulated Val Acc: 62.17
+Epoch: 18, Task: 2, Avg train Loss: 1.5207
+Epoch: 19, Task: 2, Avg train Loss: 1.4739
+Epoch: 20, Task: 2, Avg train Loss: 1.5011
+Epoch: 21, Task: 2, Avg train Loss: 1.4894
+Epoch: 22, Task: 2, Avg train Loss: 1.4869
+Epoch: 23, Task: 2, Avg train Loss: 1.4892, Current Val Acc: 70.20, Accumulated Val Acc: 62.87
+Epoch: 24, Task: 2, Avg train Loss: 1.5174
+Epoch: 25, Task: 2, Avg train Loss: 1.5163
+Epoch: 26, Task: 2, Avg train Loss: 1.4921
+Epoch: 27, Task: 2, Avg train Loss: 1.5305
+Epoch: 28, Task: 2, Avg train Loss: 1.5237
+Epoch: 29, Task: 2, Avg train Loss: 1.5176, Current Val Acc: 69.50, Accumulated Val Acc: 61.90
+Node 0 Overall Accuracies:
+	 74.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 69.2%  62.9%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.2%  54.0%  69.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 2] Node 0 buffer usage: 1000/1000 (Memory: 11.73 MB)
+Epoch: 0, Task: 3, Avg train Loss: 3.4257
+Epoch: 1, Task: 3, Avg train Loss: 2.8605
+Epoch: 2, Task: 3, Avg train Loss: 2.6257
+Epoch: 3, Task: 3, Avg train Loss: 2.5234
+Epoch: 4, Task: 3, Avg train Loss: 2.4335
+Epoch: 5, Task: 3, Avg train Loss: 2.2830, Current Val Acc: 54.40, Accumulated Val Acc: 53.60
+Epoch: 6, Task: 3, Avg train Loss: 2.2277
+Epoch: 7, Task: 3, Avg train Loss: 2.1327
+Epoch: 8, Task: 3, Avg train Loss: 2.1072
+Epoch: 9, Task: 3, Avg train Loss: 2.0151
+Epoch: 10, Task: 3, Avg train Loss: 1.9144
+Epoch: 11, Task: 3, Avg train Loss: 1.8894, Current Val Acc: 59.70, Accumulated Val Acc: 52.85
+Epoch: 12, Task: 3, Avg train Loss: 1.8408
+Epoch: 13, Task: 3, Avg train Loss: 1.8205
+Epoch: 14, Task: 3, Avg train Loss: 1.7807
+Epoch: 15, Task: 3, Avg train Loss: 1.7363
+Epoch: 16, Task: 3, Avg train Loss: 1.5825
+Epoch: 17, Task: 3, Avg train Loss: 1.5735, Current Val Acc: 67.20, Accumulated Val Acc: 57.22
+Epoch: 18, Task: 3, Avg train Loss: 1.5878
+Epoch: 19, Task: 3, Avg train Loss: 1.5565
+Epoch: 20, Task: 3, Avg train Loss: 1.5700
+Epoch: 21, Task: 3, Avg train Loss: 1.5608
+Epoch: 22, Task: 3, Avg train Loss: 1.5403
+Epoch: 23, Task: 3, Avg train Loss: 1.5383, Current Val Acc: 66.60, Accumulated Val Acc: 56.27
+Epoch: 24, Task: 3, Avg train Loss: 1.5286
+Epoch: 25, Task: 3, Avg train Loss: 1.5603
+Epoch: 26, Task: 3, Avg train Loss: 1.5434
+Epoch: 27, Task: 3, Avg train Loss: 1.5700
+Epoch: 28, Task: 3, Avg train Loss: 1.5640
+Epoch: 29, Task: 3, Avg train Loss: 1.5970, Current Val Acc: 68.50, Accumulated Val Acc: 56.25
+Node 0 Overall Accuracies:
+	 74.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 69.2%  62.9%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.2%  54.0%  69.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 56.5%  45.2%  57.2%  67.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 3] Node 0 buffer usage: 1000/1000 (Memory: 11.73 MB)
+Epoch: 0, Task: 4, Avg train Loss: 3.2350
+Epoch: 1, Task: 4, Avg train Loss: 2.5444
+Epoch: 2, Task: 4, Avg train Loss: 2.3347
+Epoch: 3, Task: 4, Avg train Loss: 2.1911
+Epoch: 4, Task: 4, Avg train Loss: 2.1319
+Epoch: 5, Task: 4, Avg train Loss: 2.0022, Current Val Acc: 58.70, Accumulated Val Acc: 53.60
+Epoch: 6, Task: 4, Avg train Loss: 1.9381
+Epoch: 7, Task: 4, Avg train Loss: 1.9047
+Epoch: 8, Task: 4, Avg train Loss: 1.8014
+Epoch: 9, Task: 4, Avg train Loss: 1.7363
+Epoch: 10, Task: 4, Avg train Loss: 1.6885
+Epoch: 11, Task: 4, Avg train Loss: 1.6059, Current Val Acc: 63.80, Accumulated Val Acc: 52.44
+Epoch: 12, Task: 4, Avg train Loss: 1.5736
+Epoch: 13, Task: 4, Avg train Loss: 1.5783
+Epoch: 14, Task: 4, Avg train Loss: 1.5260
+Epoch: 15, Task: 4, Avg train Loss: 1.4953
+Epoch: 16, Task: 4, Avg train Loss: 1.3560
+Epoch: 17, Task: 4, Avg train Loss: 1.3575, Current Val Acc: 70.30, Accumulated Val Acc: 54.64
+Epoch: 18, Task: 4, Avg train Loss: 1.3528
+Epoch: 19, Task: 4, Avg train Loss: 1.3338
+Epoch: 20, Task: 4, Avg train Loss: 1.3364
+Epoch: 21, Task: 4, Avg train Loss: 1.3156
+Epoch: 22, Task: 4, Avg train Loss: 1.3433
+Epoch: 23, Task: 4, Avg train Loss: 1.3180, Current Val Acc: 71.90, Accumulated Val Acc: 54.70
+Epoch: 24, Task: 4, Avg train Loss: 1.2881
+Epoch: 25, Task: 4, Avg train Loss: 1.3003
+Epoch: 26, Task: 4, Avg train Loss: 1.2954
+Epoch: 27, Task: 4, Avg train Loss: 1.3183
+Epoch: 28, Task: 4, Avg train Loss: 1.3161
+Epoch: 29, Task: 4, Avg train Loss: 1.3403, Current Val Acc: 71.80, Accumulated Val Acc: 54.22
+Node 0 Overall Accuracies:
+	 74.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 69.2%  62.9%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.2%  54.0%  69.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 56.5%  45.2%  57.2%  67.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 54.3%  39.5%  53.6%  55.0%  71.2%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 4] Node 0 buffer usage: 1000/1000 (Memory: 11.73 MB)
+Epoch: 0, Task: 5, Avg train Loss: 3.1419
+Epoch: 1, Task: 5, Avg train Loss: 2.4620
+Epoch: 2, Task: 5, Avg train Loss: 2.2464
+Epoch: 3, Task: 5, Avg train Loss: 2.1186
+Epoch: 4, Task: 5, Avg train Loss: 1.9939
+Epoch: 5, Task: 5, Avg train Loss: 1.9124, Current Val Acc: 59.40, Accumulated Val Acc: 48.95
+Epoch: 6, Task: 5, Avg train Loss: 1.7877
+Epoch: 7, Task: 5, Avg train Loss: 1.7146
+Epoch: 8, Task: 5, Avg train Loss: 1.6814
+Epoch: 9, Task: 5, Avg train Loss: 1.6016
+Epoch: 10, Task: 5, Avg train Loss: 1.5409
+Epoch: 11, Task: 5, Avg train Loss: 1.5209, Current Val Acc: 63.70, Accumulated Val Acc: 45.12
+Epoch: 12, Task: 5, Avg train Loss: 1.4695
+Epoch: 13, Task: 5, Avg train Loss: 1.4234
+Epoch: 14, Task: 5, Avg train Loss: 1.4414
+Epoch: 15, Task: 5, Avg train Loss: 1.4591
+Epoch: 16, Task: 5, Avg train Loss: 1.2581
+Epoch: 17, Task: 5, Avg train Loss: 1.2547, Current Val Acc: 71.60, Accumulated Val Acc: 49.60
+Epoch: 18, Task: 5, Avg train Loss: 1.2326
+Epoch: 19, Task: 5, Avg train Loss: 1.2025
+Epoch: 20, Task: 5, Avg train Loss: 1.2373
+Epoch: 21, Task: 5, Avg train Loss: 1.2372
+Epoch: 22, Task: 5, Avg train Loss: 1.2441
+Epoch: 23, Task: 5, Avg train Loss: 1.2253, Current Val Acc: 71.80, Accumulated Val Acc: 49.40
+Epoch: 24, Task: 5, Avg train Loss: 1.2127
+Epoch: 25, Task: 5, Avg train Loss: 1.2191
+Epoch: 26, Task: 5, Avg train Loss: 1.2246
+Epoch: 27, Task: 5, Avg train Loss: 1.2301
+Epoch: 28, Task: 5, Avg train Loss: 1.2266
+Epoch: 29, Task: 5, Avg train Loss: 1.2130, Current Val Acc: 72.50, Accumulated Val Acc: 50.25
+Node 0 Overall Accuracies:
+	 74.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 69.2%  62.9%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.2%  54.0%  69.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 56.5%  45.2%  57.2%  67.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 54.3%  39.5%  53.6%  55.0%  71.2%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 45.6%  34.7%  47.2%  43.7%  56.6%  71.1%   0.0%   0.0%   0.0%   0.0%
+[Task 5] Node 0 buffer usage: 1000/1000 (Memory: 11.73 MB)
+Epoch: 0, Task: 6, Avg train Loss: 3.0108
+Epoch: 1, Task: 6, Avg train Loss: 2.2619
+Epoch: 2, Task: 6, Avg train Loss: 2.0486
+Epoch: 3, Task: 6, Avg train Loss: 1.9368
+Epoch: 4, Task: 6, Avg train Loss: 1.8278
+Epoch: 5, Task: 6, Avg train Loss: 1.7477, Current Val Acc: 63.00, Accumulated Val Acc: 47.67
+Epoch: 6, Task: 6, Avg train Loss: 1.6566
+Epoch: 7, Task: 6, Avg train Loss: 1.5925
+Epoch: 8, Task: 6, Avg train Loss: 1.5657
+Epoch: 9, Task: 6, Avg train Loss: 1.5399
+Epoch: 10, Task: 6, Avg train Loss: 1.4508
+Epoch: 11, Task: 6, Avg train Loss: 1.4260, Current Val Acc: 65.70, Accumulated Val Acc: 44.23
+Epoch: 12, Task: 6, Avg train Loss: 1.3606
+Epoch: 13, Task: 6, Avg train Loss: 1.3204
+Epoch: 14, Task: 6, Avg train Loss: 1.3448
+Epoch: 15, Task: 6, Avg train Loss: 1.3425
+Epoch: 16, Task: 6, Avg train Loss: 1.1848
+Epoch: 17, Task: 6, Avg train Loss: 1.1552, Current Val Acc: 71.30, Accumulated Val Acc: 47.77
+Epoch: 18, Task: 6, Avg train Loss: 1.1278
+Epoch: 19, Task: 6, Avg train Loss: 1.1437
+Epoch: 20, Task: 6, Avg train Loss: 1.1488
+Epoch: 21, Task: 6, Avg train Loss: 1.1215
+Epoch: 22, Task: 6, Avg train Loss: 1.1579
+Epoch: 23, Task: 6, Avg train Loss: 1.1456, Current Val Acc: 71.90, Accumulated Val Acc: 47.23
+Epoch: 24, Task: 6, Avg train Loss: 1.1410
+Epoch: 25, Task: 6, Avg train Loss: 1.1458
+Epoch: 26, Task: 6, Avg train Loss: 1.1229
+Epoch: 27, Task: 6, Avg train Loss: 1.1645
+Epoch: 28, Task: 6, Avg train Loss: 1.1715
+Epoch: 29, Task: 6, Avg train Loss: 1.1475, Current Val Acc: 72.40, Accumulated Val Acc: 47.09
+Node 0 Overall Accuracies:
+	 74.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 69.2%  62.9%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.2%  54.0%  69.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 56.5%  45.2%  57.2%  67.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 54.3%  39.5%  53.6%  55.0%  71.2%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 45.6%  34.7%  47.2%  43.7%  56.6%  71.1%   0.0%   0.0%   0.0%   0.0%
+	 41.9%  30.5%  39.1%  38.2%  49.1%  59.7%  70.5%   0.0%   0.0%   0.0%
+[Task 6] Node 0 buffer usage: 1000/1000 (Memory: 11.73 MB)
+Epoch: 0, Task: 7, Avg train Loss: 2.9812
+Epoch: 1, Task: 7, Avg train Loss: 2.3284
+Epoch: 2, Task: 7, Avg train Loss: 2.1265
+Epoch: 3, Task: 7, Avg train Loss: 1.9766
+Epoch: 4, Task: 7, Avg train Loss: 1.9166
+Epoch: 5, Task: 7, Avg train Loss: 1.8309, Current Val Acc: 61.40, Accumulated Val Acc: 45.31
+Epoch: 6, Task: 7, Avg train Loss: 1.7619
+Epoch: 7, Task: 7, Avg train Loss: 1.6467
+Epoch: 8, Task: 7, Avg train Loss: 1.5992
+Epoch: 9, Task: 7, Avg train Loss: 1.6062
+Epoch: 10, Task: 7, Avg train Loss: 1.5284
+Epoch: 11, Task: 7, Avg train Loss: 1.4939, Current Val Acc: 63.00, Accumulated Val Acc: 42.24
+Epoch: 12, Task: 7, Avg train Loss: 1.4573
+Epoch: 13, Task: 7, Avg train Loss: 1.4364
+Epoch: 14, Task: 7, Avg train Loss: 1.3832
+Epoch: 15, Task: 7, Avg train Loss: 1.3485
+Epoch: 16, Task: 7, Avg train Loss: 1.2849
+Epoch: 17, Task: 7, Avg train Loss: 1.2492, Current Val Acc: 69.60, Accumulated Val Acc: 46.51
+Epoch: 18, Task: 7, Avg train Loss: 1.2430
+Epoch: 19, Task: 7, Avg train Loss: 1.2498
+Epoch: 20, Task: 7, Avg train Loss: 1.2454
+Epoch: 21, Task: 7, Avg train Loss: 1.2313
+Epoch: 22, Task: 7, Avg train Loss: 1.2689
+Exception ignored in: <function _releaseLock at 0x7f2b52245670>
+Traceback (most recent call last):
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/logging/__init__.py", line 227, in _releaseLock
+    def _releaseLock():
+KeyboardInterrupt:
+Epoch: 23, Task: 7, Avg train Loss: 1.2544, Current Val Acc: 69.90, Accumulated Val Acc: 45.84
+Traceback (most recent call last):
+  File "er_single.py", line 859, in <module>
+    w, avg_loss = client.train_epoch()  # train on single epoch
+  File "er_single.py", line 717, in train_epoch
+    for batch_idx, (input, target) in enumerate(self.train_loaders_list[self.task_id]):
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1328, in _next_data
+    idx, data = self._get_data()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1294, in _get_data
+    success, data = self._try_get_data()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1132, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/queues.py", line 116, in get
+    return _ForkingPickler.loads(res)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/multiprocessing/reductions.py", line 355, in rebuild_storage_fd
+    fd = df.detach()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/resource_sharer.py", line 57, in detach
+    with _resource_sharer.get_connection(self._id) as conn:
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/resource_sharer.py", line 87, in get_connection
+    c = Client(address, authkey=process.current_process().authkey)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/connection.py", line 509, in Client
+    deliver_challenge(c, authkey)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/connection.py", line 740, in deliver_challenge
+    response = connection.recv_bytes(256)        # reject large message
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "er_single.py", line 859, in <module>
+    w, avg_loss = client.train_epoch()  # train on single epoch
+  File "er_single.py", line 717, in train_epoch
+    for batch_idx, (input, target) in enumerate(self.train_loaders_list[self.task_id]):
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1328, in _next_data
+    idx, data = self._get_data()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1294, in _get_data
+    success, data = self._try_get_data()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1132, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/queues.py", line 116, in get
+    return _ForkingPickler.loads(res)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/multiprocessing/reductions.py", line 355, in rebuild_storage_fd
+    fd = df.detach()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/resource_sharer.py", line 57, in detach
+    with _resource_sharer.get_connection(self._id) as conn:
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/resource_sharer.py", line 87, in get_connection
+    c = Client(address, authkey=process.current_process().authkey)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/connection.py", line 509, in Client
+    deliver_challenge(c, authkey)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/connection.py", line 740, in deliver_challenge
+    response = connection.recv_bytes(256)        # reject large message
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt

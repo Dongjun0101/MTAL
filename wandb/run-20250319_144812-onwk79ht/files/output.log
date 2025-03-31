@@ -1,0 +1,183 @@
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'level': 32, 'device': 0, 'workers': 4, 'port': '29500', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'seed': 1234, 'local_epochs': 30, 'buffer_size': 6000}
+Files already downloaded and verified
+Files already downloaded and verified
+Data partition_sizes among clients: [1.0]
+rank 0 has task0 data size: 5056
+[Node 0] Task 0 Epoch 6 Loss 2.4768 TrainAcc 56.74
+   Validation Acc (current task): 65.40
+[Node 0] Task 0 Epoch 12 Loss 2.0484 TrainAcc 64.70
+   Validation Acc (current task): 66.90
+[Node 0] Task 0 Epoch 18 Loss 1.7630 TrainAcc 70.16
+   Validation Acc (current task): 74.10
+[Node 0] Task 0 Epoch 24 Loss 1.7003 TrainAcc 70.86
+   Validation Acc (current task): 74.90
+[Node 0] Task 0 Epoch 30 Loss 1.6717 TrainAcc 70.88
+   Validation Acc (current task): 74.60
+Node 0 - Accuracy Matrix up to task 0
+Task 0:  74.40   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Node 0 replay buffer size: 6000
+[Node 0] Task 1 Epoch 6 Loss 3.6972 TrainAcc 28.00
+   Validation Acc (current task): 34.40
+[Node 0] Task 1 Epoch 12 Loss 3.4237 TrainAcc 38.94
+   Validation Acc (current task): 43.20
+[Node 0] Task 1 Epoch 18 Loss 3.3011 TrainAcc 42.04
+   Validation Acc (current task): 48.90
+[Node 0] Task 1 Epoch 24 Loss 3.2360 TrainAcc 43.00
+   Validation Acc (current task): 45.20
+[Node 0] Task 1 Epoch 30 Loss 3.2677 TrainAcc 43.02
+   Validation Acc (current task): 45.30
+Node 0 - Accuracy Matrix up to task 1
+Task 0:  74.40   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 1:  29.90  47.20   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Node 0 replay buffer size: 6000
+[Node 0] Task 2 Epoch 6 Loss 3.3735 TrainAcc 35.70
+   Validation Acc (current task): 44.70
+[Node 0] Task 2 Epoch 12 Loss 3.1341 TrainAcc 45.90
+   Validation Acc (current task): 50.30
+[Node 0] Task 2 Epoch 18 Loss 2.9129 TrainAcc 49.44
+   Validation Acc (current task): 55.50
+[Node 0] Task 2 Epoch 24 Loss 2.8921 TrainAcc 50.04
+   Validation Acc (current task): 55.40
+[Node 0] Task 2 Epoch 30 Loss 2.8954 TrainAcc 49.40
+   Validation Acc (current task): 54.80
+Node 0 - Accuracy Matrix up to task 2
+Task 0:  74.40   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 1:  29.90  47.20   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 2:  25.50  32.30  53.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Node 0 replay buffer size: 6000
+[Node 0] Task 3 Epoch 6 Loss 3.2643 TrainAcc 38.46
+   Validation Acc (current task): 44.10
+[Node 0] Task 3 Epoch 12 Loss 3.0114 TrainAcc 46.88
+   Validation Acc (current task): 50.80
+[Node 0] Task 3 Epoch 18 Loss 2.9338 TrainAcc 50.06
+   Validation Acc (current task): 53.10
+[Node 0] Task 3 Epoch 24 Loss 2.8712 TrainAcc 50.52
+   Validation Acc (current task): 53.60
+[Node 0] Task 3 Epoch 30 Loss 2.8627 TrainAcc 50.24
+   Validation Acc (current task): 52.00
+Node 0 - Accuracy Matrix up to task 3
+Task 0:  74.40   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 1:  29.90  47.20   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 2:  25.50  32.30  53.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 3:  22.00  29.40  45.80  55.40   0.00   0.00   0.00   0.00   0.00   0.00
+Node 0 replay buffer size: 6000
+[Node 0] Task 4 Epoch 6 Loss 2.9489 TrainAcc 44.38
+   Validation Acc (current task): 49.50
+[Node 0] Task 4 Epoch 12 Loss 2.7685 TrainAcc 51.98
+   Validation Acc (current task): 54.20
+[Node 0] Task 4 Epoch 18 Loss 2.6517 TrainAcc 54.94
+   Validation Acc (current task): 58.10
+[Node 0] Task 4 Epoch 24 Loss 2.6210 TrainAcc 54.18
+   Validation Acc (current task): 57.90
+[Node 0] Task 4 Epoch 30 Loss 2.6049 TrainAcc 54.34
+   Validation Acc (current task): 57.90
+Node 0 - Accuracy Matrix up to task 4
+Task 0:  74.40   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 1:  29.90  47.20   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 2:  25.50  32.30  53.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 3:  22.00  29.40  45.80  55.40   0.00   0.00   0.00   0.00   0.00   0.00
+Task 4:  19.90  30.90  40.10  45.60  58.10   0.00   0.00   0.00   0.00   0.00
+Node 0 replay buffer size: 6000
+[Node 0] Task 5 Epoch 6 Loss 2.7959 TrainAcc 44.92
+   Validation Acc (current task): 50.20
+[Node 0] Task 5 Epoch 12 Loss 2.6798 TrainAcc 50.28
+   Validation Acc (current task): 54.90
+[Node 0] Task 5 Epoch 18 Loss 2.5262 TrainAcc 53.90
+   Validation Acc (current task): 57.90
+[Node 0] Task 5 Epoch 24 Loss 2.5450 TrainAcc 54.36
+   Validation Acc (current task): 57.30
+[Node 0] Task 5 Epoch 30 Loss 2.5122 TrainAcc 55.42
+   Validation Acc (current task): 57.20
+Node 0 - Accuracy Matrix up to task 5
+Task 0:  74.40   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 1:  29.90  47.20   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 2:  25.50  32.30  53.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 3:  22.00  29.40  45.80  55.40   0.00   0.00   0.00   0.00   0.00   0.00
+Task 4:  19.90  30.90  40.10  45.60  58.10   0.00   0.00   0.00   0.00   0.00
+Task 5:  21.00  24.90  25.70  39.50  44.10  56.90   0.00   0.00   0.00   0.00
+Node 0 replay buffer size: 6000
+[Node 0] Task 6 Epoch 6 Loss 2.9571 TrainAcc 44.48
+   Validation Acc (current task): 45.10
+[Node 0] Task 6 Epoch 12 Loss 2.7571 TrainAcc 50.66
+   Validation Acc (current task): 54.90
+[Node 0] Task 6 Epoch 18 Loss 2.5911 TrainAcc 54.34
+   Validation Acc (current task): 55.90
+[Node 0] Task 6 Epoch 24 Loss 2.5790 TrainAcc 54.34
+   Validation Acc (current task): 56.60
+[Node 0] Task 6 Epoch 30 Loss 2.5703 TrainAcc 54.84
+   Validation Acc (current task): 56.20
+Node 0 - Accuracy Matrix up to task 6
+Task 0:  74.40   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 1:  29.90  47.20   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 2:  25.50  32.30  53.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 3:  22.00  29.40  45.80  55.40   0.00   0.00   0.00   0.00   0.00   0.00
+Task 4:  19.90  30.90  40.10  45.60  58.10   0.00   0.00   0.00   0.00   0.00
+Task 5:  21.00  24.90  25.70  39.50  44.10  56.90   0.00   0.00   0.00   0.00
+Task 6:  12.80  22.70  22.70  34.80  40.30  45.50  56.60   0.00   0.00   0.00
+Node 0 replay buffer size: 6000
+[Node 0] Task 7 Epoch 6 Loss 2.8673 TrainAcc 46.50
+   Validation Acc (current task): 51.50
+[Node 0] Task 7 Epoch 12 Loss 2.7614 TrainAcc 51.00
+   Validation Acc (current task): 55.30
+[Node 0] Task 7 Epoch 18 Loss 2.6151 TrainAcc 54.48
+   Validation Acc (current task): 59.10
+[Node 0] Task 7 Epoch 24 Loss 2.5833 TrainAcc 54.38
+   Validation Acc (current task): 57.70
+[Node 0] Task 7 Epoch 30 Loss 2.5982 TrainAcc 54.52
+   Validation Acc (current task): 58.50
+Node 0 - Accuracy Matrix up to task 7
+Task 0:  74.40   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 1:  29.90  47.20   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 2:  25.50  32.30  53.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 3:  22.00  29.40  45.80  55.40   0.00   0.00   0.00   0.00   0.00   0.00
+Task 4:  19.90  30.90  40.10  45.60  58.10   0.00   0.00   0.00   0.00   0.00
+Task 5:  21.00  24.90  25.70  39.50  44.10  56.90   0.00   0.00   0.00   0.00
+Task 6:  12.80  22.70  22.70  34.80  40.30  45.50  56.60   0.00   0.00   0.00
+Task 7:  16.90  21.10  22.70  29.50  34.70  39.10  49.80  58.70   0.00   0.00
+Node 0 replay buffer size: 6000
+[Node 0] Task 8 Epoch 6 Loss 2.9953 TrainAcc 41.88
+   Validation Acc (current task): 46.80
+[Node 0] Task 8 Epoch 12 Loss 2.9188 TrainAcc 47.54
+   Validation Acc (current task): 49.20
+[Node 0] Task 8 Epoch 18 Loss 2.8087 TrainAcc 50.10
+   Validation Acc (current task): 52.50
+[Node 0] Task 8 Epoch 24 Loss 2.7817 TrainAcc 49.26
+   Validation Acc (current task): 54.00
+[Node 0] Task 8 Epoch 30 Loss 2.8027 TrainAcc 49.22
+   Validation Acc (current task): 53.00
+Node 0 - Accuracy Matrix up to task 8
+Task 0:  74.40   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 1:  29.90  47.20   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 2:  25.50  32.30  53.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 3:  22.00  29.40  45.80  55.40   0.00   0.00   0.00   0.00   0.00   0.00
+Task 4:  19.90  30.90  40.10  45.60  58.10   0.00   0.00   0.00   0.00   0.00
+Task 5:  21.00  24.90  25.70  39.50  44.10  56.90   0.00   0.00   0.00   0.00
+Task 6:  12.80  22.70  22.70  34.80  40.30  45.50  56.60   0.00   0.00   0.00
+Task 7:  16.90  21.10  22.70  29.50  34.70  39.10  49.80  58.70   0.00   0.00
+Task 8:  20.30  20.50  21.00  28.80  35.10  41.30  47.10  49.60  53.20   0.00
+Node 0 replay buffer size: 6000
+[Node 0] Task 9 Epoch 6 Loss 2.7952 TrainAcc 47.58
+   Validation Acc (current task): 51.70
+[Node 0] Task 9 Epoch 12 Loss 2.9308 TrainAcc 49.28
+   Validation Acc (current task): 54.10
+[Node 0] Task 9 Epoch 18 Loss 2.7474 TrainAcc 52.98
+   Validation Acc (current task): 56.50
+[Node 0] Task 9 Epoch 24 Loss 2.6913 TrainAcc 54.88
+   Validation Acc (current task): 57.50
+[Node 0] Task 9 Epoch 30 Loss 2.6641 TrainAcc 54.40
+   Validation Acc (current task): 56.20
+Node 0 - Accuracy Matrix up to task 9
+Task 0:  74.40   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 1:  29.90  47.20   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 2:  25.50  32.30  53.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+Task 3:  22.00  29.40  45.80  55.40   0.00   0.00   0.00   0.00   0.00   0.00
+Task 4:  19.90  30.90  40.10  45.60  58.10   0.00   0.00   0.00   0.00   0.00
+Task 5:  21.00  24.90  25.70  39.50  44.10  56.90   0.00   0.00   0.00   0.00
+Task 6:  12.80  22.70  22.70  34.80  40.30  45.50  56.60   0.00   0.00   0.00
+Task 7:  16.90  21.10  22.70  29.50  34.70  39.10  49.80  58.70   0.00   0.00
+Task 8:  20.30  20.50  21.00  28.80  35.10  41.30  47.10  49.60  53.20   0.00
+Task 9:  13.30  19.70  21.00  24.50  26.60  30.80  39.10  39.00  36.60  57.70
+Node 0 replay buffer size: 6000
+Node 0 Final Avg Accuracy: 30.83%
+Node 0 Backward Transfer: -29.21%
+Client 0 final ACC= 30.830000000000002, BWT=-29.211111111111116

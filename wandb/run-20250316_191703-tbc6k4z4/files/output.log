@@ -1,0 +1,396 @@
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'local_epochs': 30, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'baseline': 'agem', 'seed': 1, 'threshold': 0.9, 'sample_number': 500}
+Random seed set to: 1
+Number of GPU available:  1
+Files already downloaded and verified
+Files already downloaded and verified
+Data partition_sizes among clients: [1.0]
+Epoch: 0, Task: 0, Avg train Loss: 2.0814
+Epoch: 1, Task: 0, Avg train Loss: 1.7815
+Epoch: 2, Task: 0, Avg train Loss: 1.6517
+Epoch: 3, Task: 0, Avg train Loss: 1.5388
+Epoch: 4, Task: 0, Avg train Loss: 1.4743
+Epoch: 5, Task: 0, Avg train Loss: 1.4251, Current Val Acc: 60.70, Accumulated Val Acc: 60.70
+Epoch: 6, Task: 0, Avg train Loss: 1.3581
+Epoch: 7, Task: 0, Avg train Loss: 1.3074
+Epoch: 8, Task: 0, Avg train Loss: 1.2892
+Epoch: 9, Task: 0, Avg train Loss: 1.2455
+Epoch: 10, Task: 0, Avg train Loss: 1.2288
+Epoch: 11, Task: 0, Avg train Loss: 1.1885, Current Val Acc: 61.90, Accumulated Val Acc: 61.90
+Epoch: 12, Task: 0, Avg train Loss: 1.1730
+Epoch: 13, Task: 0, Avg train Loss: 1.1501
+Epoch: 14, Task: 0, Avg train Loss: 1.1456
+Epoch: 15, Task: 0, Avg train Loss: 1.1201
+Epoch: 16, Task: 0, Avg train Loss: 1.0909
+Epoch: 17, Task: 0, Avg train Loss: 1.0478, Current Val Acc: 69.20, Accumulated Val Acc: 69.20
+Epoch: 18, Task: 0, Avg train Loss: 1.0479
+Epoch: 19, Task: 0, Avg train Loss: 1.0320
+Epoch: 20, Task: 0, Avg train Loss: 1.0463
+Epoch: 21, Task: 0, Avg train Loss: 1.0389
+Epoch: 22, Task: 0, Avg train Loss: 1.0100
+Epoch: 23, Task: 0, Avg train Loss: 1.0213, Current Val Acc: 70.50, Accumulated Val Acc: 70.50
+Epoch: 24, Task: 0, Avg train Loss: 1.0086
+Epoch: 25, Task: 0, Avg train Loss: 1.0014
+Epoch: 26, Task: 0, Avg train Loss: 1.0122
+Epoch: 27, Task: 0, Avg train Loss: 1.0166
+Epoch: 28, Task: 0, Avg train Loss: 1.0297
+Epoch: 29, Task: 0, Avg train Loss: 1.0165, Current Val Acc: 70.50, Accumulated Val Acc: 70.50
+Task 0: stored 512 samples.
+[A-GEM] Replay buffer size: 6295552 bytes (6148.00 KB, 6.00 MB)
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 1, Avg train Loss: 2.1040
+Epoch: 1, Task: 1, Avg train Loss: 1.7728
+Epoch: 2, Task: 1, Avg train Loss: 1.6504
+Epoch: 3, Task: 1, Avg train Loss: 1.5749
+Epoch: 4, Task: 1, Avg train Loss: 1.5094
+Epoch: 5, Task: 1, Avg train Loss: 1.4429, Current Val Acc: 49.40, Accumulated Val Acc: 50.00
+Epoch: 6, Task: 1, Avg train Loss: 1.4256
+Epoch: 7, Task: 1, Avg train Loss: 1.3756
+Epoch: 8, Task: 1, Avg train Loss: 1.3683
+Epoch: 9, Task: 1, Avg train Loss: 1.3228
+Epoch: 10, Task: 1, Avg train Loss: 1.3160
+Epoch: 11, Task: 1, Avg train Loss: 1.2764, Current Val Acc: 59.80, Accumulated Val Acc: 60.55
+Epoch: 12, Task: 1, Avg train Loss: 1.2647
+Epoch: 13, Task: 1, Avg train Loss: 1.2559
+Epoch: 14, Task: 1, Avg train Loss: 1.2381
+Epoch: 15, Task: 1, Avg train Loss: 1.2122
+Epoch: 16, Task: 1, Avg train Loss: 1.1859
+Epoch: 17, Task: 1, Avg train Loss: 1.1644, Current Val Acc: 65.00, Accumulated Val Acc: 66.00
+Epoch: 18, Task: 1, Avg train Loss: 1.1869
+Epoch: 19, Task: 1, Avg train Loss: 1.1621
+Epoch: 20, Task: 1, Avg train Loss: 1.1689
+Epoch: 21, Task: 1, Avg train Loss: 1.1666
+Epoch: 22, Task: 1, Avg train Loss: 1.1545
+Epoch: 23, Task: 1, Avg train Loss: 1.1638, Current Val Acc: 65.80, Accumulated Val Acc: 66.25
+Epoch: 24, Task: 1, Avg train Loss: 1.1555
+Epoch: 25, Task: 1, Avg train Loss: 1.1464
+Epoch: 26, Task: 1, Avg train Loss: 1.1584
+Epoch: 27, Task: 1, Avg train Loss: 1.1651
+Epoch: 28, Task: 1, Avg train Loss: 1.1411
+Epoch: 29, Task: 1, Avg train Loss: 1.1478, Current Val Acc: 64.30, Accumulated Val Acc: 65.20
+Task 1: stored 512 samples.
+[A-GEM] Replay buffer size: 12591104 bytes (12296.00 KB, 12.01 MB)
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 67.9%  64.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 2, Avg train Loss: 2.0437
+Epoch: 1, Task: 2, Avg train Loss: 1.6728
+Epoch: 2, Task: 2, Avg train Loss: 1.5240
+Epoch: 3, Task: 2, Avg train Loss: 1.4369
+Epoch: 4, Task: 2, Avg train Loss: 1.3704
+Epoch: 5, Task: 2, Avg train Loss: 1.3319, Current Val Acc: 58.50, Accumulated Val Acc: 54.70
+Epoch: 6, Task: 2, Avg train Loss: 1.2814
+Epoch: 7, Task: 2, Avg train Loss: 1.2454
+Epoch: 8, Task: 2, Avg train Loss: 1.2186
+Epoch: 9, Task: 2, Avg train Loss: 1.1813
+Epoch: 10, Task: 2, Avg train Loss: 1.1682
+Epoch: 11, Task: 2, Avg train Loss: 1.1749, Current Val Acc: 66.00, Accumulated Val Acc: 60.80
+Epoch: 12, Task: 2, Avg train Loss: 1.1192
+Epoch: 13, Task: 2, Avg train Loss: 1.1180
+Epoch: 14, Task: 2, Avg train Loss: 1.1001
+Epoch: 15, Task: 2, Avg train Loss: 1.0348
+Epoch: 16, Task: 2, Avg train Loss: 1.0178
+Epoch: 17, Task: 2, Avg train Loss: 1.0221, Current Val Acc: 69.70, Accumulated Val Acc: 62.50
+Epoch: 18, Task: 2, Avg train Loss: 1.0128
+Epoch: 19, Task: 2, Avg train Loss: 1.0048
+Epoch: 20, Task: 2, Avg train Loss: 1.0100
+Epoch: 21, Task: 2, Avg train Loss: 1.0078
+Epoch: 22, Task: 2, Avg train Loss: 0.9934
+Epoch: 23, Task: 2, Avg train Loss: 0.9945, Current Val Acc: 70.00, Accumulated Val Acc: 63.90
+Epoch: 24, Task: 2, Avg train Loss: 1.0020
+Epoch: 25, Task: 2, Avg train Loss: 1.0119
+Epoch: 26, Task: 2, Avg train Loss: 1.0005
+Epoch: 27, Task: 2, Avg train Loss: 0.9719
+Epoch: 28, Task: 2, Avg train Loss: 1.0065
+Epoch: 29, Task: 2, Avg train Loss: 1.0062, Current Val Acc: 70.60, Accumulated Val Acc: 63.90
+Task 2: stored 512 samples.
+[A-GEM] Replay buffer size: 18886656 bytes (18444.00 KB, 18.01 MB)
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 67.9%  64.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.9%  59.5%  69.9%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 3, Avg train Loss: 2.0204
+Epoch: 1, Task: 3, Avg train Loss: 1.6350
+Epoch: 2, Task: 3, Avg train Loss: 1.5121
+Epoch: 3, Task: 3, Avg train Loss: 1.4375
+Epoch: 4, Task: 3, Avg train Loss: 1.3716
+Epoch: 5, Task: 3, Avg train Loss: 1.3265, Current Val Acc: 59.80, Accumulated Val Acc: 59.90
+Epoch: 6, Task: 3, Avg train Loss: 1.3124
+Epoch: 7, Task: 3, Avg train Loss: 1.2527
+Epoch: 8, Task: 3, Avg train Loss: 1.2362
+Epoch: 9, Task: 3, Avg train Loss: 1.2260
+Epoch: 10, Task: 3, Avg train Loss: 1.1991
+Epoch: 11, Task: 3, Avg train Loss: 1.1712, Current Val Acc: 60.70, Accumulated Val Acc: 55.83
+Epoch: 12, Task: 3, Avg train Loss: 1.1458
+Epoch: 13, Task: 3, Avg train Loss: 1.1276
+Epoch: 14, Task: 3, Avg train Loss: 1.1100
+Epoch: 15, Task: 3, Avg train Loss: 1.0944
+Epoch: 16, Task: 3, Avg train Loss: 1.0753
+Epoch: 17, Task: 3, Avg train Loss: 1.0748, Current Val Acc: 69.30, Accumulated Val Acc: 63.47
+Epoch: 18, Task: 3, Avg train Loss: 1.0689
+Epoch: 19, Task: 3, Avg train Loss: 1.0647
+Epoch: 20, Task: 3, Avg train Loss: 1.0509
+Epoch: 21, Task: 3, Avg train Loss: 1.0648
+Epoch: 22, Task: 3, Avg train Loss: 1.0465
+Epoch: 23, Task: 3, Avg train Loss: 1.0523, Current Val Acc: 69.30, Accumulated Val Acc: 63.62
+Epoch: 24, Task: 3, Avg train Loss: 1.0514
+Epoch: 25, Task: 3, Avg train Loss: 1.0625
+Epoch: 26, Task: 3, Avg train Loss: 1.0489
+Epoch: 27, Task: 3, Avg train Loss: 1.0547
+Epoch: 28, Task: 3, Avg train Loss: 1.0613
+Epoch: 29, Task: 3, Avg train Loss: 1.0486, Current Val Acc: 68.50, Accumulated Val Acc: 64.00
+Task 3: stored 512 samples.
+[A-GEM] Replay buffer size: 25182208 bytes (24592.00 KB, 24.02 MB)
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 67.9%  64.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.9%  59.5%  69.9%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 60.6%  60.4%  67.1%  68.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 4, Avg train Loss: 1.9493
+Epoch: 1, Task: 4, Avg train Loss: 1.5031
+Epoch: 2, Task: 4, Avg train Loss: 1.3325
+Epoch: 3, Task: 4, Avg train Loss: 1.2296
+Epoch: 4, Task: 4, Avg train Loss: 1.1927
+Epoch: 5, Task: 4, Avg train Loss: 1.1318, Current Val Acc: 62.90, Accumulated Val Acc: 54.62
+Epoch: 6, Task: 4, Avg train Loss: 1.1122
+Epoch: 7, Task: 4, Avg train Loss: 1.0650
+Epoch: 8, Task: 4, Avg train Loss: 1.0326
+Epoch: 9, Task: 4, Avg train Loss: 1.0122
+Epoch: 10, Task: 4, Avg train Loss: 0.9949
+Epoch: 11, Task: 4, Avg train Loss: 0.9888, Current Val Acc: 67.90, Accumulated Val Acc: 59.18
+Epoch: 12, Task: 4, Avg train Loss: 0.9527
+Epoch: 13, Task: 4, Avg train Loss: 0.9515
+Epoch: 14, Task: 4, Avg train Loss: 0.9322
+Epoch: 15, Task: 4, Avg train Loss: 0.9172
+Epoch: 16, Task: 4, Avg train Loss: 0.8899
+Epoch: 17, Task: 4, Avg train Loss: 0.8899, Current Val Acc: 73.00, Accumulated Val Acc: 63.42
+Epoch: 18, Task: 4, Avg train Loss: 0.8877
+Epoch: 19, Task: 4, Avg train Loss: 0.8735
+Epoch: 20, Task: 4, Avg train Loss: 0.8602
+Epoch: 21, Task: 4, Avg train Loss: 0.8659
+Epoch: 22, Task: 4, Avg train Loss: 0.8702
+Epoch: 23, Task: 4, Avg train Loss: 0.8698, Current Val Acc: 72.90, Accumulated Val Acc: 63.84
+Epoch: 24, Task: 4, Avg train Loss: 0.8534
+Epoch: 25, Task: 4, Avg train Loss: 0.8698
+Epoch: 26, Task: 4, Avg train Loss: 0.8652
+Epoch: 27, Task: 4, Avg train Loss: 0.8683
+Epoch: 28, Task: 4, Avg train Loss: 0.8788
+Epoch: 29, Task: 4, Avg train Loss: 0.8625, Current Val Acc: 73.40, Accumulated Val Acc: 63.66
+Task 4: stored 512 samples.
+[A-GEM] Replay buffer size: 31477760 bytes (30740.00 KB, 30.02 MB)
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 67.9%  64.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.9%  59.5%  69.9%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 60.6%  60.4%  67.1%  68.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 61.2%  57.3%  61.5%  63.2%  73.4%   0.0%   0.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 5, Avg train Loss: 1.9073
+Epoch: 1, Task: 5, Avg train Loss: 1.4557
+Epoch: 2, Task: 5, Avg train Loss: 1.3212
+Epoch: 3, Task: 5, Avg train Loss: 1.2341
+Epoch: 4, Task: 5, Avg train Loss: 1.1710
+Epoch: 5, Task: 5, Avg train Loss: 1.1337, Current Val Acc: 64.10, Accumulated Val Acc: 60.75
+Epoch: 6, Task: 5, Avg train Loss: 1.1106
+Epoch: 7, Task: 5, Avg train Loss: 1.0758
+Epoch: 8, Task: 5, Avg train Loss: 1.0326
+Epoch: 9, Task: 5, Avg train Loss: 1.0334
+Epoch: 10, Task: 5, Avg train Loss: 1.0019
+Epoch: 11, Task: 5, Avg train Loss: 0.9821, Current Val Acc: 66.10, Accumulated Val Acc: 59.82
+Epoch: 12, Task: 5, Avg train Loss: 0.9654
+Epoch: 13, Task: 5, Avg train Loss: 0.9546
+Epoch: 14, Task: 5, Avg train Loss: 0.9459
+Epoch: 15, Task: 5, Avg train Loss: 0.9150
+Epoch: 16, Task: 5, Avg train Loss: 0.9067
+Epoch: 17, Task: 5, Avg train Loss: 0.8910, Current Val Acc: 71.10, Accumulated Val Acc: 62.65
+Epoch: 18, Task: 5, Avg train Loss: 0.9099
+Epoch: 19, Task: 5, Avg train Loss: 0.8999
+Epoch: 20, Task: 5, Avg train Loss: 0.8986
+Epoch: 21, Task: 5, Avg train Loss: 0.8885
+Epoch: 22, Task: 5, Avg train Loss: 0.8859
+Epoch: 23, Task: 5, Avg train Loss: 0.8810, Current Val Acc: 70.80, Accumulated Val Acc: 63.35
+Epoch: 24, Task: 5, Avg train Loss: 0.8901
+Epoch: 25, Task: 5, Avg train Loss: 0.8875
+Epoch: 26, Task: 5, Avg train Loss: 0.8883
+Epoch: 27, Task: 5, Avg train Loss: 0.8878
+Epoch: 28, Task: 5, Avg train Loss: 0.8867
+Epoch: 29, Task: 5, Avg train Loss: 0.8797, Current Val Acc: 72.00, Accumulated Val Acc: 63.27
+Task 5: stored 512 samples.
+[A-GEM] Replay buffer size: 37773312 bytes (36888.00 KB, 36.02 MB)
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 67.9%  64.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.9%  59.5%  69.9%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 60.6%  60.4%  67.1%  68.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 61.2%  57.3%  61.5%  63.2%  73.4%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 62.1%  55.9%  62.9%  59.1%  69.3%  73.0%   0.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 6, Avg train Loss: 1.8673
+Epoch: 1, Task: 6, Avg train Loss: 1.4293
+Epoch: 2, Task: 6, Avg train Loss: 1.2740
+Epoch: 3, Task: 6, Avg train Loss: 1.1976
+Epoch: 4, Task: 6, Avg train Loss: 1.1453
+Epoch: 5, Task: 6, Avg train Loss: 1.1066, Current Val Acc: 61.50, Accumulated Val Acc: 57.10
+Epoch: 6, Task: 6, Avg train Loss: 1.0556
+Epoch: 7, Task: 6, Avg train Loss: 1.0380
+Epoch: 8, Task: 6, Avg train Loss: 1.0061
+Epoch: 9, Task: 6, Avg train Loss: 0.9831
+Epoch: 10, Task: 6, Avg train Loss: 0.9742
+Epoch: 11, Task: 6, Avg train Loss: 0.9536, Current Val Acc: 68.40, Accumulated Val Acc: 59.36
+Epoch: 12, Task: 6, Avg train Loss: 0.9374
+Epoch: 13, Task: 6, Avg train Loss: 0.9097
+Epoch: 14, Task: 6, Avg train Loss: 0.9294
+Epoch: 15, Task: 6, Avg train Loss: 0.9170
+Epoch: 16, Task: 6, Avg train Loss: 0.8674
+Epoch: 17, Task: 6, Avg train Loss: 0.8632, Current Val Acc: 73.00, Accumulated Val Acc: 61.79
+Epoch: 18, Task: 6, Avg train Loss: 0.8709
+Epoch: 19, Task: 6, Avg train Loss: 0.8583
+Epoch: 20, Task: 6, Avg train Loss: 0.8617
+Epoch: 21, Task: 6, Avg train Loss: 0.8620
+Epoch: 22, Task: 6, Avg train Loss: 0.8598
+Epoch: 23, Task: 6, Avg train Loss: 0.8503, Current Val Acc: 72.60, Accumulated Val Acc: 62.06
+Epoch: 24, Task: 6, Avg train Loss: 0.8294
+Epoch: 25, Task: 6, Avg train Loss: 0.8557
+Epoch: 26, Task: 6, Avg train Loss: 0.8625
+Epoch: 27, Task: 6, Avg train Loss: 0.8387
+Epoch: 28, Task: 6, Avg train Loss: 0.8431
+Epoch: 29, Task: 6, Avg train Loss: 0.8486, Current Val Acc: 73.60, Accumulated Val Acc: 62.64
+Task 6: stored 512 samples.
+[A-GEM] Replay buffer size: 44068864 bytes (43036.00 KB, 42.03 MB)
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 67.9%  64.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.9%  59.5%  69.9%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 60.6%  60.4%  67.1%  68.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 61.2%  57.3%  61.5%  63.2%  73.4%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 62.1%  55.9%  62.9%  59.1%  69.3%  73.0%   0.0%   0.0%   0.0%   0.0%
+	 59.7%  52.4%  62.4%  59.1%  65.9%  67.1%  72.8%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 7, Avg train Loss: 1.8583
+Epoch: 1, Task: 7, Avg train Loss: 1.4329
+Epoch: 2, Task: 7, Avg train Loss: 1.2815
+Epoch: 3, Task: 7, Avg train Loss: 1.2199
+Epoch: 4, Task: 7, Avg train Loss: 1.1589
+Epoch: 5, Task: 7, Avg train Loss: 1.1178, Current Val Acc: 64.10, Accumulated Val Acc: 55.50
+Epoch: 6, Task: 7, Avg train Loss: 1.0845
+Epoch: 7, Task: 7, Avg train Loss: 1.0646
+Epoch: 8, Task: 7, Avg train Loss: 1.0346
+Epoch: 9, Task: 7, Avg train Loss: 1.0344
+Epoch: 10, Task: 7, Avg train Loss: 1.0225
+Epoch: 11, Task: 7, Avg train Loss: 0.9795, Current Val Acc: 70.70, Accumulated Val Acc: 59.31
+Epoch: 12, Task: 7, Avg train Loss: 0.9876
+Epoch: 13, Task: 7, Avg train Loss: 0.9704
+Epoch: 14, Task: 7, Avg train Loss: 0.9528
+Epoch: 15, Task: 7, Avg train Loss: 0.9590
+Epoch: 16, Task: 7, Avg train Loss: 0.9264
+Epoch: 17, Task: 7, Avg train Loss: 0.9305, Current Val Acc: 71.70, Accumulated Val Acc: 60.95
+Epoch: 18, Task: 7, Avg train Loss: 0.9101
+Epoch: 19, Task: 7, Avg train Loss: 0.9228
+Epoch: 20, Task: 7, Avg train Loss: 0.9033
+Epoch: 21, Task: 7, Avg train Loss: 0.9131
+Epoch: 22, Task: 7, Avg train Loss: 0.9006
+Epoch: 23, Task: 7, Avg train Loss: 0.9114, Current Val Acc: 71.10, Accumulated Val Acc: 61.45
+Epoch: 24, Task: 7, Avg train Loss: 0.9056
+Epoch: 25, Task: 7, Avg train Loss: 0.9142
+Epoch: 26, Task: 7, Avg train Loss: 0.9036
+Epoch: 27, Task: 7, Avg train Loss: 0.9117
+Epoch: 28, Task: 7, Avg train Loss: 0.9032
+Epoch: 29, Task: 7, Avg train Loss: 0.9081, Current Val Acc: 71.20, Accumulated Val Acc: 61.30
+Task 7: stored 512 samples.
+[A-GEM] Replay buffer size: 50364416 bytes (49184.00 KB, 48.03 MB)
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 67.9%  64.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.9%  59.5%  69.9%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 60.6%  60.4%  67.1%  68.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 61.2%  57.3%  61.5%  63.2%  73.4%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 62.1%  55.9%  62.9%  59.1%  69.3%  73.0%   0.0%   0.0%   0.0%   0.0%
+	 59.7%  52.4%  62.4%  59.1%  65.9%  67.1%  72.8%   0.0%   0.0%   0.0%
+	 58.7%  50.5%  58.2%  58.3%  63.5%  62.4%  69.4%  71.4%   0.0%   0.0%
+Epoch: 0, Task: 8, Avg train Loss: 1.9616
+Epoch: 1, Task: 8, Avg train Loss: 1.5140
+Epoch: 2, Task: 8, Avg train Loss: 1.3254
+Epoch: 3, Task: 8, Avg train Loss: 1.2041
+Epoch: 4, Task: 8, Avg train Loss: 1.1625
+Epoch: 5, Task: 8, Avg train Loss: 1.1034, Current Val Acc: 67.10, Accumulated Val Acc: 57.19
+Epoch: 6, Task: 8, Avg train Loss: 1.0621
+Epoch: 7, Task: 8, Avg train Loss: 1.0389
+Epoch: 8, Task: 8, Avg train Loss: 1.0124
+Epoch: 9, Task: 8, Avg train Loss: 0.9857
+Epoch: 10, Task: 8, Avg train Loss: 0.9717
+Epoch: 11, Task: 8, Avg train Loss: 0.9583, Current Val Acc: 68.30, Accumulated Val Acc: 53.92
+Epoch: 12, Task: 8, Avg train Loss: 0.9334
+Epoch: 13, Task: 8, Avg train Loss: 0.9300
+Epoch: 14, Task: 8, Avg train Loss: 0.9285
+Epoch: 15, Task: 8, Avg train Loss: 0.9380
+Epoch: 16, Task: 8, Avg train Loss: 0.8802
+Epoch: 17, Task: 8, Avg train Loss: 0.8878, Current Val Acc: 73.20, Accumulated Val Acc: 61.53
+Epoch: 18, Task: 8, Avg train Loss: 0.8717
+Epoch: 19, Task: 8, Avg train Loss: 0.8618
+Epoch: 20, Task: 8, Avg train Loss: 0.8673
+Epoch: 21, Task: 8, Avg train Loss: 0.8548
+Epoch: 22, Task: 8, Avg train Loss: 0.8656
+Epoch: 23, Task: 8, Avg train Loss: 0.8628, Current Val Acc: 74.50, Accumulated Val Acc: 61.94
+Epoch: 24, Task: 8, Avg train Loss: 0.8611
+Epoch: 25, Task: 8, Avg train Loss: 0.8513
+Epoch: 26, Task: 8, Avg train Loss: 0.8675
+Epoch: 27, Task: 8, Avg train Loss: 0.8571
+Epoch: 28, Task: 8, Avg train Loss: 0.8653
+Epoch: 29, Task: 8, Avg train Loss: 0.8564, Current Val Acc: 74.30, Accumulated Val Acc: 61.87
+Task 8: stored 512 samples.
+[A-GEM] Replay buffer size: 56659968 bytes (55332.00 KB, 54.04 MB)
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 67.9%  64.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.9%  59.5%  69.9%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 60.6%  60.4%  67.1%  68.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 61.2%  57.3%  61.5%  63.2%  73.4%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 62.1%  55.9%  62.9%  59.1%  69.3%  73.0%   0.0%   0.0%   0.0%   0.0%
+	 59.7%  52.4%  62.4%  59.1%  65.9%  67.1%  72.8%   0.0%   0.0%   0.0%
+	 58.7%  50.5%  58.2%  58.3%  63.5%  62.4%  69.4%  71.4%   0.0%   0.0%
+	 59.5%  52.5%  60.0%  56.3%  63.3%  63.0%  61.2%  65.6%  74.8%   0.0%
+Epoch: 0, Task: 9, Avg train Loss: 1.8402
+Epoch: 1, Task: 9, Avg train Loss: 1.3653
+Epoch: 2, Task: 9, Avg train Loss: 1.1880
+Epoch: 3, Task: 9, Avg train Loss: 1.1015
+Epoch: 4, Task: 9, Avg train Loss: 1.0339
+Epoch: 5, Task: 9, Avg train Loss: 0.9797, Current Val Acc: 68.70, Accumulated Val Acc: 59.85
+Epoch: 6, Task: 9, Avg train Loss: 0.9402
+Epoch: 7, Task: 9, Avg train Loss: 0.9234
+Epoch: 8, Task: 9, Avg train Loss: 0.9103
+Epoch: 9, Task: 9, Avg train Loss: 0.8830
+Epoch: 10, Task: 9, Avg train Loss: 0.8473
+Epoch: 11, Task: 9, Avg train Loss: 0.8327, Current Val Acc: 73.50, Accumulated Val Acc: 59.29
+Epoch: 12, Task: 9, Avg train Loss: 0.8110
+Epoch: 13, Task: 9, Avg train Loss: 0.8074
+Epoch: 14, Task: 9, Avg train Loss: 0.7832
+Epoch: 15, Task: 9, Avg train Loss: 0.8082
+Epoch: 16, Task: 9, Avg train Loss: 0.7383
+Epoch: 17, Task: 9, Avg train Loss: 0.7262, Current Val Acc: 76.30, Accumulated Val Acc: 62.36
+Epoch: 18, Task: 9, Avg train Loss: 0.7419
+Epoch: 19, Task: 9, Avg train Loss: 0.7393
+Epoch: 20, Task: 9, Avg train Loss: 0.7342
+Epoch: 21, Task: 9, Avg train Loss: 0.7275
+Epoch: 22, Task: 9, Avg train Loss: 0.7342
+Epoch: 23, Task: 9, Avg train Loss: 0.7217, Current Val Acc: 76.40, Accumulated Val Acc: 63.27
+Epoch: 24, Task: 9, Avg train Loss: 0.7263
+Epoch: 25, Task: 9, Avg train Loss: 0.7105
+Epoch: 26, Task: 9, Avg train Loss: 0.7027
+Epoch: 27, Task: 9, Avg train Loss: 0.7197
+Epoch: 28, Task: 9, Avg train Loss: 0.7257
+Epoch: 29, Task: 9, Avg train Loss: 0.7346, Current Val Acc: 76.70, Accumulated Val Acc: 63.76
+Task 9: stored 512 samples.
+[A-GEM] Replay buffer size: 62955520 bytes (61480.00 KB, 60.04 MB)
+Node 0 Overall Accuracies:
+	 69.8%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 67.9%  64.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 63.9%  59.5%  69.9%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 60.6%  60.4%  67.1%  68.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 61.2%  57.3%  61.5%  63.2%  73.4%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 62.1%  55.9%  62.9%  59.1%  69.3%  73.0%   0.0%   0.0%   0.0%   0.0%
+	 59.7%  52.4%  62.4%  59.1%  65.9%  67.1%  72.8%   0.0%   0.0%   0.0%
+	 58.7%  50.5%  58.2%  58.3%  63.5%  62.4%  69.4%  71.4%   0.0%   0.0%
+	 59.5%  52.5%  60.0%  56.3%  63.3%  63.0%  61.2%  65.6%  74.8%   0.0%
+	 60.2%  55.2%  58.2%  58.1%  65.5%  62.9%  63.1%  64.5%  70.2%  75.9%
+Node 0 Final Avg Accuracy: 63.38%
+Node 0 Backward Transfer: -8.92%
+average accuracy:  63.38000000000001 average bwt:  -8.92222222222222
+
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'local_epochs': 30, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'baseline': 'agem', 'seed': 1, 'threshold': 0.9, 'sample_number': 500}

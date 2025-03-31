@@ -1,0 +1,37 @@
+2025-03-20 11:56:51,460 INFO    MainThread:2566466 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2025-03-20 11:56:51,460 INFO    MainThread:2566466 [wandb_setup.py:_flush():79] Configure stats pid to 2566466
+2025-03-20 11:56:51,460 INFO    MainThread:2566466 [wandb_setup.py:_flush():79] Loading settings from /home/dk32578/.config/wandb/settings
+2025-03-20 11:56:51,460 INFO    MainThread:2566466 [wandb_setup.py:_flush():79] Loading settings from /home/dk32578/project/QGPM_baseline/wandb/settings
+2025-03-20 11:56:51,460 INFO    MainThread:2566466 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2025-03-20 11:56:51,460 INFO    MainThread:2566466 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2025-03-20 11:56:51,460 INFO    MainThread:2566466 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'fdr_single.py', 'program_abspath': '/home/dk32578/project/QGPM_baseline/fdr_single.py', 'program': 'fdr_single.py'}
+2025-03-20 11:56:51,460 INFO    MainThread:2566466 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-03-20 11:56:51,460 INFO    MainThread:2566466 [wandb_init.py:_log_setup():534] Logging user logs to /home/dk32578/project/QGPM_baseline/wandb/run-20250320_115651-sy36c0b1/logs/debug.log
+2025-03-20 11:56:51,460 INFO    MainThread:2566466 [wandb_init.py:_log_setup():535] Logging internal logs to /home/dk32578/project/QGPM_baseline/wandb/run-20250320_115651-sy36c0b1/logs/debug-internal.log
+2025-03-20 11:56:51,460 INFO    MainThread:2566466 [wandb_init.py:init():621] calling init triggers
+2025-03-20 11:56:51,460 INFO    MainThread:2566466 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'gpmflag': True, 'seed': 1234, 'local_epochs': 30, 'buffer_size': 1000, 'alpha': 1.0}
+2025-03-20 11:56:51,460 INFO    MainThread:2566466 [wandb_init.py:init():671] starting backend
+2025-03-20 11:56:51,460 INFO    MainThread:2566466 [wandb_init.py:init():675] sending inform_init request
+2025-03-20 11:56:51,461 INFO    MainThread:2566466 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-20 11:56:51,462 INFO    MainThread:2566466 [wandb_init.py:init():688] backend started and connected
+2025-03-20 11:56:51,466 INFO    MainThread:2566466 [wandb_init.py:init():783] updated telemetry
+2025-03-20 11:56:51,497 INFO    MainThread:2566466 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2025-03-20 11:56:51,560 WARNING MainThread:2566466 [wandb_init.py:init():1260] interrupted
+Traceback (most recent call last):
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1256, in init
+    return wi.init()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 819, in init
+    result = run_init_handle.wait(
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/threading.py", line 306, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2025-03-20 11:56:51,582 WARNING MsgRouterThr:2566466 [router.py:message_loop():77] message_loop has been closed

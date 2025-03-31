@@ -1,0 +1,117 @@
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'seed': 1, 'local_epochs': 30, 'buffer_size': 1000}
+Number of GPU available:  1
+Files already downloaded and verified
+Files already downloaded and verified
+Data partition_sizes among clients: [1.0]
+rank 0's total num of datasample in task0:  5056
+Epoch: 0, Task: 0, Avg train Loss: 2.0814
+Epoch: 1, Task: 0, Avg train Loss: 1.7815
+Epoch: 2, Task: 0, Avg train Loss: 1.6517
+Epoch: 3, Task: 0, Avg train Loss: 1.5388
+Epoch: 4, Task: 0, Avg train Loss: 1.4743
+Epoch: 5, Task: 0, Avg train Loss: 1.4251, Current Val Acc: 60.70, Accumulated Val Acc: 60.70
+Epoch: 6, Task: 0, Avg train Loss: 1.3581
+Epoch: 7, Task: 0, Avg train Loss: 1.3074
+Epoch: 8, Task: 0, Avg train Loss: 1.2892
+Epoch: 9, Task: 0, Avg train Loss: 1.2455
+Epoch: 10, Task: 0, Avg train Loss: 1.2288
+Epoch: 11, Task: 0, Avg train Loss: 1.1885, Current Val Acc: 61.90, Accumulated Val Acc: 61.90
+Epoch: 12, Task: 0, Avg train Loss: 1.1730
+Epoch: 13, Task: 0, Avg train Loss: 1.1501
+Epoch: 14, Task: 0, Avg train Loss: 1.1456
+Epoch: 15, Task: 0, Avg train Loss: 1.1201
+Epoch: 16, Task: 0, Avg train Loss: 1.0909
+Epoch: 17, Task: 0, Avg train Loss: 1.0478, Current Val Acc: 69.20, Accumulated Val Acc: 69.20
+Epoch: 18, Task: 0, Avg train Loss: 1.0479
+Epoch: 19, Task: 0, Avg train Loss: 1.0320
+Epoch: 20, Task: 0, Avg train Loss: 1.0463
+Epoch: 21, Task: 0, Avg train Loss: 1.0389
+Epoch: 22, Task: 0, Avg train Loss: 1.0100
+Epoch: 23, Task: 0, Avg train Loss: 1.0213, Current Val Acc: 70.50, Accumulated Val Acc: 70.50
+Epoch: 24, Task: 0, Avg train Loss: 1.0086
+Epoch: 25, Task: 0, Avg train Loss: 1.0014
+Epoch: 26, Task: 0, Avg train Loss: 1.0122
+Epoch: 27, Task: 0, Avg train Loss: 1.0166
+Epoch: 28, Task: 0, Avg train Loss: 1.0297
+Epoch: 29, Task: 0, Avg train Loss: 1.0165, Current Val Acc: 70.50, Accumulated Val Acc: 70.50
+Node 0 Overall Accuracies:
+	 70.4%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 1, Avg train Loss: 1.9171
+Epoch: 1, Task: 1, Avg train Loss: 1.6005
+Epoch: 2, Task: 1, Avg train Loss: 1.4984
+Epoch: 3, Task: 1, Avg train Loss: 1.4397
+Epoch: 4, Task: 1, Avg train Loss: 1.3949
+Epoch: 5, Task: 1, Avg train Loss: 1.3621, Current Val Acc: 57.90, Accumulated Val Acc: 62.10
+Epoch: 6, Task: 1, Avg train Loss: 1.3200
+Epoch: 7, Task: 1, Avg train Loss: 1.3282
+Epoch: 8, Task: 1, Avg train Loss: 1.2663
+Epoch: 9, Task: 1, Avg train Loss: 1.2687
+Epoch: 10, Task: 1, Avg train Loss: 1.2550
+Epoch: 11, Task: 1, Avg train Loss: 1.2203, Current Val Acc: 62.80, Accumulated Val Acc: 63.05
+Epoch: 12, Task: 1, Avg train Loss: 1.1983
+Epoch: 13, Task: 1, Avg train Loss: 1.1847
+Epoch: 14, Task: 1, Avg train Loss: 1.1676
+Epoch: 15, Task: 1, Avg train Loss: 1.1687
+Epoch: 16, Task: 1, Avg train Loss: 1.1163
+Epoch: 17, Task: 1, Avg train Loss: 1.1170, Current Val Acc: 65.60, Accumulated Val Acc: 65.25
+Epoch: 18, Task: 1, Avg train Loss: 1.1103
+Epoch: 19, Task: 1, Avg train Loss: 1.1085
+Epoch: 20, Task: 1, Avg train Loss: 1.1001
+Epoch: 21, Task: 1, Avg train Loss: 1.0851
+Epoch: 22, Task: 1, Avg train Loss: 1.0767
+Epoch: 23, Task: 1, Avg train Loss: 1.0902, Current Val Acc: 67.40, Accumulated Val Acc: 66.25
+Epoch: 24, Task: 1, Avg train Loss: 1.0933
+Epoch: 25, Task: 1, Avg train Loss: 1.0791
+Epoch: 26, Task: 1, Avg train Loss: 1.0832
+Epoch: 27, Task: 1, Avg train Loss: 1.0772
+Epoch: 28, Task: 1, Avg train Loss: 1.0782
+Epoch: 29, Task: 1, Avg train Loss: 1.0832, Current Val Acc: 67.50, Accumulated Val Acc: 66.60
+Node 0 Overall Accuracies:
+	 70.4%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 65.4%  66.5%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+Epoch: 0, Task: 2, Avg train Loss: 1.7484
+Epoch: 1, Task: 2, Avg train Loss: 1.4213
+Epoch: 2, Task: 2, Avg train Loss: 1.3164
+Epoch: 3, Task: 2, Avg train Loss: 1.2688
+Epoch: 4, Task: 2, Avg train Loss: 1.2229
+Epoch: 5, Task: 2, Avg train Loss: 1.1941, Current Val Acc: 63.70, Accumulated Val Acc: 60.20
+Epoch: 6, Task: 2, Avg train Loss: 1.1536
+Epoch: 7, Task: 2, Avg train Loss: 1.1415
+Epoch: 8, Task: 2, Avg train Loss: 1.0996
+Epoch: 9, Task: 2, Avg train Loss: 1.0814
+Epoch: 10, Task: 2, Avg train Loss: 1.0930
+Epoch: 11, Task: 2, Avg train Loss: 1.0412, Current Val Acc: 64.50, Accumulated Val Acc: 59.07
+Epoch: 12, Task: 2, Avg train Loss: 1.0394
+Epoch: 13, Task: 2, Avg train Loss: 1.0229
+Epoch: 14, Task: 2, Avg train Loss: 0.9931
+Epoch: 15, Task: 2, Avg train Loss: 0.9916
+Epoch: 16, Task: 2, Avg train Loss: 0.9433
+Epoch: 17, Task: 2, Avg train Loss: 0.9166, Current Val Acc: 71.70, Accumulated Val Acc: 63.20
+Epoch: 18, Task: 2, Avg train Loss: 0.9159
+Epoch: 19, Task: 2, Avg train Loss: 0.9132
+Epoch: 20, Task: 2, Avg train Loss: 0.9140
+Epoch: 21, Task: 2, Avg train Loss: 0.8865
+Epoch: 22, Task: 2, Avg train Loss: 0.8964
+Epoch: 23, Task: 2, Avg train Loss: 0.9096, Current Val Acc: 72.70, Accumulated Val Acc: 63.83
+Epoch: 24, Task: 2, Avg train Loss: 0.9150
+Epoch: 25, Task: 2, Avg train Loss: 0.9045
+Epoch: 26, Task: 2, Avg train Loss: 0.8862
+Epoch: 27, Task: 2, Avg train Loss: 0.9053
+Epoch: 28, Task: 2, Avg train Loss: 0.9044
+Epoch: 29, Task: 2, Avg train Loss: 0.8974, Current Val Acc: 71.20, Accumulated Val Acc: 63.07
+Traceback (most recent call last):
+  File "pogd_single.py", line 997, in <module>
+    client.update_pca_ogd_basis(task_id)    # compute new basis and merge it
+  File "pogd_single.py", line 933, in update_pca_ogd_basis
+    self.ogd_basis = orthonormalize(self.ogd_basis, V.to(self.device))
+  File "pogd_single.py", line 635, in orthonormalize
+    basis = torch.cat((basis, v_new.view(-1,1)), dim=1)
+torch.cuda.OutOfMemoryError: HIP out of memory. Tried to allocate 7.45 GiB. GPU 0 has a total capacty of 31.98 GiB of which 130496.39 GiB is free. Of the allocated memory 16.91 GiB is allocated by PyTorch, and 7.39 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_HIP_ALLOC_CONF
+Traceback (most recent call last):
+  File "pogd_single.py", line 997, in <module>
+    client.update_pca_ogd_basis(task_id)    # compute new basis and merge it
+  File "pogd_single.py", line 933, in update_pca_ogd_basis
+    self.ogd_basis = orthonormalize(self.ogd_basis, V.to(self.device))
+  File "pogd_single.py", line 635, in orthonormalize
+    basis = torch.cat((basis, v_new.view(-1,1)), dim=1)
+torch.cuda.OutOfMemoryError: HIP out of memory. Tried to allocate 7.45 GiB. GPU 0 has a total capacty of 31.98 GiB of which 130496.39 GiB is free. Of the allocated memory 16.91 GiB is allocated by PyTorch, and 7.39 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_HIP_ALLOC_CONF

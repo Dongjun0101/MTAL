@@ -1,0 +1,118 @@
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'derpp_flag': True, 'seed': 1, 'local_epochs': 1, 'buffer_size': 500, 'alpha': 0.1, 'beta': 1}
+Number of GPU available:  1
+Files already downloaded and verified
+Files already downloaded and verified
+Data partition_sizes among clients: [1.0]
+rank 0's total num of datasample in task0:  5056
+Epoch: 0, Task: 0, Avg train Loss: 4.8672
+Node 0 Overall Accuracies:
+	 12.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 0] Node 0 buffer usage: 500/500 (Memory: 5.88 MB)
+Epoch: 0, Task: 1, Avg train Loss: 4.9447
+Node 0 Overall Accuracies:
+	 12.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.7%  12.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 1] Node 0 buffer usage: 500/500 (Memory: 5.88 MB)
+Epoch: 0, Task: 2, Avg train Loss: 4.9429
+Node 0 Overall Accuracies:
+	 12.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.7%  12.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.4%  13.3%   9.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 2] Node 0 buffer usage: 500/500 (Memory: 5.88 MB)
+Epoch: 0, Task: 3, Avg train Loss: 4.9659
+Node 0 Overall Accuracies:
+	 12.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.7%  12.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.4%  13.3%   9.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.9%  12.6%   8.6%  10.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 3] Node 0 buffer usage: 500/500 (Memory: 5.88 MB)
+Epoch: 0, Task: 4, Avg train Loss: 4.9291
+Node 0 Overall Accuracies:
+	 12.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.7%  12.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.4%  13.3%   9.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.9%  12.6%   8.6%  10.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.0%  12.4%   8.6%  11.7%  13.1%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 4] Node 0 buffer usage: 500/500 (Memory: 5.88 MB)
+Epoch: 0, Task: 5, Avg train Loss: 4.9021
+Node 0 Overall Accuracies:
+	 12.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.7%  12.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.4%  13.3%   9.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.9%  12.6%   8.6%  10.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.0%  12.4%   8.6%  11.7%  13.1%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 13.1%  12.2%   9.2%  12.0%  12.9%  11.1%   0.0%   0.0%   0.0%   0.0%
+[Task 5] Node 0 buffer usage: 500/500 (Memory: 5.88 MB)
+Epoch: 0, Task: 6, Avg train Loss: 4.9196
+Node 0 Overall Accuracies:
+	 12.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.7%  12.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.4%  13.3%   9.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.9%  12.6%   8.6%  10.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.0%  12.4%   8.6%  11.7%  13.1%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 13.1%  12.2%   9.2%  12.0%  12.9%  11.1%   0.0%   0.0%   0.0%   0.0%
+	 12.4%  13.3%   8.9%  11.6%  10.8%   9.4%  12.0%   0.0%   0.0%   0.0%
+[Task 6] Node 0 buffer usage: 500/500 (Memory: 5.88 MB)
+Epoch: 0, Task: 7, Avg train Loss: 4.8912
+Node 0 Overall Accuracies:
+	 12.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.7%  12.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.4%  13.3%   9.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.9%  12.6%   8.6%  10.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.0%  12.4%   8.6%  11.7%  13.1%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 13.1%  12.2%   9.2%  12.0%  12.9%  11.1%   0.0%   0.0%   0.0%   0.0%
+	 12.4%  13.3%   8.9%  11.6%  10.8%   9.4%  12.0%   0.0%   0.0%   0.0%
+	 12.0%  11.6%   9.1%  11.2%  13.3%  10.2%  12.9%  14.5%   0.0%   0.0%
+[Task 7] Node 0 buffer usage: 500/500 (Memory: 5.88 MB)
+Epoch: 0, Task: 8, Avg train Loss: 4.9443
+Node 0 Overall Accuracies:
+	 12.2%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.7%  12.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.4%  13.3%   9.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.9%  12.6%   8.6%  10.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.0%  12.4%   8.6%  11.7%  13.1%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 13.1%  12.2%   9.2%  12.0%  12.9%  11.1%   0.0%   0.0%   0.0%   0.0%
+	 12.4%  13.3%   8.9%  11.6%  10.8%   9.4%  12.0%   0.0%   0.0%   0.0%
+	 12.0%  11.6%   9.1%  11.2%  13.3%  10.2%  12.9%  14.5%   0.0%   0.0%
+	 11.6%  13.2%   8.4%  12.4%  12.9%  10.3%  11.0%  15.2%  10.6%   0.0%
+[Task 8] Node 0 buffer usage: 500/500 (Memory: 5.88 MB)
+Traceback (most recent call last):
+  File "derpp_single.py", line 902, in <module>
+    w, avg_loss = client.train_epoch()  # train on single epoch
+  File "derpp_single.py", line 751, in train_epoch
+    for batch_idx, (input, target) in enumerate(self.train_loaders_list[self.task_id]):
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1317, in _next_data
+    self._shutdown_workers()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1442, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/popen_fork.py", line 44, in wait
+    if not wait([self.sentinel], timeout):
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "derpp_single.py", line 902, in <module>
+    w, avg_loss = client.train_epoch()  # train on single epoch
+  File "derpp_single.py", line 751, in train_epoch
+    for batch_idx, (input, target) in enumerate(self.train_loaders_list[self.task_id]):
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1317, in _next_data
+    self._shutdown_workers()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1442, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/popen_fork.py", line 44, in wait
+    if not wait([self.sentinel], timeout):
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt

@@ -1,0 +1,51 @@
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'seed': 1, 'local_epochs': 1, 'buffer_size': 6000}
+Number of GPU available:  1
+Files already downloaded and verified
+Files already downloaded and verified
+Data partition_sizes among clients: [1.0]
+rank 0's total num of datasample in task0:  5056
+Epoch: 0, Task: 0, Avg train Loss: 2.4211
+Traceback (most recent call last):
+  File "pogd_single.py", line 978, in <module>
+    client.update_pca_ogd_basis(task_id)    # compute new basis and merge it
+  File "pogd_single.py", line 881, in update_pca_ogd_basis
+    out_all = self.model(x)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "pogd_single.py", line 520, in forward
+    x = self.drop2(self.relu(self.bn4(x)))
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+    return F.batch_norm(
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/nn/functional.py", line 2476, in batch_norm
+    _verify_batch_size(input.size())
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/nn/functional.py", line 2444, in _verify_batch_size
+    raise ValueError(f"Expected more than 1 value per channel when training, got input size {size}")
+ValueError: Expected more than 1 value per channel when training, got input size torch.Size([1, 2048])
+Traceback (most recent call last):
+  File "pogd_single.py", line 978, in <module>
+    client.update_pca_ogd_basis(task_id)    # compute new basis and merge it
+  File "pogd_single.py", line 881, in update_pca_ogd_basis
+    out_all = self.model(x)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "pogd_single.py", line 520, in forward
+    x = self.drop2(self.relu(self.bn4(x)))
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+    return F.batch_norm(
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/nn/functional.py", line 2476, in batch_norm
+    _verify_batch_size(input.size())
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/nn/functional.py", line 2444, in _verify_batch_size
+    raise ValueError(f"Expected more than 1 value per channel when training, got input size {size}")
+ValueError: Expected more than 1 value per channel when training, got input size torch.Size([1, 2048])

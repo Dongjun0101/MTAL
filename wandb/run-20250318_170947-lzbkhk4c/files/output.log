@@ -1,0 +1,56 @@
+{'weight_decay': 0, 'run_no': 1, 'save_dir': 'save_temp', 'save_every': 5, 'biased': False, 'level': 32, 'compress': False, 'device': 0, 'workers': 4, 'port': '29500', 'method': 'svd', 'skew': 0.0, 'n_clients': 1, 'frac': 1, 'momentum': 0.0, 'increment_th': 0.001, 'lr': 0.01, 'batch_size': 64, 'deterministic': True, 'arch': 'alexnet', 'dataset': 'cifar100', 'classes': 100, 'num_tasks': 10, 'print_times': 5, 'wandb': True, 'derpp_flag': True, 'seed': 1, 'local_epochs': 1, 'buffer_size': 6000, 'alpha': 0.1, 'beta': 1}
+Number of GPU available:  1
+Files already downloaded and verified
+Files already downloaded and verified
+Data partition_sizes among clients: [1.0]
+rank 0's total num of datasample in task0:  5056
+Epoch: 0, Task: 0, Avg train Loss: 4.8605
+Node 0 Overall Accuracies:
+	 12.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 0] Node 0 buffer usage: 5000/6000 (Memory: 58.82 MB)
+Epoch: 0, Task: 1, Avg train Loss: 4.9456
+Node 0 Overall Accuracies:
+	 12.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.9%  12.3%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 1] Node 0 buffer usage: 6000/6000 (Memory: 70.59 MB)
+Epoch: 0, Task: 2, Avg train Loss: 4.9470
+Node 0 Overall Accuracies:
+	 12.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.9%  12.3%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.5%  13.6%   9.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 2] Node 0 buffer usage: 6000/6000 (Memory: 70.59 MB)
+Epoch: 0, Task: 3, Avg train Loss: 4.9617
+Node 0 Overall Accuracies:
+	 12.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.9%  12.3%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.5%  13.6%   9.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.9%  12.8%   8.9%  10.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 3] Node 0 buffer usage: 6000/6000 (Memory: 70.59 MB)
+Epoch: 0, Task: 4, Avg train Loss: 4.9256
+Node 0 Overall Accuracies:
+	 12.6%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.9%  12.3%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.5%  13.6%   9.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 12.9%  12.8%   8.9%  10.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+	 11.9%  12.7%   8.5%  11.0%  12.4%   0.0%   0.0%   0.0%   0.0%   0.0%
+[Task 4] Node 0 buffer usage: 6000/6000 (Memory: 70.59 MB)
+Traceback (most recent call last):
+  File "derpp_single.py", line 902, in <module>
+    w, avg_loss = client.train_epoch()  # train on single epoch
+  File "derpp_single.py", line 779, in train_epoch
+    total_loss.backward()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "derpp_single.py", line 902, in <module>
+    w, avg_loss = client.train_epoch()  # train on single epoch
+  File "derpp_single.py", line 779, in train_epoch
+    total_loss.backward()
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/home/dk32578/anaconda3/envs/DJ/lib/python3.8/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
